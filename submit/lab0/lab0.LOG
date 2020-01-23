@@ -1,0 +1,87 @@
+Script started on 2020-01-23 15:00:50-05:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+amchugh2@g7-26:~/tmp/lab0$ ls ~/.ssh
+authorized_keys  id_rsa  id_rsa.pub  known_hosts
+amchugh2@g7-26:~/tmp/lab0$ ssh-keygen
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/amchugh2/.ssh/id_rsa): 
+/home/amchugh2/.ssh/id_rsa already exists.
+Overwrite (y/n)? y
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /home/amchugh2/.ssh/id_rsa.
+Your public key has been saved in /home/amchugh2/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:Q8uFyNZH7gTr3XIvmw3ywONKS9PUZq/btU24jsM2NVQ amchugh2@g7-26
+The key's randomart image is:
++---[RSA 2048]----+
+|        . .      |
+|     . o *      E|
+|      + = =    . |
+|     . + B o  .  |
+|        S = *.   |
+|         = = oo. |
+|        + *.o.+.o|
+|       o + ==X +o|
+|        o...B==..|
++----[SHA256]-----+
+amchugh2@g7-26:~/tmp/lab0$ ls
+log0.LOG
+amchugh2@g7-26:~/tmp/lab0$ lsssh-keygen[1Pls ~/.ssh
+authorized_keys  id_rsa  id_rsa.pub  known_hosts
+amchugh2@g7-26:~/tmp/lab0$ ssh [K-copy-id -i amchugh@[K2@remote
+/usr/bin/ssh-copy-id: INFO: Source of key(s) to be installed: "/home/amchugh2/.ssh/id_rsa.pub"
+/usr/bin/ssh-copy-id: INFO: attempting to log in with the new key(s), to filter out any that are already installed
+/usr/bin/ssh-copy-id: INFO: 1 key(s) remain to be installed -- if you are prompted now it is to install the new keys
+amchugh2@remote's password: 
+
+Number of key(s) added: 1
+
+Now try logging into the machine, with:   "ssh 'amchugh2@remote'"
+and check to make sure that only the key(s) you wanted were added.
+
+amchugh2@g7-26:~/tmp/lab0$ ssh amchugh2@remote
+Linux remote00 4.19.0-5-amd64 #1 SMP Debian 4.19.37-5 (2019-06-19) x86_64
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Thu Dec  5 13:33:00 2019 from 149.125.38.177
+amchugh2@remote00:~$ l[Kls
+amchugh2.circ  cs220	       good	  lab2	     Music	 Videos
+Arduino        Desktop	       i220a	  lab2final  Pictures
+cs120	       Documents       i220a.bak  lab2good   Public
+cs120lab4      Downloads       i220a_new  lab3	     Templates
+cs120lab6      git-repos       i220X	  lab5	     tmp
+cs120lab7      git-repos_copy  lab	  lab8	     toneMelody
+amchugh2@remote00:~$ ls
+amchugh2.circ  cs220	       good	  lab2	     Music	 Videos
+Arduino        Desktop	       i220a	  lab2final  Pictures
+cs120	       Documents       i220a.bak  lab2good   Public
+cs120lab4      Downloads       i220a_new  lab3	     Templates
+cs120lab6      git-repos       i220X	  lab5	     tmp
+cs120lab7      git-repos_copy  lab	  lab8	     toneMelody
+amchugh2@remote00:~$ cd ..
+amchugh2@remote00:/home$ cd ..
+amchugh2@remote00:/$ l[Kcd tmp
+amchugh2@remote00:/tmp$ ls
+coc-1035203.vim
+krb5ccmachine_CS.BINGHAMTON.EDU
+systemd-private-42068b330eb14231bb0cc93d9a98966b-lldpd.service-MCm6yO
+systemd-private-42068b330eb14231bb0cc93d9a98966b-ModemManager.service-rDe986
+systemd-private-42068b330eb14231bb0cc93d9a98966b-ntp.service-lutfVB
+systemd-private-42068b330eb14231bb0cc93d9a98966b-rtkit-daemon.service-wlP40F
+systemd-private-42068b330eb14231bb0cc93d9a98966b-systemd-logind.service-Smoiws
+vmware-root_660-2697467306
+amchugh2@remote00:/tmp$ cd ..
+amchugh2@remote00:/$ [Kamchugh2@remote00:/$ cd ..[Kcd ..[3Plscd tmp[4Plscd ..[Kls[K[Kls -l ~/tmp/t[Klab
+lab0/ lab8/ 
+amchugh2@remote00:/$ ls -l ~/tmp/lab0/log0.LOG [K[K[K[K[K.LOG 
+-rw-r--r-- 1 amchugh2 amchugh2 0 Jan 23 15:00 /home/amchugh2/tmp/lab0/log0.LOG
+amchugh2@remote00:/$ logout
+Connection to remote closed.
+amchugh2@g7-26:~/tmp/lab0$ exit
+
+Script done on 2020-01-23 15:25:24-05:00 [COMMAND_EXIT_CODE="0"]
