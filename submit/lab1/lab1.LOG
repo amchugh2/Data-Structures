@@ -2151,4 +2151,97 @@ amchugh2@g7-30:~/i240b$ git status -s
 [32mA[m  submit/lab1/4-dependencies/fact.cc
 [32mA[m  submit/lab1/4-dependencies/fns-compare.cc
 [32mA[m  submit/lab1/4-dependencies/fns-compare.hh
-[32mA[m 
+[32mA[m  submit/lab1/4-dependencies/lg.cc
+[32mA[m  submit/lab1/4-dependencies/linear.cc
+[32mA[m  submit/lab1/4-dependencies/nlg.cc
+[32mA[m  submit/lab1/4-dependencies/quadratic.cc
+[32mA[m  submit/lab1/5-auto-dependencies/.gitignore
+[32mA[m  submit/lab1/5-auto-dependencies/Makefile
+[32mA[m  submit/lab1/5-auto-dependencies/constant.cc
+[32mA[m  submit/lab1/5-auto-dependencies/cubic.cc
+[32mA[m  submit/lab1/5-auto-dependencies/exponential.cc
+[32mA[m  submit/lab1/5-auto-dependencies/fact.cc
+[32mA[m  submit/lab1/5-auto-dependencies/fns-compare.cc
+[32mA[m  submit/lab1/5-auto-dependencies/fns-compare.hh
+[32mA[m  submit/lab1/5-auto-dependencies/fns-compare.tar
+[32mA[m  submit/lab1/5-auto-dependencies/lg.cc
+[32mA[m  submit/lab1/5-auto-dependencies/linear.cc
+[32mA[m  submit/lab1/5-auto-dependencies/nlg.cc
+[32mA[m  submit/lab1/5-auto-dependencies/quadratic.cc
+[32mA[m  submit/lab1/lab1.LOG
+amchugh2@g7-30:~/i240b$ cd ..
+amchugh2@g7-30:~$ cd[K[Kls
+amchugh2.circ  cs220	  git-repos_copy  i240b      lab5      Templates
+Arduino        cs240	  good		  lab	     lab8      tmp
+cs120	       Desktop	  i220a		  lab2	     Music     toneMelody
+cs120lab4      Documents  i220a.bak	  lab2final  Pictures  Videos
+cs120lab6      Downloads  i220a_new	  lab2good   projects
+cs120lab7      git-repos  i220X		  lab3	     Public
+amchugh2@g7-30:~$ cd i2[K4[K240b/submit
+amchugh2@g7-30:~/i240b/submit$ ls
+lab0  lab1
+amchugh2@g7-30:~/i240b/submit$ cd lab1
+amchugh2@g7-30:~/i240b/submit/lab1$ ls
+0-hello       2-separate-compilation  4-dependencies	   lab1.LOG
+1-monolithic  3-makefile	      5-auto-dependencies
+amchugh2@g7-30:~/i240b/submit/lab1$ exit
+There are stopped jobs.
+amchugh2@g7-30:~/i240b/submit/lab1$ ls[K[Kcd ..
+amchugh2@g7-30:~/i240b/submit$ cd ..
+amchugh2@g7-30:~/i240b$ git commit -a -m "completed lab1"
+[lab1 12168da] completed lab1
+ 46 files changed, 2873 insertions(+)
+ create mode 100644 submit/lab1/.gitignore
+ create mode 100644 submit/lab1/0-hello/.gitignore
+ create mode 100644 submit/lab1/0-hello/hello.cc
+ create mode 100644 submit/lab1/1-monolithic/fns-compare.cc
+ create mode 100644 submit/lab1/2-separate-compilation/fns-compare.cc
+ create mode 100644 submit/lab1/2-separate-compilation/fns-compare.cc~
+ create mode 100644 submit/lab1/2-separate-compilation/fns-compare.hh
+ create mode 100644 submit/lab1/2-separate-compilation/linear.cc
+ create mode 100644 submit/lab1/2-separate-compilation/quadratic.cc
+ create mode 100644 submit/lab1/2-separate-compilation/quadratic.cc~
+ create mode 100644 submit/lab1/3-makefile/Makefile
+ create mode 100644 submit/lab1/3-makefile/constant.cc
+ create mode 100644 submit/lab1/3-makefile/cubic.cc
+ create mode 100644 submit/lab1/3-makefile/exponential.cc
+ create mode 100644 submit/lab1/3-makefile/fact.cc
+ create mode 100644 submit/lab1/3-makefile/fns-compare.cc
+ create mode 100644 submit/lab1/3-makefile/fns-compare.hh
+ create mode 100644 submit/lab1/3-makefile/lg.cc
+ create mode 100644 submit/lab1/3-makefile/linear.cc
+ create mode 100644 submit/lab1/3-makefile/nlg.cc
+ create mode 100644 submit/lab1/3-makefile/quadratic.cc
+ create mode 100644 submit/lab1/4-dependencies/Makefile
+ create mode 100644 submit/lab1/4-dependencies/constant.cc
+ create mode 100644 submit/lab1/4-dependencies/cubic.cc
+ create mode 100644 submit/lab1/4-dependencies/exponential.cc
+ create mode 100644 submit/lab1/4-dependencies/fact.cc
+ create mode 100644 submit/lab1/4-dependencies/fns-compare.cc
+ create mode 100644 submit/lab1/4-dependencies/fns-compare.hh
+ create mode 100644 submit/lab1/4-dependencies/lg.cc
+ create mode 100644 submit/lab1/4-dependencies/linear.cc
+ create mode 100644 submit/lab1/4-dependencies/nlg.cc
+ create mode 100644 submit/lab1/4-dependencies/quadratic.cc
+ create mode 100644 submit/lab1/5-auto-dependencies/.gitignore
+ create mode 100644 submit/lab1/5-auto-dependencies/Makefile
+ create mode 100644 submit/lab1/5-auto-dependencies/constant.cc
+ create mode 100644 submit/lab1/5-auto-dependencies/cubic.cc
+ create mode 100644 submit/lab1/5-auto-dependencies/exponential.cc
+ create mode 100644 submit/lab1/5-auto-dependencies/fact.cc
+ create mode 100644 submit/lab1/5-auto-dependencies/fns-compare.cc
+ create mode 100644 submit/lab1/5-auto-dependencies/fns-compare.hh
+ create mode 100644 submit/lab1/5-auto-dependencies/fns-compare.tar
+ create mode 100644 submit/lab1/5-auto-dependencies/lg.cc
+ create mode 100644 submit/lab1/5-auto-dependencies/linear.cc
+ create mode 100644 submit/lab1/5-auto-dependencies/nlg.cc
+ create mode 100644 submit/lab1/5-auto-dependencies/quadratic.cc
+ create mode 100644 submit/lab1/lab1.LOG
+amchugh2@g7-30:~/i240b$ git push -u origin lab1
+Username for 'https://github.com': g amchugh2
+Password for 'https://amchugh2@github.com': 
+Enumerating objects: 39, done.
+Counting objects:   2% (1/39)   Counting objects:   5% (2/39)   Counting objects:   7% (3/39)   Counting objects:  10% (4/39)   Counting objects:  12% (5/39)   Counting objects:  15% (6/39)   Counting objects:  17% (7/39)   Counting objects:  20% (8/39)   Counting objects:  23% (9/39)   Counting objects:  25% (10/39)   Counting objects:  28% (11/39)   Counting objects:  30% (12/39)   Counting objects:  33% (13/39)   Counting objects:  35% (14/39)   Counting objects:  38% (15/39)   Counting objects:  41% (16/39)   Counting objects:  43% (17/39)   Counting objects:  46% (18/39)   Counting objects:  48% (19/39)   Counting objects:  51% (20/39)   Counting objects:  53% (21/39)   Counting objects:  56% (22/39)   Counting objects:  58% (23/39)   Counting objects:  61% (24/39)   Counting objects:  64% (25/39)   Counting objects:  66% (26/39)   Counting objects:  69% (27/39)   Counting objects:  71% (28/39)   Counting objects:  74% (29/39)   Counting objects:  76% (30/39)   Counting objects:  79% (31/39)   Counting objects:  82% (32/39)   Counting objects:  84% (33/39)   Counting objects:  87% (34/39)   Counting objects:  89% (35/39)   Counting objects:  92% (36/39)   Counting objects:  94% (37/39)   Counting objects:  97% (38/39)   Counting objects: 100% (39/39)   Counting objects: 100% (39/39), done.
+Delta compression using up to 8 threads
+Compressing objects:   3% (1/33)   Compressing objects:   6% (2/33)   Compressing objects:   9% (3/33)   Compressing objects:  12% (4/33)   Compressing objects:  15% (5/33)   Compressing objects:  18% (6/33)   Compressing objects:  21% (7/33)   Compressing objects:  24% (8/33)   Compressing objects:  27% (9/33)   Compressing objects:  30% (10/33)   Compressing objects:  33% (11/33)   Compressing objects:  36% (12/33)   Compressing objects:  39% (13/33)   Compressing objects:  42% (14/33)   Compressing objects:  45% (15/33)   Compressing objects:  48% (16/33)   Compressing objects:  51% (17/33)   Compressing objects:  54% (18/33)   Compressing objects:  57% (19/33)   Compressing objects:  60% (20/33)   Compressing objects:  63% (21/33)   Compressing objects:  66% (22/33)   Compressing objects:  69% (23/33)   Compressing objects:  72% (24/33)   Compressing objects:  75% (25/33)   Compressing objects:  78% (26/33)   Compressing objects:  81% (27/33)   Compressing objects:  84% (28/33)   Compressing objects:  87% (29/33)   Compressing objects:  90% (30/33)   Compressing objects:  93% (31/33)   Compressing objects:  96% (32/33)   Compressing objects: 100% (33/33)   Compressing objects: 100% (33/33), done.
+Writing objects:   2% (1/37)   Writing objects:   5% (2/37)   Writing objects:   8% (3/37)   Writing objects:  10% (4/37)   Writing objects:  13% (5/37)   Writing objects:  16% (6/37)   Writing objects:  18% (7/37)   Writing objects:  21% (8/37)   Writing objects:  24% (9/37)   Writing objects:  27% (10/37)   Writing objects:  29% (11/37)   Writing objects:  35% (13/37)   Writing objects:  37% (14/37)   Writing objects:  43% (16/37)   Writing objects:  45% (17/37)   Writing objects:  48% (18/37)   Writing objects:  51% (19/37)   Writing objects:  56% (21/37)   Writing objects:  62% (23/37)   Writing objects:  64% (24/37)   Writing objects: 
