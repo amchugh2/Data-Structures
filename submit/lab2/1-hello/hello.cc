@@ -15,7 +15,8 @@ main(int argc, const char *argv[])
     std::exit(1);
   }
   else {
-    for (int i = 1; i <= (argc-1); i++) {
+	  //i cannot be equal to argc: cannot equal argument count, must be less
+    for (int i = 1; i < argc; i++) {
       sayHello(argv[i]);
     }
   }

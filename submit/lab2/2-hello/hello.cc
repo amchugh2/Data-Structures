@@ -11,8 +11,8 @@ void
 upcaseWords(const char in[], char out[])
 {
   bool inWord = false;
-  // need to + 1 for terminating '\0' character
-  const int n = std::strlen(in) + 1;
+  // account for null character
+  const int n = std::strlen(in)+1;
   for (int i = 0; i < n; i++) {
     if (!inWord && std::isalpha(in[i])) {
       out[i] = std::toupper(in[i]);
@@ -39,9 +39,11 @@ main(int argc, const char *argv[])
     std::exit(1);
   }
   else {
-    for (int i = 1; i <= argc; i++) {
+	// add 1 to argc bc i cannot be same as argc
+    for (int i = 1; i < argc; i++) {
       const char *name = argv[i];
-      char friendlyName[strlen(name)];
+      // account for terminating 1 char, all C strings end with temrinating '\0'
+      char friendlyName[strlen(name)+1];
       upcaseWords(name, friendlyName);
       sayHello(friendlyName);
     }
