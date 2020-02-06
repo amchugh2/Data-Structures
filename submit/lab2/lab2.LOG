@@ -1,0 +1,611 @@
+Script started on 2020-02-05 21:28:37-05:00 [TERM="xterm" TTY="/dev/pts/2" COLUMNS="100" LINES="35"]
+bash: /home/umrigar/cs240/bin/student.rc: Permission denied
+amchugh2@remote06:~/i240b/submit/lab2$ ls
+lab2.LOG
+amchugh2@remote06:~/i240b/submit/lab2$ git pull[K[K[K[K[K[K[K[Kcd 
+amchugh2@remote06:~$ ls
+amchugh2.circ  cs120lab7  Downloads	  i220a.bak  lab2	lab8	  Templates
+Arduino        cs220	  git-repos	  i220a_new  lab2final	Music	  tmp
+cs120	       cs240	  git-repos_copy  i220X      lab2good	Pictures  toneMelody
+cs120lab4      Desktop	  good		  i240b      lab3	projects  Videos
+cs120lab6      Documents  i220a		  lab	     lab5	Public
+amchugh2@remote06:~$ cd cs240
+amchugh2@remote06:~/cs240$ git pull
+/home/amchugh2/.bashrc: line 1: /home/umrigar/cs240/bin/student.rc: Permission denied
+remote: Enumerating objects: 105, done.[K
+remote: Counting objects:   0% (1/105)   [Kremote: Counting objects:   1% (2/105)   [Kremote: Counting objects:   2% (3/105)   [Kremote: Counting objects:   3% (4/105)   [Kremote: Counting objects:   4% (5/105)   [Kremote: Counting objects:   5% (6/105)   [Kremote: Counting objects:   6% (7/105)   [Kremote: Counting objects:   7% (8/105)   [Kremote: Counting objects:   8% (9/105)   [Kremote: Counting objects:   9% (10/105)   [Kremote: Counting objects:  10% (11/105)   [Kremote: Counting objects:  11% (12/105)   [Kremote: Counting objects:  12% (13/105)   [Kremote: Counting objects:  13% (14/105)   [Kremote: Counting objects:  14% (15/105)   [Kremote: Counting objects:  15% (16/105)   [Kremote: Counting objects:  16% (17/105)   [Kremote: Counting objects:  17% (18/105)   [Kremote: Counting objects:  18% (19/105)   [Kremote: Counting objects:  19% (20/105)   [Kremote: Counting objects:  20% (21/105)   [Kremote: Counting objects:  21% (23/105)   [Kremote: Counting objects:  22% (24/105)   [Kremote: Counting objects:  23% (25/105)   [Kremote: Counting objects:  24% (26/105)   [Kremote: Counting objects:  25% (27/105)   [Kremote: Counting objects:  26% (28/105)   [Kremote: Counting objects:  27% (29/105)   [Kremote: Counting objects:  28% (30/105)   [Kremote: Counting objects:  29% (31/105)   [Kremote: Counting objects:  30% (32/105)   [Kremote: Counting objects:  31% (33/105)   [Kremote: Counting objects:  32% (34/105)   [Kremote: Counting objects:  33% (35/105)   [Kremote: Counting objects:  34% (36/105)   [Kremote: Counting objects:  35% (37/105)   [Kremote: Counting objects:  36% (38/105)   [Kremote: Counting objects:  37% (39/105)   [Kremote: Counting objects:  38% (40/105)   [Kremote: Counting objects:  39% (41/105)   [Kremote: Counting objects:  40% (42/105)   [Kremote: Counting objects:  41% (44/105)   [Kremote: Counting objects:  42% (45/105)   [Kremote: Counting objects:  43% (46/105)   [Kremote: Counting objects:  44% (47/105)   [Kremote: Counting objects:  45% (48/105)   [Kremote: Counting objects:  46% (49/105)   [Kremote: Counting objects:  47% (50/105)   [Kremote: Counting objects:  48% (51/105)   [Kremote: Counting objects:  49% (52/105)   [Kremote: Counting objects:  50% (53/105)   [Kremote: Counting objects:  51% (54/105)   [Kremote: Counting objects:  52% (55/105)   [Kremote: Counting objects:  53% (56/105)   [Kremote: Counting objects:  54% (57/105)   [Kremote: Counting objects:  55% (58/105)   [Kremote: Counting objects:  56% (59/105)   [Kremote: Counting objects:  57% (60/105)   [Kremote: Counting objects:  58% (61/105)   [Kremote: Counting objects:  59% (62/105)   [Kremote: Counting objects:  60% (63/105)   [Kremote: Counting objects:  61% (65/105)   [Kremote: Counting objects:  62% (66/105)   [Kremote: Counting objects:  63% (67/105)   [Kremote: Counting objects:  64% (68/105)   [Kremote: Counting objects:  65% (69/105)   [Kremote: Counting objects:  66% (70/105)   [Kremote: Counting objects:  67% (71/105)   [Kremote: Counting objects:  68% (72/105)   [Kremote: Counting objects:  69% (73/105)   [Kremote: Counting objects:  70% (74/105)   [Kremote: Counting objects:  71% (75/105)   [Kremote: Counting objects:  72% (76/105)   [Kremote: Counting objects:  73% (77/105)   [Kremote: Counting objects:  74% (78/105)   [Kremote: Counting objects:  75% (79/105)   [Kremote: Counting objects:  76% (80/105)   [Kremote: Counting objects:  77% (81/105)   [Kremote: Counting objects:  78% (82/105)   [Kremote: Counting objects:  79% (83/105)   [Kremote: Counting objects:  80% (84/105)   [Kremote: Counting objects:  81% (86/105)   [Kremote: Counting objects:  82% (87/105)   [Kremote: Counting objects:  83% (88/105)   [Kremote: Counting objects:  84% (89/105)   [Kremote: Counting objects:  85% (90/105)   [Kremote: Counting objects:  86% (91/105)   [Kremote: Counting objects:  87% (92/105)   [Kremote: Counting objects:  88% (93/105)   [Kremote: Counting objects:  89% (94/105)   [Kremote: Counting objects:  90% (95/105)   [Kremote: Counting objects:  91% (96/105)   [Kremote: Counting objects:  92% (97/105)   [Kremote: Counting objects:  93% (98/105)   [Kremote: Counting objects:  94% (99/105)   [Kremote: Counting objects:  95% (100/105)   [Kremote: Counting objects:  96% (101/105)   [Kremote: Counting objects:  97% (102/105)   [Kremote: Counting objects:  98% (103/105)   [Kremote: Counting objects:  99% (104/105)   [Kremote: Counting objects: 100% (105/105)   [Kremote: Counting objects: 100% (105/105), done.[K
+remote: Compressing objects:   1% (1/84)   [Kremote: Compressing objects:   2% (2/84)   [Kremote: Compressing objects:   3% (3/84)   [Kremote: Compressing objects:   4% (4/84)   [Kremote: Compressing objects:   5% (5/84)   [Kremote: Compressing objects:   7% (6/84)   [Kremote: Compressing objects:   8% (7/84)   [Kremote: Compressing objects:   9% (8/84)   [Kremote: Compressing objects:  10% (9/84)   [Kremote: Compressing objects:  11% (10/84)   [Kremote: Compressing objects:  13% (11/84)   [Kremote: Compressing objects:  14% (12/84)   [Kremote: Compressing objects:  15% (13/84)   [Kremote: Compressing objects:  16% (14/84)   [Kremote: Compressing objects:  17% (15/84)   [Kremote: Compressing objects:  19% (16/84)   [Kremote: Compressing objects:  20% (17/84)   [Kremote: Compressing objects:  21% (18/84)   [Kremote: Compressing objects:  22% (19/84)   [Kremote: Compressing objects:  23% (20/84)   [Kremote: Compressing objects:  25% (21/84)   [Kremote: Compressing objects:  26% (22/84)   [Kremote: Compressing objects:  27% (23/84)   [Kremote: Compressing objects:  28% (24/84)   [Kremote: Compressing objects:  29% (25/84)   [Kremote: Compressing objects:  30% (26/84)   [Kremote: Compressing objects:  32% (27/84)   [Kremote: Compressing objects:  33% (28/84)   [Kremote: Compressing objects:  34% (29/84)   [Kremote: Compressing objects:  35% (30/84)   [Kremote: Compressing objects:  36% (31/84)   [Kremote: Compressing objects:  38% (32/84)   [Kremote: Compressing objects:  39% (33/84)   [Kremote: Compressing objects:  40% (34/84)   [Kremote: Compressing objects:  41% (35/84)   [Kremote: Compressing objects:  42% (36/84)   [Kremote: Compressing objects:  44% (37/84)   [Kremote: Compressing objects:  45% (38/84)   [Kremote: Compressing objects:  46% (39/84)   [Kremote: Compressing objects:  47% (40/84)   [Kremote: Compressing objects:  48% (41/84)   [Kremote: Compressing objects:  50% (42/84)   [Kremote: Compressing objects:  51% (43/84)   [Kremote: Compressing objects:  52% (44/84)   [Kremote: Compressing objects:  53% (45/84)   [Kremote: Compressing objects:  54% (46/84)   [Kremote: Compressing objects:  55% (47/84)   [Kremote: Compressing objects:  57% (48/84)   [Kremote: Compressing objects:  58% (49/84)   [Kremote: Compressing objects:  59% (50/84)   [Kremote: Compressing objects:  60% (51/84)   [Kremote: Compressing objects:  61% (52/84)   [Kremote: Compressing objects:  63% (53/84)   [Kremote: Compressing objects:  64% (54/84)   [Kremote: Compressing objects:  65% (55/84)   [Kremote: Compressing objects:  66% (56/84)   [Kremote: Compressing objects:  67% (57/84)   [Kremote: Compressing objects:  69% (58/84)   [Kremote: Compressing objects:  70% (59/84)   [Kremote: Compressing objects:  71% (60/84)   [Kremote: Compressing objects:  72% (61/84)   [Kremote: Compressing objects:  73% (62/84)   [Kremote: Compressing objects:  75% (63/84)   [Kremote: Compressing objects:  76% (64/84)   [Kremote: Compressing objects:  77% (65/84)   [Kremote: Compressing objects:  78% (66/84)   [Kremote: Compressing objects:  79% (67/84)   [Kremote: Compressing objects:  80% (68/84)   [Kremote: Compressing objects:  82% (69/84)   [Kremote: Compressing objects:  83% (70/84)   [Kremote: Compressing objects:  84% (71/84)   [Kremote: Compressing objects:  85% (72/84)   [Kremote: Compressing objects:  86% (73/84)   [Kremote: Compressing objects:  88% (74/84)   [Kremote: Compressing objects:  89% (75/84)   [Kremote: Compressing objects:  90% (76/84)   [Kremote: Compressing objects:  91% (77/84)   [Kremote: Compressing objects:  92% (78/84)   [Kremote: Compressing objects:  94% (79/84)   [Kremote: Compressing objects:  95% (80/84)   [Kremote: Compressing objects:  96% (81/84)   [Kremote: Compressing objects:  97% (82/84)   [Kremote: Compressing objects:  98% (83/84)   [Kremote: Compressing objects: 100% (84/84)   [Kremote: Compressing objects: 100% (84/84), done.[K
+Unpacking objects:   1% (1/90)   Unpacking objects:   2% (2/90)   Unpacking objects:   3% (3/90)   Unpacking objects:   4% (4/90)   Unpacking objects:   5% (5/90)   Unpacking objects:   6% (6/90)   Unpacking objects:   7% (7/90)   Unpacking objects:   8% (8/90)   Unpacking objects:  10% (9/90)   Unpacking objects:  11% (10/90)   Unpacking objects:  12% (11/90)   Unpacking objects:  13% (12/90)   Unpacking objects:  14% (13/90)   Unpacking objects:  15% (14/90)   Unpacking objects:  16% (15/90)   Unpacking objects:  17% (16/90)   Unpacking objects:  18% (17/90)   Unpacking objects:  20% (18/90)   Unpacking objects:  21% (19/90)   Unpacking objects:  22% (20/90)   Unpacking objects:  23% (21/90)   Unpacking objects:  24% (22/90)   Unpacking objects:  25% (23/90)   Unpacking objects:  26% (24/90)   Unpacking objects:  27% (25/90)   Unpacking objects:  28% (26/90)   Unpacking objects:  30% (27/90)   Unpacking objects:  31% (28/90)   Unpacking objects:  32% (29/90)   Unpacking objects:  33% (30/90)   Unpacking objects:  34% (31/90)   Unpacking objects:  35% (32/90)   Unpacking objects:  36% (33/90)   Unpacking objects:  37% (34/90)   Unpacking objects:  38% (35/90)   Unpacking objects:  40% (36/90)   Unpacking objects:  41% (37/90)   Unpacking objects:  42% (38/90)   Unpacking objects:  43% (39/90)   Unpacking objects:  44% (40/90)   Unpacking objects:  45% (41/90)   Unpacking objects:  46% (42/90)   Unpacking objects:  47% (43/90)   Unpacking objects:  48% (44/90)   Unpacking objects:  50% (45/90)   remote: Total 90 (delta 49), reused 0 (delta 0)[K
+Unpacking objects:  51% (46/90)   Unpacking objects:  52% (47/90)   Unpacking objects:  53% (48/90)   Unpacking objects:  54% (49/90)   Unpacking objects:  55% (50/90)   Unpacking objects:  56% (51/90)   Unpacking objects:  57% (52/90)   Unpacking objects:  58% (53/90)   Unpacking objects:  60% (54/90)   Unpacking objects:  61% (55/90)   Unpacking objects:  62% (56/90)   Unpacking objects:  63% (57/90)   Unpacking objects:  64% (58/90)   Unpacking objects:  65% (59/90)   Unpacking objects:  66% (60/90)   Unpacking objects:  67% (61/90)   Unpacking objects:  68% (62/90)   Unpacking objects:  70% (63/90)   Unpacking objects:  71% (64/90)   Unpacking objects:  72% (65/90)   Unpacking objects:  73% (66/90)   Unpacking objects:  74% (67/90)   Unpacking objects:  75% (68/90)   Unpacking objects:  76% (69/90)   Unpacking objects:  77% (70/90)   Unpacking objects:  78% (71/90)   Unpacking objects:  80% (72/90)   Unpacking objects:  81% (73/90)   Unpacking objects:  82% (74/90)   Unpacking objects:  83% (75/90)   Unpacking objects:  84% (76/90)   Unpacking objects:  85% (77/90)   Unpacking objects:  86% (78/90)   Unpacking objects:  87% (79/90)   Unpacking objects:  88% (80/90)   Unpacking objects:  90% (81/90)   Unpacking objects:  91% (82/90)   Unpacking objects:  92% (83/90)   Unpacking objects:  93% (84/90)   Unpacking objects:  94% (85/90)   Unpacking objects:  95% (86/90)   Unpacking objects:  96% (87/90)   Unpacking objects:  97% (88/90)   Unpacking objects:  98% (89/90)   Unpacking objects: 100% (90/90)   Unpacking objects: 100% (90/90), done.
+From ssh://remote.cs.binghamton.edu/~umrigar/git-repos/cs240
+   0b7b862..5dd8253  master     -> origin/master
+Updating 0b7b862..5dd8253
+Fast-forward
+ index.html                                  |  24 [32m++[m[31m--[m
+ index.umt                                   |   6 [32m+[m
+ labs/index.html                             |   4 [32m+[m[31m-[m
+ labs/index.umt                              |   9 [32m+[m[31m-[m
+ labs/lab2/exercises/.gitignore              |   1 [32m+[m
+ labs/lab2/exercises/1-hello/.gitignore      |   1 [32m+[m
+ labs/lab2/exercises/1-hello/Makefile        |   3 [32m+[m
+ labs/lab2/exercises/1-hello/README          |   1 [32m+[m
+ labs/lab2/exercises/1-hello/hello.cc        |  22 [32m+++[m
+ labs/lab2/exercises/2-hello/.gitignore      |   1 [32m+[m
+ labs/lab2/exercises/2-hello/Makefile        |   3 [32m+[m
+ labs/lab2/exercises/2-hello/README          |   4 [32m+[m
+ labs/lab2/exercises/2-hello/hello.cc        |  48 [32m+++++++[m
+ labs/lab2/exercises/3-overload/.gitignore   |   1 [32m+[m
+ labs/lab2/exercises/3-overload/Makefile     |   3 [32m+[m
+ labs/lab2/exercises/3-overload/overload.cc  |  16 [32m+++[m
+ labs/lab2/exercises/Makefile                |   2 [32m+[m
+ labs/lab2/lab2.html                         | 257 [32m++++++++++++++++++++++++++++++++++[m
+ labs/lab2/lab2.pdf                          | Bin [31m0[m -> [32m93531[m bytes
+ labs/lab2/lab2.umt                          | 358 [32m++++++++++++++++++++++++++++++++++++++++++++++++[m
+ labs/lab2/lab2/hl-fine_blue.css             |  19 [32m+++[m
+ labs/lab2/lab2/hl-fine_blue.sty             |  19 [32m+++[m
+ labs/submission/submission/hl-fine_blue.css |   2 [32m+[m[31m-[m
+ labs/submission/submission/hl-fine_blue.sty |   2 [32m+[m[31m-[m
+ slides/c++-intro/c++-intro.html             | 228 [32m++++++++++++++++++++++++[m[31m------[m
+ slides/c++-intro/c++-intro.pdf              | Bin [31m167175[m -> [32m201292[m bytes
+ slides/c++-intro/c++-intro.umt              | 148 [32m++++++++++++++++++[m[31m--[m
+ slides/c++-intro/c++-intro/hl-fine_blue.css |   2 [32m+[m[31m-[m
+ slides/c++-intro/c++-intro/hl-fine_blue.sty |   2 [32m+[m[31m-[m
+ slides/c++-intro/code/.gitignore            |   6 [32m+[m
+ slides/c++-intro/code/Makefile              |  12 [32m+[m[31m-[m
+ slides/c++-intro/code/alloc-dealloc.cc      |  26 [32m++++[m
+ slides/c++-intro/code/class-point.cc        |  33 [32m+++++[m
+ slides/c++-intro/code/struct-point.cc       |  31 [32m+++++[m
+ slides/c++-intro/code/sum-array.cc          |  14 [32m+[m[31m-[m
+ slides/c++-intro/code/vec1.cc               |  40 [32m++++++[m
+ 36 files changed, 1266 insertions(+), 82 deletions(-)
+ create mode 100644 labs/lab2/exercises/.gitignore
+ create mode 100644 labs/lab2/exercises/1-hello/.gitignore
+ create mode 100644 labs/lab2/exercises/1-hello/Makefile
+ create mode 100644 labs/lab2/exercises/1-hello/README
+ create mode 100644 labs/lab2/exercises/1-hello/hello.cc
+ create mode 100644 labs/lab2/exercises/2-hello/.gitignore
+ create mode 100644 labs/lab2/exercises/2-hello/Makefile
+ create mode 100644 labs/lab2/exercises/2-hello/README
+ create mode 100644 labs/lab2/exercises/2-hello/hello.cc
+ create mode 100644 labs/lab2/exercises/3-overload/.gitignore
+ create mode 100644 labs/lab2/exercises/3-overload/Makefile
+ create mode 100644 labs/lab2/exercises/3-overload/overload.cc
+ create mode 100644 labs/lab2/exercises/Makefile
+ create mode 100644 labs/lab2/lab2.html
+ create mode 100644 labs/lab2/lab2.pdf
+ create mode 100644 labs/lab2/lab2.umt
+ create mode 100644 labs/lab2/lab2/hl-fine_blue.css
+ create mode 100644 labs/lab2/lab2/hl-fine_blue.sty
+ create mode 100644 slides/c++-intro/code/.gitignore
+ create mode 100644 slides/c++-intro/code/alloc-dealloc.cc
+ create mode 100644 slides/c++-intro/code/class-point.cc
+ create mode 100644 slides/c++-intro/code/struct-point.cc
+ create mode 100644 slides/c++-intro/code/vec1.cc
+amchugh2@remote06:~/cs240$ ls
+announce.html  assets  exams-quizzes  hws	  index.umt  misc      README.md  umt.make
+announce.umt   docs    exercises      index.html  labs	     projects  slides
+amchugh2@remote06:~/cs240$ cd 
+amchugh2@remote06:~$ ls
+amchugh2.circ  cs120lab7  Downloads	  i220a.bak  lab2	lab8	  Templates
+Arduino        cs220	  git-repos	  i220a_new  lab2final	Music	  tmp
+cs120	       cs240	  git-repos_copy  i220X      lab2good	Pictures  toneMelody
+cs120lab4      Desktop	  good		  i240b      lab3	projects  Videos
+cs120lab6      Documents  i220a		  lab	     lab5	Public
+amchugh2@remote06:~$ cd i240b/submitla[K[K/lab2
+amchugh2@remote06:~/i240b/submit/lab2$ cp[K[Kls
+lab2.LOG
+amchugh2@remote06:~/i240b/submit/lab2$ cd[Kp [K[K[Kcp -r !/[K[K[K[Kt [K[Kr ~/csw0[K[K240/labs/lab2/exercizes[K[K[Kses-[K/* .
+amchugh2@remote06:~/i240b/submit/lab2$ ls
+1-hello  2-hello  3-overload  lab2.LOG	Makefile
+amchugh2@remote06:~/i240b/submit/lab2$ cd exerciz[Kses 1[K[K[Ks1[K/1[K1-hello
+bash: cd: exercises/1-hello: No such file or directory
+amchugh2@remote06:~/i240b/submit/lab2$ ls
+1-hello  2-hello  3-overload  lab2.LOG	Makefile
+amchugh2@remote06:~/i240b/submit/lab2$ cd 1-hello
+amchugh2@remote06:~/i240b/submit/lab2/1-hello$ ls
+hello.cc  Makefile  README
+amchugh2@remote06:~/i240b/submit/lab2/1-hello$ vim README
+[?1000h[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;35r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[35;1H"README" 1L, 61C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1HPrint out a line saying hello to each command-line argument.
+[1m[34m~                                                                                                   [3;1H~                                                                                                   [4;1H~                                                                                                   [5;1H~                                                                                                   [6;1H~                                                                                                   [7;1H~                                                                                                   [8;1H~                                                                                                   [9;1H~                                                                                                   [10;1H~                                                                                                   [11;1H~                                                                                                   [12;1H~                                                                                                   [13;1H~                                                                                                   [14;1H~                                                                                                   [15;1H~                                                                                                   [16;1H~                                                                                                   [17;1H~                                                                                                   [18;1H~                                                                                                   [19;1H~                                                                                                   [20;1H~                                                                                                   [21;1H~                                                                                                   [22;1H~                                                                                                   [23;1H~                                                                                                   [24;1H~                                                                                                   [25;1H~                                                                                                   [26;1H~                                                                                                   [27;1H~                                                                                                   [28;1H~                                                                                                   [29;1H~                                                                                                   [30;1H~                                                                                                   [31;1H~                                                                                                   [32;1H~                                                                                                   [33;1H~                                                                                                   [34;1H~                                                                                                   [m[35;83H1,1[11CAll[1;1H[?25h[?25l[35;73H:[1;1H[35;1H[K[35;1H:[?2004h[?25hx[?25l[?25h[?25l[?1000l[?2004l[23;2t[23;1t[22;2t[22;1t[23;2t[23;1t[35;1H[K[35;1H[?2004l[?1l>[?25h[?1049l[23;0;0tamchugh2@remote06:~/i240b/submit/lab2/1-hello$ ./hello
+bash: ./hello: No such file or directory
+amchugh2@remote06:~/i240b/submit/lab2/1-hello$ make
+g++ -g -Wall -std=c++17    hello.cc   -o hello
+amchugh2@remote06:~/i240b/submit/lab2/1-hello$ ./hello
+usage: ./hello NAME...
+amchugh2@remote06:~/i240b/submit/lab2/1-hello$ hello[K[K[K[K[K./ [Khello Abby McHugh![K[K[K[K[K[K[K[K[Ky!
+hello Abby!
+hello amchugh2@remote06:~/i240b/submit/lab2/1-hello$ h[Khello [K abby[K[K[K[KAbby John[K[K[K[K[KB[K Ben
+bash: hello: command not found
+amchugh2@remote06:~/i240b/submit/lab2/1-hello$ .[K./hello Abby Ben
+hello Abby
+hello Ben
+hello amchugh2@remote06:~/i240b/submit/lab2/1-hello$ gd [Kb hello
+GNU gdb (Debian 8.2.1-2+b3) 8.2.1
+Copyright (C) 2018 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from hello...done.
+(gdb) start bart lisa
+Temporary breakpoint 1 at 0x11cd: file hello.cc, line 13.
+Starting program: /import/linux/home1/amchugh2/projects/i240b/submit/lab2/1-hello/hello bart lisa
+
+Temporary breakpoint 1, main (argc=3, argv=0x7fffffffe858) at hello.cc:13
+13	  if (argc == 1) {
+(gdb) [K(gdb) l
+8	}
+9	
+10	int 
+11	main(int argc, const char *argv[])
+12	{
+13	  if (argc == 1) {
+14	    std::cerr << "usage: " << argv[0] << " NAME..." << std::endl;
+15	    std::exit(1);
+16	  }
+17	  else {
+(gdb) b sayHello()
+Function "sayHello()" not defined.
+Make breakpoint pending on future shared library load? (y or [n]) p argc[K[K[K[K[K[Ky
+Breakpoint 2 (sayHello()) pending.
+(gdb) b sayHello)[K()
+Function "sayHello()" not defined.
+Make breakpoint pending on future shared library load? (y or [n]) n
+(gdb) q
+A debugging session is active.
+
+	Inferior 1 [process 2306793] will be killed.
+
+Quit anyway? (y or n) y
+amchugh2@remote06:~/i240b/submit/lab2/1-hello$ gdb e[Khello
+GNU gdb (Debian 8.2.1-2+b3) 8.2.1
+Copyright (C) 2018 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from hello...done.
+(gdb) start bart lisa[Ka[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kstart bart lisa
+Temporary breakpoint 1 at 0x11cd: file hello.cc, line 13.
+Starting program: /import/linux/home1/amchugh2/projects/i240b/submit/lab2/1-hello/hello bart lisa
+
+Temporary breakpoint 1, main (argc=3, argv=0x7fffffffe868)
+    at hello.cc:13
+13	  if (argc == 1) {
+(gdb) l
+8	}
+9	
+10	int 
+11	main(int argc, const char *argv[])
+12	{
+13	  if (argc == 1) {
+14	    std::cerr << "usage: " << argv[0] << " NAME..." << std::endl;
+15	    std::exit(1);
+16	  }
+17	  else {
+(gdb) 
+18	    for (int i = 1; i <= argc; i++) {
+19	      sayHello(argv[i]);
+20	    }
+21	  }
+22	}
+(gdb) l 2
+1	#include <iostream>
+2	#include <cstdlib>
+3	
+4	static void
+5	sayHello(const char *name)
+6	{
+7	  std::cout << "hello " << name << std::endl;
+8	}
+9	
+10	int 
+(gdb) b sy[KayHello
+Breakpoint 2 at 0x555555555181: file hello.cc, line 7.
+(gdb) p argc
+$1 = 3
+(gdb) p argv
+$2 = (const char **) 0x7fffffffe868
+(gdb) p argv[0]
+$3 = 0x7fffffffead0 "/import/linux/home1/amchugh2/projects/i240b/submit/lab2/1-hello/hello"
+(gdb) p argv[1]
+$4 = 0x7fffffffeb16 "bart"
+(gdb) p *argv@3
+$5 = {
+  0x7fffffffead0 "/import/linux/home1/amchugh2/projects/i240b/submit/lab2/1-hello/hello", 0x7fffffffeb16 "bart", 0x7fffffffeb1b "lisa"}
+(gdb) n
+18	    for (int i = 1; i <= argc; i++) {
+(gdb) p i
+$6 = 0
+(gdb) c
+Continuing.
+
+Breakpoint 2, sayHello (name=0x7fffffffeb16 "bart") at hello.cc:7
+7	  std::cout << "hello " << name << std::endl;
+(gdb) l
+2	#include <cstdlib>
+3	
+4	static void
+5	sayHello(const char *name)
+6	{
+7	  std::cout << "hello " << name << std::endl;
+8	}
+9	
+10	int 
+11	main(int argc, const char *argv[])
+(gdb) backtrace
+#0  sayHello (name=0x7fffffffeb16 "bart") at hello.cc:7
+#1  0x0000555555555257 in main (argc=3, argv=0x7fffffffe868)
+    at hello.cc:19
+(gdb) argc[K[K[K[Kp argc
+No symbol "argc" in current context.
+(gdb) up
+#1  0x0000555555555257 in main (argc=3, argv=0x7fffffffe868)
+    at hello.cc:19
+19	      sayHello(argv[i]);
+(gdb) p argc
+$7 = 3
+(gdb) down
+#0  sayHello (name=0x7fffffffeb16 "bart") at hello.cc:7
+7	  std::cout << "hello " << name << std::endl;
+(gdb) p name
+$8 = 0x7fffffffeb16 "bart"
+(gdb) c
+Continuing.
+hello bart
+
+Breakpoint 2, sayHello (name=0x7fffffffeb1b "lisa") at hello.cc:7
+7	  std::cout << "hello " << name << std::endl;
+(gdb) c
+Continuing.
+hello lisa
+
+Breakpoint 2, sayHello (name=0x0) at hello.cc:7
+7	  std::cout << "hello " << name << std::endl;
+(gdb) up
+#1  0x0000555555555257 in main (argc=3, argv=0x7fffffffe868)
+    at hello.cc:19
+19	      sayHello(argv[i]);
+(gdb) p i
+$9 = 3
+(gdb) p argc
+$10 = 3
+(gdb) q
+A debugging session is active.
+
+	Inferior 1 [process 2307503] will be killed.
+
+Quit anyway? (y or n) y
+amchugh2@remote06:~/i240b/submit/lab2/1-hello$ ls
+hello  hello.cc  Makefile  README
+amchugh2@remote06:~/i240b/submit/lab2/1-hello$ vim hello.cc
+[?1000h[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;36r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[36;1H"hello.cc" 22L, 363C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[35m#include [m[31m<iostream>[m
+[35m#include [m[31m<cstdlib>[m
+
+[32mstatic[m [32mvoid[m
+sayHello([32mconst[m [32mchar[m *name)
+{
+  std::cout << [31m"hello "[m << name << std::endl;
+}
+
+[32mint[m
+main([32mint[m argc, [32mconst[m [32mchar[m *argv[])
+{
+  [33mif[m (argc == [31m1[m) {
+    std::cerr << [31m"usage: "[m << argv[[31m0[m] << [31m" NAME..."[m << std::endl;
+    std::exit([31m1[m);
+  }
+  [33melse[m {
+    [33mfor[m ([32mint[m i = [31m1[m; i <= argc; i++) {[19;7HsayHello(argv[i]);
+    }
+  }
+}
+[1m[34m~                                                                        [24;1H~                                                                        [25;1H~                                                                        [26;1H~                                                                        [27;1H~                                                                        [28;1H~                                                                        [29;1H~                                                                        [30;1H~                                                                        [31;1H~                                                                        [32;1H~                                                                        [33;1H~                                                                        [34;1H~                                                                        [35;1H~                                                                        [m[36;56H1,1[11CAll[1;1H[?25h[?25l[36;46H~@k[1;1H[36;46H   [2;1H[36;56H2[2;1H[?25h[?25l[36;46H~@k[2;1H[36;46H   [3;1H[36;56H3,0-1[3;1H[?25h[?25l[36;46H~@k[3;1H[36;46H   [4;1H[36;56H4,1  [4;1H[?25h[?25l[36;46H~@k[4;1H[36;46H   [5;1H[36;56H5[5;1H[?25h[?25l[36;46H~@k[5;1H[36;46H   [6;1H[46m{
+
+}[m[36;56H6[6;1H[?25h[?25l[36;46H~@k[6;1H[36;46H   [7;1H[6;1H{
+
+}[36;56H7[7;1H[?25h[?25l[36;46H~@k[7;1H[36;46H   [8;1H[6;1H[46m{
+
+}[m[36;56H8[8;1H[?25h[?25l[6;1H{
+
+}[36;56H9,0-1[9;1H[?25h[?25l[36;46H~@k[9;1H[36;46H   [10;1H[36;56H10,1 [10;1H[?25h[?25l[36;46H~@k[10;1H[36;46H   [11;1H[36;57H1[11;1H[?25h[?25l[36;46H~@k[11;1H[36;46H   [12;1H[46m{[22;1H}[m[36;57H2[12;1H[?25h[?25l[36;46H~@k[12;1H[36;46H   [13;1H[12;1H{[22;1H}[36;57H3[13;1H[?25h[?25l[36;46H~@k[13;1H[36;46H   [14;1H[36;57H4[14;1H[?25h[?25l[36;46H~@k[14;1H[36;46H   [15;1H[36;57H5[15;1H[?25h[?25l[36;46H~@k[15;1H[36;46H   [16;1H[36;57H6[16;1H[?25h[?25l[36;46H~@k[16;1H[36;46H   [17;1H[36;57H7[17;1H[?25h[?25l[36;46H~@k[17;1H[36;46H   [18;1H[36;57H8[18;1H[?25h[?25l[36;46H~@k[18;1H[36;46H   [19;1H[36;57H9[19;1H[?25h[?25l[36;46H~@k[19;1H[36;46H   [20;1H[36;56H20[20;1H[?25h[?25l[36;46H~@k[20;1H[36;46H   [21;1H[36;57H1[21;1H[?25h[?25l[36;46H~@k[21;1H[36;46H   [20;1H[36;57H0[20;1H[?25h[?25l[36;46H~@k[20;1H[36;46H   [19;1H[36;56H19[19;1H[?25h[?25l[36;46H~@k[19;1H[36;46H   [18;1H[36;57H8[18;1H[?25h[?25l[36;46H~@k[18;1H[36;46H   [18;1H[36;1H[1m-- INSERT --[m[36;13H[K[36;56H18,1[10CAll[18;1H[?25h[?25l[36;59H2[18;2H[?25h[?25l[36;59H3[18;3H[?25h[?25l[36;59H4[18;4H[?25h[?25l[36;59H5[18;5H[?25h[?25l[36;59H6[18;6H[?25h[?25l[36;59H7[18;7H[?25h[?25l[36;59H8[18;8H[?25h[?25l [46m([25C)[m[36;59H9[18;9H[?25h[?25l[36;59H10[18;10H[?25h[?25l([25C)[36;60H1[18;11H[?25h[?25l[36;60H2[18;12H[?25h[?25l[36;60H3[18;13H[?25h[?25l[36;60H4[18;14H[?25h[?25l[36;60H5[18;15H[?25h[?25l[36;60H6[18;16H[?25h[?25l[36;60H7[18;17H[?25h[?25l[36;60H8[18;18H[?25h[?25l[36;60H9[18;19H[?25h[?25l[36;59H20[18;20H[?25h[?25l[36;60H1[18;21H[?25h[?25l[36;60H2[18;22H[?25h[?25l[36;60H3[18;23H[?25h[?25l[36;60H4[18;24H[?25h[?25l[36;60H5[18;25H[?25h[?25l[36;60H6[18;26H[?25h[?25l[36;60H7[18;27H[?25h[?25l[36;60H6[18;26H[?25h[?25l(argc; i++) {[18;26H[46m([9C)[m[36;60H7[18;27H[?25h[?25l([9C)[36;60H8[18;28H[?25h[?25l[36;60H9[18;29H[?25h[?25l[36;59H30[18;30H[?25h[?25l[36;60H1[18;31H[?25h[?25l-; i++) {[36;60H2[18;32H[?25h[?25l[31m1[m; i++) {[36;60H3[18;33H[?25h[?25l); i++) {[18;26H[46m([6C)[m[36;60H4[18;34H[?25h[36;1H[K[18;33H[?25l[36;46H^[[18;33H[36;46H  [18;34H[36;56H18,33[9CAll[18;33H[?25h[?25l[36;46H:[18;33H[36;46H[K[36;1H:[?2004h[?25hx[?25l[?25h[?25l[?1000l[?2004l"hello.cc" 22L, 367C written[23;2t[23;1t[22;2t[22;1t[23;2t[23;1t
+[?2004l[?1l>[?25h[?1049l[23;0;0tamchugh2@remote06:~/i240b/submit/lab2/1-hello$ make
+g++ -g -Wall -std=c++17    hello.cc   -o hello
+amchugh2@remote06:~/i240b/submit/lab2/1-hello$ ./hello st[K[Kbart lisa
+hello bart
+hello lisa
+amchugh2@remote06:~/i240b/submit/lab2/1-hello$ cd ..
+amchugh2@remote06:~/i240b/submit/lab2$ s[Kls
+1-hello  2-hello  3-overload  lab2.LOG	Makefile
+amchugh2@remote06:~/i240b/submit/lab2$ cd[K[Kcd 2-hello
+amchugh2@remote06:~/i240b/submit/lab2/2-hello$ make
+g++ -g -Wall -std=c++17    hello.cc   -o hello
+amchugh2@remote06:~/i240b/submit/lab2/2-hello$ ./[K[K./hello lisa bart
+Hello Lisa
+Hello Bart
+Segmentation fault
+amchugh2@remote06:~/i240b/submit/lab2/2-hello$ ./hello lisa lisa lisa lis a
+Hello Lisa
+Hello Lisa
+Hello Lisa
+Hello Lisa
+Segmentation fault
+amchugh2@remote06:~/i240b/submit/lab2/2-hello$ ,.[K[K./ 'lisa' 'bart'
+bash: ./: Is a directory
+amchugh2@remote06:~/i240b/submit/lab2/2-hello$ ./helll[Ko 'lsia'[K[K[K[Kisa' bar[K[K[K'bart'
+Hello Lisa
+Hello Bart
+Segmentation fault
+amchugh2@remote06:~/i240b/submit/lab2/2-hello$ cd[K[Kls
+hello  hello.cc  Makefile  README
+amchugh2@remote06:~/i240b/submit/lab2/2-hello$ c[Kvim hello.cc
+[?1000h[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;36r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[36;1H"hello.cc" 48L, 1011C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[35m#include [m[31m<locale>[m
+[35m#include [m[31m<iostream>[m
+[35m#include [m[31m<cstdlib>[m
+[35m#include [m[31m<cstring>[m
+
+[34m/** Upcase the initial letter of each word from in, copying the
+ *  results into out.  The caller is responsible to ensure that out
+ *  has enough space for the strlen(in) characters of in.
+ */[m
+[32mvoid[m
+upcaseWords([32mconst[m [32mchar[m in[], [32mchar[m out[])
+{
+  [32mbool[m inWord = [31mfalse[m;
+  [32mconst[m [32mint[m n = std::strlen(in);
+  [33mfor[m ([32mint[m i = [31m0[m; i < n; i++) {
+    [33mif[m (!inWord && std::isalpha(in[i])) {[17;7Hout[i] = std::toupper(in[i]);
+    }
+    [33melse[m {[20;7Hout[i] = in[i];
+    }
+    inWord = std::isalpha(in[i]);
+  }
+}
+
+[32mstatic[m [32mvoid[m
+sayHello([32mconst[m [32mchar[m *name)
+{
+  std::cout << [31m"Hello "[m << name << std::endl;
+}
+
+
+[32mint[m
+main([32mint[m argc, [32mconst[m [32mchar[m *argv[])
+{[36;56H1,1[11CTop[1;1H[?25h[?25l[36;46H:[1;1H[36;1H[K[36;1H:[?2004h[?25hc[?25l[?25ho[?25l[?25hl[?25l[?25ho[?25l[?25h[?25l [?25hm[?25l[?25horni[?25l[?25hn[?25l[?25hg[?25l[?25h[?25l[30m[47m[1;1H[27m[23m[29m[m[30m[47m[H[2J[1;1H[35m#include [m[30m[47m[31m<locale>[m[30m[47m
+[35m#include [m[30m[47m[31m<iostream>[m[30m[47m
+[35m#include [m[30m[47m[31m<cstdlib>[m[30m[47m
+[35m#include [m[30m[47m[31m<cstring>[m[30m[47m
+
+[34m/** Upcase the initial letter of each word from in, copying the
+ *  results into out.  The caller is responsible to ensure that out
+ *  has enough space for the strlen(in) characters of in.
+ */[m[30m[47m
+[32mvoid[m[30m[47m
+upcaseWords([32mconst[m[30m[47m [32mchar[m[30m[47m in[], [32mchar[m[30m[47m out[])
+{
+  [32mbool[m[30m[47m inWord = [31mfalse[m[30m[47m;
+  [32mconst[m[30m[47m [32mint[m[30m[47m n = std::strlen(in);
+  [33mfor[m[30m[47m ([32mint[m[30m[47m i = [31m0[m[30m[47m; i < n; i++) {
+    [33mif[m[30m[47m (!inWord && std::isalpha(in[i])) {[17;7Hout[i] = std::toupper(in[i]);
+    }
+    [33melse[m[30m[47m {[20;7Hout[i] = in[i];
+    }
+    inWord = std::isalpha(in[i]);
+  }
+}
+
+[32mstatic[m[30m[47m [32mvoid[m[30m[47m
+sayHello([32mconst[m[30m[47m [32mchar[m[30m[47m *name)
+{
+  std::cout << [31m"Hello "[m[30m[47m << name << std::endl;
+}
+
+
+[32mint[m[30m[47m
+main([32mint[m[30m[47m argc, [32mconst[m[30m[47m [32mchar[m[30m[47m *argv[])
+{[36;56H1,1[11CTop[1;1H[?25h[?25l[36;46H~@k[1;1H[36;46H   [2;1H[36;56H2[2;1H[?25h[?25l[36;46H~@k[2;1H[36;46H   [3;1H[36;56H3[3;1H[?25h[?25l[36;46H~@k[3;1H[36;46H   [4;1H[36;56H4[4;1H[?25h[?25l[36;46H~@k[4;1H[36;46H   [5;1H[36;56H5,0-1[5;1H[?25h[?25l[36;46H~@k[5;1H[36;46H   [6;1H[36;56H6,1  [6;1H[?25h[?25l[36;46H~@k[6;1H[36;46H   [7;1H[36;56H7[7;1H[?25h[?25l[36;46H~@k[7;1H[36;46H   [8;1H[36;56H8[8;1H[?25h[?25l[36;46H~@k[8;1H[36;46H   [9;1H[36;56H9[9;1H[?25h[?25l[36;46H~@k[9;1H[36;46H   [10;1H[36;56H10,1[10;1H[?25h[?25l[36;46H~@k[10;1H[36;46H   [11;1H[36;57H1[11;1H[?25h[?25l[36;46H~@k[11;1H[36;46H   [12;1H[46m{[24;1H}[m[30m[47m[36;57H2[12;1H[?25h[?25l[36;46H~@k[12;1H[36;46H   [13;1H[12;1H{[24;1H}[36;57H3[13;1H[?25h[?25l[36;46H~@k[13;1H[36;46H   [14;1H[36;57H4[14;1H[?25h[?25l[36;46H~@k[14;1H[36;46H   [15;1H[36;57H5[15;1H[?25h[?25l[36;46H~@k[15;1H[36;46H   [16;1H[36;57H6[16;1H[?25h[?25l[36;46H~@k[16;1H[36;46H   [17;1H[36;57H7[17;1H[?25h[?25l[36;46H~@k[17;1H[36;46H   [16;1H[36;57H6[16;1H[?25h[?25l[36;46H~@k[16;1H[36;46H   [15;1H[36;57H5[15;1H[?25h[?25l[36;46H~@k[15;1H[36;46H   [15;2H[36;59H2[15;2H[?25h[?25l[36;46H~@k[15;2H[36;46H   [15;3H[36;59H3[15;3H[?25h[?25l[36;46H~@k[15;3H[36;46H   [15;4H[36;59H4[15;4H[?25h[?25l[36;46H~@k[15;4H[36;46H   [15;5H[36;59H5[15;5H[?25h[?25l[36;46H~@k[15;5H[36;46H   [15;6H[36;59H6[15;6H[?25h[?25l[36;46H~@k[15;6H[36;46H   [15;7H[46m([21C)[m[30m[47m[36;59H7[15;7H[?25h[?25l[36;46H~@k[15;7H[36;46H   [15;8H([21C)[36;59H8[15;8H[?25h[?25l[36;46H~@k[15;8H[36;46H   [15;9H[36;59H9[15;9H[?25h[?25l[36;46H~@k[15;9H[36;46H   [15;10H[36;59H10[15;10H[?25h[?25l[36;46H~@k[15;10H[36;46H   [15;11H[36;60H1[15;11H[?25h[?25l[36;46H~@k[15;11H[36;46H   [15;12H[36;60H2[15;12H[?25h[?25l[36;46H~@k[15;12H[36;46H   [15;13H[36;60H3[15;13H[?25h[?25l[36;46H~@k[15;13H[36;46H   [15;14H[36;60H4[15;14H[?25h[?25l[36;46H~@k[15;14H[36;46H   [15;15H[36;60H5[15;15H[?25h[?25l[36;46H~@k[15;15H[36;46H   [15;16H[36;60H6[15;16H[?25h[?25l[36;46H~@k[15;16H[36;46H   [15;17H[36;60H7[15;17H[?25h[?25l[36;46H~@k[15;17H[36;46H   [15;18H[36;60H8[15;18H[?25h[?25l[36;46H~@k[15;18H[36;46H   [15;19H[36;60H9[15;19H[?25h[?25l[36;46H~@k[15;19H[36;46H   [15;20H[36;59H20[15;20H[?25h[?25l[36;46H~@k[15;20H[36;46H   [15;21H[36;60H1[15;21H[?25h[?25l[36;46H~@k[15;21H[36;46H   [15;22H[36;60H2[15;22H[?25h[?25l[36;46H~@k[15;22H[36;46H   [15;23H[36;60H3[15;23H[?25h[?25l[36;46H~@k[15;23H[36;46H   [15;24H[36;60H4[15;24H[?25h[?25l[36;46H~@k[15;24H[36;46H   [15;25H[36;60H5[15;25H[?25h[?25l[36;46H~@k[15;25H[36;46H   [15;26H[36;60H6[15;26H[?25h[?25l[36;46H~@k[15;26H[36;46H   [14;26H[36;57H4[14;26H[?25h[?25l[36;46H~@k[14;26H[36;46H   [14;27H[36;60H7[14;27H[?25h[?25l[36;46H~@k[14;27H[36;46H   [14;28H[46m([m[30m[47min[46m)[m[30m[47m[36;60H8[14;28H[?25h[?25l[36;46H~@k[14;28H[36;46H   [14;29H(in)[36;60H9[14;29H[?25h[?25l[36;46H~@k[14;29H[36;46H   [14;30H[36;59H30[14;30H[?25h[?25l[36;46H~@k[14;30H[36;46H   [14;31H[46m([m[30m[47min[46m)[m[30m[47m[36;60H1[14;31H[?25h[?25l[36;46H~@k[14;31H[36;46H   [14;32H(in)[36;60H2[14;32H[?25h[?25l[36;46H~@k[14;32H[36;46H   [14;32H[?25h[?25l[36;46H~@k[14;32H[36;46H   [14;32H[?25h[?25l[36;46H~@k[14;32H[36;46H   [14;32H[?25h[?25l[36;46H~@k[14;32H[36;46H   [14;32H[?25h[?25l[36;46H~@k[14;32H[36;46H   [14;32H[36;1H[1m-- INSERT --[m[30m[47m[36;56H[K[36;56H14,32[9CTop[14;32H[?25h[?25l[36;60H3[14;33H[?25h[?25l[14;32H[K[14;28H[46m([m[30m[47min[46m)[m[30m[47m[36;60H2[14;32H[?25h[?25l(in)[36;60H3[14;33H[?25h[?25l+[36;60H4[14;34H[?25h[?25l[36;60H5[14;35H[?25h[?25l[31m1[m[30m[47m[36;60H6[14;36H[?25h[?25l;[36;60H7[14;37H[?25h[?25l[15;31H[46m{[23;3H}[m[30m[47m[36;57H5,32[15;32H[?25h[?25l{[23;3H}[36;57H4,37[14;37H[?25h[?25l[36;57H3,23[13;23H[?25h[?25l[14;35r[14;1H[L[1;36r[36;56H[K[36;56H14,3[10CTop[14;3H[?25h[?25l/[36;59H4[14;4H[?25h[?25l[34m//[m[30m[47m[36;59H5[14;5H[?25h[?25l[34m [m[30m[47m[36;59H6[14;6H[?25h[?25l[34mn[m[30m[47m[36;59H7[14;7H[?25h[?25l[34me[m[30m[47m[36;59H8[14;8H[?25h[?25l[34me[m[30m[47m[36;59H9[14;9H[?25h[?25l[34md[m[30m[47m[36;59H10[14;10H[?25h[?25l[34m [m[30m[47m[36;60H1[14;11H[?25h[?25l[34mt[m[30m[47m[36;60H2[14;12H[?25h[?25l[34mo[m[30m[47m[36;60H3[14;13H[?25h[?25l[34m [m[30m[47m[36;60H4[14;14H[?25h[?25l[34m+[m[30m[47m[36;60H5[14;15H[?25h[?25l[31m1[m[30m[47m[36;60H6[14;16H[?25h[?25l[34m [m[30m[47m[36;60H7[14;17H[?25h[?25l[34mf[m[30m[47m[36;60H8[14;18H[?25h[?25l[34mo[m[30m[47m[36;60H9[14;19H[?25h[?25l[34mr[m[30m[47m[36;59H20[14;20H[?25h[?25l[34m [m[30m[47m[36;60H1[14;21H[?25h[?25l[14;20H[K[36;60H0[14;20H[?25h[?25l[14;19H[K[36;59H19[14;19H[?25h[?25l[14;18H[K[36;60H8[14;18H[?25h[?25l[14;17H[K[36;60H7[14;17H[?25h[?25l[14;16H[K[36;60H6[14;16H[?25h[?25l[14;15H[K[36;60H5[14;15H[?25h[?25l[34m [m[30m[47m[36;60H6[14;16H[?25h[?25l[31m1[m[30m[47m[36;60H7[14;17H[?25h[?25l[34m [m[30m[47m[36;60H8[14;18H[?25h[?25l[34mf[m[30m[47m[36;60H9[14;19H[?25h[?25l[34mo[m[30m[47m[36;59H20[14;20H[?25h[?25l[34mr[m[30m[47m[36;60H1[14;21H[?25h[?25l[34m [m[30m[47m[36;60H2[14;22H[?25h[?25l[34mt[m[30m[47m[36;60H3[14;23H[?25h[?25l[34me[m[30m[47m[36;60H4[14;24H[?25h[?25l[34mr[m[30m[47m[36;60H5[14;25H[?25h[?25l[34mm[m[30m[47m[36;60H6[14;26H[?25h[?25l[34mi[m[30m[47m[36;60H7[14;27H[?25h[?25l[34mn[m[30m[47m[36;60H8[14;28H[?25h[?25l[34ma[m[30m[47m[36;60H9[14;29H[?25h[?25l[34mt[m[30m[47m[36;59H30[14;30H[?25h[?25l[34mi[m[30m[47m[36;60H1[14;31H[?25h[?25l[34mn[m[30m[47m[36;60H2[14;32H[?25h[?25l[34mg[m[30m[47m[36;60H3[14;33H[?25h[?25l[34m [m[30m[47m[36;60H4[14;34H[?25h[?25l[34m'[m[30m[47m[36;60H5[14;35H[?25h[?25l[34mN[m[30m[47m[36;60H6[14;36H[?25h[?25l[34mU[m[30m[47m[36;60H7[14;37H[?25h[?25l[14;36H[K[36;60H6[14;36H[?25h[?25l[14;35H[K[36;60H5[14;35H[?25h[?25l[34m/[m[30m[47m[36;60H6[14;36H[?25h[?25l[14;35H[K[36;60H5[14;35H[?25h[?25l[34m\
+  const int n = std::strlen(in) + [1C;[m[30m[47m[36;60H6[14;36H[?25h[?25l[31m0[m[30m[47m
+  [32mconst[m[30m[47m [32mint[m[30m[47m n = std::strlen(in) + [1C;[36;60H7[14;37H[?25h[?25l[34m'[m[30m[47m[36;60H8[14;38H[?25h[?25l[34m [m[30m[47m[36;60H9[14;39H[?25h[?25l[34mc[m[30m[47m[36;59H40[14;40H[?25h[?25l[34mh[m[30m[47m[36;60H1[14;41H[?25h[?25l[34ma[m[30m[47m[36;60H2[14;42H[?25h[?25l[34mr[m[30m[47m[36;60H3[14;43H[?25h[?25l[34ma[m[30m[47m[36;60H4[14;44H[?25h[?25l[34mc[m[30m[47m[36;60H5[14;45H[?25h[?25l[34me[m[30m[47m[36;60H6[14;46H[?25h[?25l[34mr[m[30m[47m[36;60H7[14;47H[?25h[?25l[14;46H[K[36;60H6[14;46H[?25h[?25l[14;45H[K[36;60H5[14;45H[?25h[?25l[34mt[m[30m[47m[36;60H6[14;46H[?25h[?25l[34me[m[30m[47m[36;60H7[14;47H[?25h[?25l[34mr[m[30m[47m[36;60H8[14;48H[?25h[?25l[16;31H[46m{[24;3H}[m[30m[47m[36;57H6,32[16;32H[?25h[?25l{[17;41H[46m{[19;5H}[m[30m[47m[24;3H}[36;57H7,4[17;42H[?25h[?25l{[19;5H}[36;57H8,36[18;36H[?25h[?25l[17;41H[46m{[19;5H}[m[30m[47m[36;57H9,6 [19;6H[?25h[?25l[17;41H{[19;5H}[20;10H[46m{[22;5H}[m[30m[47m[36;56H20,11[20;11H[?25h[?25l{[22;5H}[36;57H1,22[21;22H[?25h[?25l[20;10H[46m{[22;5H}[m[30m[47m[36;57H2,6 [22;6H[?25h[?25l[20;10H{[22;5H}[36;57H3,34[23;34H[?25h[?25l[16;31H[46m{[24;3H}[m[30m[47m[36;57H4,4 [24;4H[?25h[?25l[12;1H[46m{[m[30m[47m[16;31H{[24;3H}
+[46m}[m[30m[47m[36;57H5,2[25;2H[?25h[?25l[12;1H{[25;1H}[36;57H6,1[26;1H[?25h[?25l[36;57H7,12[27;12H[?25h[?25l[28;9H[46m([16C)[m[30m[47m[36;57H8,27[28;27H[?25h[?25l[28;9H([16C)
+[46m{
+
+}[m[30m[47m[36;57H9,2 [29;2H[?25h[?25l{
+
+}[36;56H30,37[30;37H[?25h[?25l[1;35r[35;1H
+[1;36r[35;1H{[36;56H[K[36;56H31,2[11C7%[28;1H[46m{
+
+}[?25h[?25l[1;35r[m[30m[47m[35;1H
+[1;36r[35;3H[33mif[m[30m[47m (argc == [31m1[m[30m[47m) {[36;56H[K[36;56H32,1[10C14%[27;1H{
+
+}
+[?25h[?25l[1;35r[35;1H
+[1;36r[35;5Hstd::cerr << [31m"usage: "[m[30m[47m << argv[[31m0[m[30m[47m] << [31m" NAME..."[m[30m[47m << std::endl;[36;56H[K[36;56H33,1[10C21%[30;1H[?25h[?25l[1;35r[35;1H
+[1;36r[35;5Hstd::exit([31m1[m[30m[47m);[36;56H[K[36;56H34,4[10C28%[30;4H[?25h[?25l[1;35r[35;1H
+[1;36r[35;3H}[36;56H[K[36;56H35,35[9C35%[30;5H[46m([28C)[?25h[?25l[1;35r[m[30m[47m[35;1H
+[1;36r[35;3H[33melse[m[30m[47m {[36;56H[K[36;56H36,2[10C42%[29;5H([28C)
+{[?25h[?25l[1;35r[35;1H
+[1;36r[35;5H[33mfor[m[30m[47m ([32mint[m[30m[47m i = [31m1[m[30m[47m; i <= argc; i++) {[36;56H[K[36;56H37,19[9C50%[30;18H[46m{[33;3H}[30;19H[?25h[?25l[1;35r[m[30m[47m[35;1H
+[1;36r[35;7H[32mconst[m[30m[47m [32mchar[m[30m[47m *name = argv[i];[36;56H[K[36;56H38,37[9C57%[29;18H{[30;35H[46m[[1C][m[30m[47m
+
+  }[30;37H[?25h[?25l[1;35r[1;1H[2M[1;36r[34;7H[32mchar[m[30m[47m friendlyName[strlen(name)];[35;7HupcaseWords(name, friendlyName);[36;56H[K[36;56H40,4[10C71%[27;18H[46m{[m[30m[47m[28;35H[[1C]
+
+  [46m}[?25h[?25l[1;35r[m[30m[47m[35;1H
+[1;36r[35;7HsayHello(friendlyName);[36;56H[K[36;56H41,9[10C78%[26;18H{[29;3H}[30;9H[?25h[?25l[1;35r[35;1H
+[1;36r[35;5H}[36;56H[K[36;56H42,37[9C85%[30;37H[46m{[35;5H}[30;37H[?25h[?25l[1;35r[m[30m[47m[35;1H
+[1;36r[35;3H}[36;56H[K[36;56H43,34[9C92%[29;37H{[34;5H}[30;34H[?25h[?25l[1;35r[35;1H
+[1;36r[35;1H}[36;56H[K[36;56H44,37[9CBot[30;24H[46m[[12C][?25h[?25l[m[30m[47m[30;24H[[12C][31;18H[46m([18C)[m[30m[47m[36;57H5[31;37H[?25h[?25l[31;18H([18C)[36;57H6,30[32;30H[?25h[?25l[28;37H[46m{[33;5H}[m[30m[47m[36;57H7,6 [33;6H[?25h[?25l[27;8H[46m{[m[30m[47m[28;37H{[33;5H}
+  [46m}[m[30m[47m[36;57H8,4[34;4H[?25h[?25l[22;1H[46m{[m[30m[47m[27;8H{[34;3H}
+[46m}[m[30m[47m[36;57H9,2[35;2H[?25h[?25l[22;1H{[27;8H[46m{[34;3H}[m[30m[47m
+}[36;57H8,4[34;4H[?25h[?25l[27;8H{[28;37H[46m{[33;5H}[m[30m[47m
+  }[36;57H7,6[33;6H[?25h[?25l[28;37H{[33;5H}[36;57H6,30[32;30H[?25h[?25l[31;18H[46m([18C)[m[30m[47m[36;57H5,37[31;37H[?25h[?25l[30;24H[46m[[12C][m[30m[47m[31;18H([18C)[36;57H4[30;37H[?25h[?25l[30;24H[[12C][36;57H3,34[29;34H[?25h[?25l[28;37H[46m{[33;5H}[m[30m[47m[36;57H2,37[28;37H[?25h[?25l[27;8H[46m{[m[30m[47m[28;37H{[33;5H}
+  [46m}[m[30m[47m[36;57H1,9 [27;9H[?25h[?25l[23;18H[46m{[26;3H}[m[30m[47m[27;8H{[34;3H}[36;57H0,4[26;4H[?25h[?25l[23;18H{[26;3H}[36;56H39,18[25;18H[?25h[?25l[24;35H[46m[[1C][m[30m[47m[36;57H8,37[24;37H[?25h[?25l[23;18H[46m{[m[30m[47m[24;35H[[1C]
+
+  [46m}[m[30m[47m[36;57H7,19[23;19H[?25h[?25l[22;1H[46m{[m[30m[47m[23;18H{[26;3H}[35;1H[46m}[m[30m[47m[36;57H6,2 [22;2H[?25h[?25l[21;5H[46m([28C)[m[30m[47m
+{[35;1H}[36;57H5,35[21;35H[?25h[?25lmain([28C)[36;57H4,4 [20;4H[?25h[?25l[36;57H3,1[19;1H[?25h[?25l[36;57H2[18;1H[?25h[?25l[15;1H[46m{
+
+}[m[30m[47m[36;57H1,2[17;2H[?25h[?25l[15;1H{
+
+}[36;57H0,37[16;37H[?25h[?25l[15;1H[46m{
+
+}[m[30m[47m[36;56H29,2 [15;2H[?25h[?25l[14;9H[46m([16C)[m[30m[47m
+{
+
+}[36;57H8,27[14;27H[?25h[?25l[14;9H([16C)[36;57H7,12[13;12H[?25h[?25l[36;57H6,1 [12;1H[?25h[?25l[36;57H7,12[13;12H[?25h[?25l[14;9H[46m([16C)[m[30m[47m[36;57H8,27[14;27H[?25h[?25l[14;9H([16C)
+[46m{
+
+}[m[30m[47m[36;57H9,2 [15;2H[?25h[?25l{
+
+}[36;56H30,37[16;37H[?25h[?25l[15;1H[46m{
+
+}[m[30m[47m[36;57H1,2 [17;2H[?25h[?25l[15;1H{
+
+}[36;57H2,1[18;1H[?25h[?25l[36;57H3[19;1H[?25h[?25l[36;57H4,4[20;4H[?25h[?25l
+main[46m([28C)[m[30m[47m[36;57H5,35[21;35H[?25h[?25lmain([28C)
+[46m{[35;1H}[m[30m[47m[36;57H6,2 [22;2H[?25h[?25l{[23;18H[46m{[26;3H}[m[30m[47m[35;1H}[36;57H7,19[23;19H[?25h[?25l{[24;35H[46m[[1C][m[30m[47m
+
+  }[36;57H8,37[24;37H[?25h[?25l[[1C][36;57H9,18[25;18H[?25h[?25l[23;18H[46m{[26;3H}[m[30m[47m[36;56H40,4 [26;4H[?25h[?25l[23;18H{[26;3H}[27;8H[46m{[34;3H}[m[30m[47m[36;57H1,9[27;9H[?25h[?25l{[28;37H[46m{[33;5H}[m[30m[47m
+  }[36;57H2,37[28;37H[?25h[36;1H[K[28;36H[?25l[36;46H^[[28;36H[36;46H  [28;37H{[33;5H}[36;56H42,36[9CBot[28;36H[?25h[?25l[36;46H:[28;36H[36;46H[K[36;1H:[?2004h[?25hx[?25l[?25h[?25l[?1000l[?2004l"hello.cc" 49L, 1063C written[23;2t[23;1t[22;2t[22;1t[23;2t[23;1t
+[39;49m[?2004l[?1l>[?25h[?1049l[23;0;0tamchugh2@remote06:~/i240b/submit/lab2/2-hello$ make
+g++ -g -Wall -std=c++17    hello.cc   -o hello
+amchugh2@remote06:~/i240b/submit/lab2/2-hello$ ./hello bart lisa
+Hello Bart
+Hello Lisa
+Segmentation fault
+amchugh2@remote06:~/i240b/submit/lab2/2-hello$ cd
+amchugh2@remote06:~$ cd i[Ki24[K[K[K/i24[K[K[K[Ki240b/submit/lab2
+amchugh2@remote06:~/i240b/submit/lab2$ ls
+1-hello  2-hello  3-overload  lab2.LOG	Makefile
+amchugh2@remote06:~/i240b/submit/lab2$ cd h[K3-overload
+amchugh2@remote06:~/i240b/submit/lab2/3-overload$ vim overload.cc
+[?1000h[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;36r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[36;1H"overload.cc" 16L, 282C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[35m#include [m[31m<iostream>[m
+
+[32mint[m f([32mint[m *a) { [33mreturn[m *a * [31m2[m; }
+[32mint[m f([32mint[m a) { [33mreturn[m a + [31m1[m;}
+[32mint[m f([32mint[m a, [32mint[m b) { [33mreturn[m a - b; }
+
+[32mint[m
+main() {
+  [32mint[m a = [31m2[m;
+  [32mint[m b = [31m3[m;
+  std::cout
+    << [31m"f(a) = "[m << f(a)
+    << [31m"; f(&a) = "[m << f(&a)
+    << [31m"; f(a, b) = "[m << f(a, b)
+    << std::endl;
+}
+[1m[34m~                                                                        [18;1H~                                                                        [19;1H~                                                                        [20;1H~                                                                        [21;1H~                                                                        [22;1H~                                                                        [23;1H~                                                                        [24;1H~                                                                        [25;1H~                                                                        [26;1H~                                                                        [27;1H~                                                                        [28;1H~                                                                        [29;1H~                                                                        [30;1H~                                                                        [31;1H~                                                                        [32;1H~                                                                        [33;1H~                                                                        [34;1H~                                                                        [35;1H~                                                                        [m[36;56H1,1[11CAll[1;1H[?25h[?25l[36;46H:[1;1H[36;1H[K[36;1H:[?2004h[?25hx[?25l[?25h[?25l[?1000l[?2004l[23;2t[23;1t[22;2t[22;1t[23;2t[23;1t[36;1H[K[36;1H[?2004l[?1l>[?25h[?1049l[23;0;0tamchugh2@remote06:~/i240b/submit/lab2/3-overload$ make
+g++ -g -Wall -std=c++17    overload.cc   -o overload
+amchugh2@remote06:~/i240b/submit/lab2/3-overload$ ./overload
+f(a) = 3; f(&a) = 4; f(a, b) = -1
+amchugh2@remote06:~/i240b/submit/lab2/3-overload$ gdb
+GNU gdb (Debian 8.2.1-2+b3) 8.2.1
+Copyright (C) 2018 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word".
+(gdb) q
+amchugh2@remote06:~/i240b/submit/lab2/3-overload$ gdb overload
+GNU gdb (Debian 8.2.1-2+b3) 8.2.1
+Copyright (C) 2018 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from overload...done.
+(gdb) b[Kb f
+f(int)       f(int*)      f(int, int)  frame_dummy  
+(gdb) b f(int *)
+Breakpoint 1 at 0x117d: file overload.cc, line 3.
+(gdb) gdb r
+Undefined command: "gdb".  Try "help".
+(gdb) r
+Starting program: /import/linux/home1/amchugh2/projects/i240b/submit/lab2/3-overload/overload 
+
+Breakpoint 1, f (a=0x7fffffffe768) at overload.cc:3
+3	int f(int *a) { return *a * 2; }
+(gdb) p *[Ka
+$1 = (int *) 0x7fffffffe768
+(gdb) p *a
+$2 = 2
+(gdb) p *a=5
+$3 = 5
+(gdb) r
+The program being debugged has been started already.
+Start it from the beginning? (y or n) n
+Program not restarted.
+(gdb) c
+Continuing.
+f(a) = 3; f(&a) = 10; f(a, b) = 2
+[Inferior 1 (process 2308679) exited normally]
+(gdb) q
+amchugh2@remote06:~/i240b/submit/lab2/3-overload$ cd ..
+amchugh2@remote06:~/i240b/submit/lab2$ ls
+1-hello  2-hello  3-overload  lab2.LOG	Makefile
+amchugh2@remote06:~/i240b/submit/lab2$ cd[K[Kcd la[K[K[K[K[Kvim lab2.LOG
+[?1000h[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;36r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[36;1H"lab2.LOG" [noeol] 462L, 49152C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1HScript started on 2020-02-05 21:28:37-05:00 [TERM="xterm" TTY="/dev/pts/22[2;1H" COLUMNS="100" LINES="35"]
+bash: /home/umrigar/cs240/bin/student.rc: Permission denied[34m^M[m
+amchugh2@remote06:~/i240b/submit/lab2$ ls[34m^M[m
+lab2.LOG[34m^M[m
+amchugh2@remote06:~/i240b/submit/lab2$ git pull[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^HH[7;1H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^G^G^G^G^G^G^G^G^G^G^G^G^G^G[mcd [34m^M[m
+amchugh2@remote06:~$ ls[34m^M[m
+amchugh2.circ  cs120lab7  Downloads[7Ci220a.bak  lab2[7Clab8      [10;1H Templates[34m^M[m
+Arduino[8Ccs220      git-repos[7Ci220a_new  lab2final  Music     [12;1H tmp[34m^M[m
+cs120[10Ccs240      git-repos_copy  i220X      lab2good   Pictures  [14;1H toneMelody[34m^M[m
+cs120lab4      Desktop    good[12Ci240b      lab3[7Cprojects  [16;1H Videos[34m^M[m
+cs120lab6      Documents  i220a[11Clab[8Clab5[7CPublic[34m^M[m
+amchugh2@remote06:~$ cd cs240[34m^M[m
+amchugh2@remote06:~/cs240$ git pull[34m^M[m
+/home/amchugh2/.bashrc: line 1: /home/umrigar/cs240/bin/student.rc: Permii[21;1Hssion denied[34m^M[m
+remote: Enumerating objects: 105, done.[34m^[[m[K[34m^M[m
+remote: Counting objects:   0% (1/105)   [34m^[[m[K[34m^M[mremote: Counting objects:  [24;1H  1% (2/105)   [34m^[[m[K[34m^M[mremote: Counting objects:   2% (3/105)   [34m^[[m[K[34m^M[mremott[25;1He: Counting objects:   3% (4/105)   [34m^[[m[K[34m^M[mremote: Counting objects:   4%  [26;1H(5/105)   [34m^[[m[K[34m^M[mremote: Counting objects:   5% (6/105)   [34m^[[m[K[34m^M[mremote: Coo[27;1Hunting objects:   6% (7/105)   [34m^[[m[K[34m^M[mremote: Counting objects:   7% (8/100[28;1H5)   [34m^[[m[K[34m^M[mremote: Counting objects:   8% (9/105)   [34m^[[m[K[34m^M[mremote: Countinn[29;1Hg objects:   9% (10/105)   [34m^[[m[K[34m^M[mremote: Counting objects:  10% (11/105)  [30;1H  [34m^[[m[K[34m^M[mremote: Counting objects:  11% (12/105)   [34m^[[m[K[34m^M[mremote: Counting  [31;1Hobjects:  12% (13/105)   [34m^[[m[K[34m^M[mremote: Counting objects:  13% (14/105)    [32;1H[34m^[[m[K[34m^M[mremote: Counting objects:  14% (15/105)   [34m^[[m[K[34m^M[mremote: Counting obb[33;1Hjects:  15% (16/105)   [34m^[[m[K[34m^M[mremote: Counting objects:  16% (17/105)   [34m^[[[m[34;1H[K[34m^M[mremote: Counting objects:  17% (18/105)   [34m^[[m[K[34m^M[mremote: Counting objee[35;1Hcts:  18% (19/105)   [34m^[[m[K[34m^M[mremote: Counting objects:  19% (20/105)   [34m^[[m[K[35;1H[1m[34m@@@                                                                      [m[36;56H1,1[11CTop[1;1H[?25h[?25l[36;46H:[1;1H[36;1H[K[36;1H:[?2004h[?25hx[?25l[?25h[?25l[?1000l[?2004l[23;2t[23;1t[22;2t[22;1t[23;2t[23;1t[36;1H[K[36;1H[?2004l[?1l>[?25h[?1049l[23;0;0tamchugh2@remote06:~/i240b/submit/lab2$ cd ..
+amchugh2@remote06:~/i240b/submit$ cp -r ![K~/cs[K[Kiw0[K[K240b/submit/lab2/*.LOG
+cp: missing destination file operand after '/home/amchugh2/i240b/submit/lab2/lab2.LOG'
+Try 'cp --help' for more information.
+amchugh2@remote06:~/i240b/submit$ cp -r ~/i240b/submit/lab2/*.LOG[K[K[K[K[K.LOG *
+cp: cannot stat '/home/amchugh2/i240b/submit/lab2/.LOG': No such file or directory
+amchugh2@remote06:~/i240b/submit$ cp -r ~/i240b/submit/lab2/.LOG *[C[C[C[C[C[C[K[K[K[K[K[K([K* [K[K.[K*[K.LOG .
+cp: cannot stat '/home/amchugh2/i240b/submit/lab2/.LOG': No such file or directory
+amchugh2@remote06:~/i240b/submit$ cp -r ~/i240b/submit/lab2/.LOG .[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K*.log[K[K[KLOG .
+amchugh2@remote06:~/i240b/submit$ ls
+lab0  lab1  lab2  lab2.LOG
+amchugh2@remote06:~/i240b/submit$ cd lab2
+amchugh2@remote06:~/i240b/submit/lab2$ exit
+
+Script done on 2020-02-05 21:49:26-05:00 [COMMAND_EXIT_CODE="0"]
