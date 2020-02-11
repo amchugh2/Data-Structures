@@ -1,5 +1,17 @@
-wordcounts: wordcounts.cc
-		gcc -std=c++11 -g -Wall -o wordcounts wordcounts.cc
+TARGET = wordcounts
+
+OFILES = wordcounts.o
+
+CXX = g++
+CFLAGS = -g -Wall -std=c++17
+LDFLAGS =
+
+$(TARGET):	$(OFILES)
+		$(CXX) $(OFILES) $(LDFLAGS) -o $@
 
 clean:
-	$(RM) wordcounts.cc
+		rm -f *~ $(OFILES) $(TARGET)
+
+wordcounts.o:	wordcounts.cc
+
+TARGET:		wordcounts.o wordcounts.cc
