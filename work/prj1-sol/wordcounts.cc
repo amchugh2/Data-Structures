@@ -42,7 +42,17 @@ int main(int argc, char *argv[]){
 		std::cerr << "usage: MAX_N_OUT MIN_WORD_LEN MAX_WORD_LEN FILE...";
 		return EXIT_FAILURE;
 	}
+	// Convert args to ints
+	int MAX_N_OUT = stoi(argv[0]);
+	int MIN_WORD_LEN = stoi(argv[1]);
+	int MAX_WORD_LEN = stoi(argv[2]);
 
+	if((MAX_N_OUT <= 0) |(MIN_WORD_LEN <=0) |(MAX_WORD_LEN <=0) |( MAX_WORD_LEN <= MIN_WORD_LEN)){
+		std::cerr << "Invalid entry. Please enter MAX_N_OUT, MIN_WORD_LEN, MAX_WORD_LEN > 0 and MAX_WORD_LEN greater than MIN_WORD_LEN";
+	}
+}
+
+	/*
 	// Get file
 	static const char *file = "FIXME";
 
@@ -51,6 +61,6 @@ int main(int argc, char *argv[]){
 
 	// Read from file
 	
-
+*/
 
 
