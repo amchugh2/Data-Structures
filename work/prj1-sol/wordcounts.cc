@@ -15,11 +15,10 @@
 // FILE...: Name of file(s) which will be the source of word
 
 typedef unsigned int Count;
-typedef std::pair<std::string, Count> wordCount;
+typedef std::pair<std::string, Count> WordCount;
 
-
-bool sort_words(wordCount &a, wordCount &b){
-	return (a.Count < b.Count);
+bool wordCountCompare(const WordCount &a, const WordCount &b){
+	return (a.second < b.second);
 }
 int main(int argc, char *argv[]){
 	// Check for correct number of args
@@ -27,8 +26,8 @@ int main(int argc, char *argv[]){
 		std::cerr << "usage: MAX_N_OUT MIN_WORD_LEN MAX_WORD_LEN FILE...\n";
 		return EXIT_FAILURE;
 	}
+
 	// Convert args to ints
-	
 	int MAX_N_OUT = std::stoi(argv[1]);
 	int MIN_WORD_LEN = std::stoi(argv[2]);
 	int MAX_WORD_LEN = std::stoi(argv[3]);
@@ -47,9 +46,11 @@ int main(int argc, char *argv[]){
 	// Convert arg to readable file
 	std::ifstream in("test.txt");
 
+	typedef unsigned int Count;
 	// Create map to read words to
 	std::unordered_map<std::string, Count> map;
-	int total_words = 0;
+
+	// Create map
 
 	while(in.good()){
 		std::string w;
@@ -58,17 +59,22 @@ int main(int argc, char *argv[]){
 		transform(w.begin(),w.end(),w.begin(), ::tolower);
 		// remove nonalphabetic characters
 		w.erase(remove_if(w.begin(),w.end(), [](char c) { return !isalpha(c); } ), w.end());
-		total_words +=1;
 
 		// check if word meets requirements
 		if((w.length() >= MIN_WORD_LEN) && (w.length() <= MAX_WORD_LEN)){
 			Count& count = map[w];
-			wordCount::Count += 1;
-			std::cout << w << std::endl;
+			count += 1;
 		}
 	}
+	
+	//typedef std::pair<std::string, Count> wordCount;
+	auto wordCounts = std::vector<WordCount>(map.begin(), map.end());
+	sort(wordCounts.begin(), wordCounts.end(), wordCountCompare);
 
-	auto word_counts = std::vector<wordCount>(map.begin(), map.end());
+	// Print up to N_WORDS_OUT
+	for(int i = 0; i >= MAX_N_OUT; i++){
+		std::cout << wordCounts[i].first << ": " << wordCounts[i].second << std::endl;
+	}
 
 	if(!in.eof()){
 		std::cerr << "Error\n";
