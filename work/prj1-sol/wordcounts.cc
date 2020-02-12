@@ -18,8 +18,14 @@ typedef unsigned int Count;
 typedef std::pair<std::string, Count> WordCount;
 
 bool wordCountCompare(const WordCount &a, const WordCount &b){
-	return (a.second < b.second);
+	// if occurances are same return the word that is lexographically first
+	if(a.second == b.second){
+		return a.first < a.first;
+	}
+	// normal
+	else return a.second < b.second;
 }
+
 int main(int argc, char *argv[]){
 	// Check for correct number of args
 	if(argc < 4){
@@ -32,9 +38,8 @@ int main(int argc, char *argv[]){
 	int MIN_WORD_LEN = std::stoi(argv[2]);
 	int MAX_WORD_LEN = std::stoi(argv[3]);
 	
-
 	// Verify args are ints
-	if((!isdigit(MAX_N_OUT)) || (!isdigit(MIN_WORD_LEN)) || (!isdigit(MAX_WORD_LEN))){
+	if((isdigit(MAX_N_OUT) != 0) || (isdigit(MIN_WORD_LEN) != 0) || (isdigit(MAX_WORD_LEN) != 0)){
 		std::cerr << "Invalid entry. Please enter Integer values for MAX_N_OUT, MIN_WORD_LEN, MAX_WORD_LEN\n";
 	}	
 	
@@ -51,7 +56,6 @@ int main(int argc, char *argv[]){
 	std::unordered_map<std::string, Count> map;
 
 	// Create map
-
 	while(in.good()){
 		std::string w;
 		in >> w;
@@ -62,18 +66,23 @@ int main(int argc, char *argv[]){
 
 		// check if word meets requirements
 		if((w.length() >= MIN_WORD_LEN) && (w.length() <= MAX_WORD_LEN)){
-			Count& count = map[w];
-			count += 1;
-		}
+			auto it = map.find(w);
+			if(it != map.end()){ // have not seen word before
+				Count& count = map[w];
+				count = 1;
+			}
+			else{ // increment
+				map[w] = map[w] + 1;
+			}
+	}
 	}
 	
 	//typedef std::pair<std::string, Count> wordCount;
 	auto wordCounts = std::vector<WordCount>(map.begin(), map.end());
 	sort(wordCounts.begin(), wordCounts.end(), wordCountCompare);
 
-	// Print up to N_WORDS_OUT
-	for(int i = 0; i >= MAX_N_OUT; i++){
-		std::cout << wordCounts[i].first << ": " << wordCounts[i].second << std::endl;
+	for(int j = 0; j < MAX_N_OUT; j++){
+		std::cout << wordCounts[j].first << ": " << wordCounts[j].second << std::endl;
 	}
 
 	if(!in.eof()){
