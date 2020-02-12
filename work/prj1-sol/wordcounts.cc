@@ -17,12 +17,10 @@
 typedef unsigned int Count;
 typedef std::pair<std::string, Count> wordCount;
 
-/*
-bool sort_words(wordCount &a, wordCount &b){
-	return a.Count < b.Count;
-}
-*/
 
+bool sort_words(wordCount &a, wordCount &b){
+	return (a.Count < b.Count);
+}
 int main(int argc, char *argv[]){
 	// Check for correct number of args
 	if(argc < 4){
@@ -65,7 +63,7 @@ int main(int argc, char *argv[]){
 		// check if word meets requirements
 		if((w.length() >= MIN_WORD_LEN) && (w.length() <= MAX_WORD_LEN)){
 			Count& count = map[w];
-			Count += 1;
+			wordCount::Count += 1;
 			std::cout << w << std::endl;
 		}
 	}
