@@ -73,7 +73,8 @@ int main(int argc, char *argv[]){
 				count = 1;
 			}
 			else{ //increment
-				map[w] = map[w] + 1;
+				std::cout << w + "appears more than once" << std::endl;
+				//map[w].Count+=1;	
 			}
 		}
 	}
