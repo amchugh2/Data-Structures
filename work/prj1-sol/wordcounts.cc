@@ -66,15 +66,16 @@ int main(int argc, char *argv[]){
 
 		// check if word meets requirements
 		if((w.length() >= MIN_WORD_LEN) && (w.length() <= MAX_WORD_LEN)){
-			auto it = map.find(w);
-			if(it != map.end()){ // have not seen word before
+			//std::unordered_map<std::string,Count>::const_iterator it = map.find(w);
+			if(map.find(w) == map.end()){ //have not seen word before
+				std::cout << w + ": not present" << std::endl;
 				Count& count = map[w];
 				count = 1;
 			}
-			else{ // increment
+			else{ //increment
 				map[w] = map[w] + 1;
 			}
-	}
+		}
 	}
 	
 	//typedef std::pair<std::string, Count> wordCount;
