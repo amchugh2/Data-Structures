@@ -20,12 +20,12 @@ typedef std::pair<std::string, Count> WordCount;
 bool wordCountCompare(const WordCount &a, const WordCount &b){
 	// if occurances are same return the word that is lexographically first
 	if(a.second == b.second){
-		return a.first > a.first;
+		return a.first < b.first;
 	}
-	// normal
-	else return a.second > b.second;
+	else{
+	       	return a.second > b.second;
+	}
 }
-
 int main(int argc, char *argv[]){
 	// Check for correct number of args
 	if(argc < 4){
@@ -41,13 +41,13 @@ int main(int argc, char *argv[]){
 	// Verify args are ints
 	if((isdigit(MAX_N_OUT) != 0) || (isdigit(MIN_WORD_LEN) != 0) || (isdigit(MAX_WORD_LEN) != 0)){
 		std::cerr << "Invalid entry. Please enter Integer values for MAX_N_OUT, MIN_WORD_LEN, MAX_WORD_LEN\n";
-	return -1;
+	return EXIT_FAILURE;
 	}	
 	
 	// Verify arguments are correct
 	if((MAX_N_OUT <= 0) |(MIN_WORD_LEN <=0) |(MAX_WORD_LEN <=0) |( MAX_WORD_LEN <= MIN_WORD_LEN)){
 		std::cerr << "Invalid entry. Please enter MAX_N_OUT, MIN_WORD_LEN, MAX_WORD_LEN > 0 and MAX_WORD_LEN greater than MIN_WORD_LEN\n";
-	return -1;
+	return EXIT_FAILURE;
 	}
 	
 	// Convert arg to readable file
@@ -88,10 +88,10 @@ int main(int argc, char *argv[]){
 	
 	if(map.size() < MAX_N_OUT){
 		std::cerr << "Please enter a MAX_N_OUT that is smaller than the number of different words in the text file" << std::endl;
-	return -1;
+	return EXIT_FAILURE;
 	}
 	for(int j = 0; j < MAX_N_OUT; j++){
-		std::cout << wordCounts[j].first << ": " << wordCounts[j].second << std::endl;
+		std::cout << wordCounts[j].first << ":  " << wordCounts[j].second << std::endl;
 	}
 	//std::cout << "end of for loop" << std::endl;
 
