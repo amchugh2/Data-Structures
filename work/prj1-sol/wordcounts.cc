@@ -20,10 +20,10 @@ typedef std::pair<std::string, Count> WordCount;
 bool wordCountCompare(const WordCount &a, const WordCount &b){
 	// if occurances are same return the word that is lexographically first
 	if(a.second == b.second){
-		return a.first < a.first;
+		return a.first > a.first;
 	}
 	// normal
-	else return a.second < b.second;
+	else return a.second > b.second;
 }
 
 int main(int argc, char *argv[]){
@@ -41,15 +41,17 @@ int main(int argc, char *argv[]){
 	// Verify args are ints
 	if((isdigit(MAX_N_OUT) != 0) || (isdigit(MIN_WORD_LEN) != 0) || (isdigit(MAX_WORD_LEN) != 0)){
 		std::cerr << "Invalid entry. Please enter Integer values for MAX_N_OUT, MIN_WORD_LEN, MAX_WORD_LEN\n";
+	return -1;
 	}	
 	
 	// Verify arguments are correct
 	if((MAX_N_OUT <= 0) |(MIN_WORD_LEN <=0) |(MAX_WORD_LEN <=0) |( MAX_WORD_LEN <= MIN_WORD_LEN)){
 		std::cerr << "Invalid entry. Please enter MAX_N_OUT, MIN_WORD_LEN, MAX_WORD_LEN > 0 and MAX_WORD_LEN greater than MIN_WORD_LEN\n";
+	return -1;
 	}
 	
 	// Convert arg to readable file
-	std::ifstream in("test.txt");
+	std::ifstream in(argv[4]);
 
 	typedef unsigned int Count;
 	// Create map to read words to
@@ -57,35 +59,41 @@ int main(int argc, char *argv[]){
 
 	// Create map
 	while(in.good()){
+		//std::cout << "here\n";
 		std::string w;
 		in >> w;
-		// make word lowercase
+		//std::cout << w << std::endl;
 		transform(w.begin(),w.end(),w.begin(), ::tolower);
 		// remove nonalphabetic characters
 		w.erase(remove_if(w.begin(),w.end(), [](char c) { return !isalpha(c); } ), w.end());
-
+		//std::cout << "here 3\n";
 		// check if word meets requirements
 		if((w.length() >= MIN_WORD_LEN) && (w.length() <= MAX_WORD_LEN)){
-			//std::unordered_map<std::string,Count>::const_iterator it = map.find(w);
-			if(map.find(w) == map.end()){ //have not seen word before
-				std::cout << w + ": not present" << std::endl;
-				Count& count = map[w];
-				count = 1;
+			if(map.count(w) == 0){
+				//std::cout << map[w] << std::endl;	
+				Count &count = map[w];
+				count +=1;
 			}
-			else{ //increment
-				std::cout << w + "appears more than once" << std::endl;
-				//map[w].Count+=1;	
+			else{
+				//std::cout << "before increment:" << map[w] << std::endl;
+				map[w]+=1;
+				//std::cout << "after increment: " << map[w] << std::endl;
 			}
 		}
+
 	}
 	
-	//typedef std::pair<std::string, Count> wordCount;
 	auto wordCounts = std::vector<WordCount>(map.begin(), map.end());
 	sort(wordCounts.begin(), wordCounts.end(), wordCountCompare);
-
+	
+	if(map.size() < MAX_N_OUT){
+		std::cerr << "Please enter a MAX_N_OUT that is smaller than the number of different words in the text file" << std::endl;
+	return -1;
+	}
 	for(int j = 0; j < MAX_N_OUT; j++){
 		std::cout << wordCounts[j].first << ": " << wordCounts[j].second << std::endl;
 	}
+	//std::cout << "end of for loop" << std::endl;
 
 	if(!in.eof()){
 		std::cerr << "Error\n";
