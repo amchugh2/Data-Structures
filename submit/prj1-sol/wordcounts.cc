@@ -37,27 +37,46 @@ int main(int argc, char *argv[]){
 	int MAX_N_OUT = std::stoi(argv[1]);
 	int MIN_WORD_LEN = std::stoi(argv[2]);
 	int MAX_WORD_LEN = std::stoi(argv[3]);
-	
-	// Verify args are ints
-	if((isdigit(MAX_N_OUT) != 0) || (isdigit(MIN_WORD_LEN) != 0) || (isdigit(MAX_WORD_LEN) != 0)){
-		std::cerr << "Invalid entry. Please enter Integer values for MAX_N_OUT, MIN_WORD_LEN, MAX_WORD_LEN\n";
-	return EXIT_FAILURE;
-	}	
-	
+
 	// Verify arguments are correct
-	if((MAX_N_OUT <= 0) |(MIN_WORD_LEN <=0) |(MAX_WORD_LEN <=0) |( MAX_WORD_LEN <= MIN_WORD_LEN)){
-		std::cerr << "Invalid entry. Please enter MAX_N_OUT, MIN_WORD_LEN, MAX_WORD_LEN > 0 and MAX_WORD_LEN greater than MIN_WORD_LEN\n";
-	return EXIT_FAILURE;
+	char *end1;
+	char *end2;
+	char *end3;
+	int correct_input1 = strtol(argv[1], &end1, 10);
+	int correct_input2 = strtol(argv[2], &end2, 10);
+	int correct_input3 = strtol(argv[3], &end3, 10);
+
+	if(*end1 != '\0'){
+		std::cerr << "bad integer value \"" << argv[1] << "\" for MAX_N_OUT" << std::endl;
+		return EXIT_FAILURE;
 	}
-	
+	if(*end2 != '\0'){
+		std::cerr << "bad integer value \"" << argv[2] << "\" for MIN_WORD_LEN" << std::endl;
+		return EXIT_FAILURE;
+	}
+	if(*end3 != '\0'){
+		std::cerr << "bad integer value \"" << argv[3] << "\" for MAX_WORD_LEN" << std::endl;
+		return EXIT_FAILURE;
+	}
+
+	if(MAX_WORD_LEN < MIN_WORD_LEN){
+		std::cerr << "MIN_WORD_LEN " << MIN_WORD_LEN << " is greater than MAX_WORD_LEN " << MAX_WORD_LEN << std::endl;
+		return EXIT_FAILURE;
+	}
+		
 	// Convert arg to readable file
 	std::ifstream in(argv[4]);
 
 	typedef unsigned int Count;
 	// Create map to read words to
 	std::unordered_map<std::string, Count> map;
-
 	// Create map
+	if(!in.good()){
+		std::cerr << "cannot read " << argv[4] << ":" << std::endl;
+		std::cerr << "\tno such file or directory" << std::endl;
+		return EXIT_FAILURE;
+	}
+	
 	while(in.good()){
 		//std::cout << "here\n";
 		std::string w;
@@ -66,34 +85,29 @@ int main(int argc, char *argv[]){
 		transform(w.begin(),w.end(),w.begin(), ::tolower);
 		// remove nonalphabetic characters
 		w.erase(remove_if(w.begin(),w.end(), [](char c) { return !isalpha(c); } ), w.end());
-		//std::cout << "here 3\n";
 		// check if word meets requirements
 		if((w.length() >= MIN_WORD_LEN) && (w.length() <= MAX_WORD_LEN)){
 			if(map.count(w) == 0){
-				//std::cout << map[w] << std::endl;	
 				Count &count = map[w];
 				count +=1;
 			}
 			else{
-				//std::cout << "before increment:" << map[w] << std::endl;
 				map[w]+=1;
-				//std::cout << "after increment: " << map[w] << std::endl;
 			}
-		}
-
+			}
 	}
 	
 	auto wordCounts = std::vector<WordCount>(map.begin(), map.end());
 	sort(wordCounts.begin(), wordCounts.end(), wordCountCompare);
+
+	int output = MAX_N_OUT;
+	if(MAX_N_OUT > map.size()){
+		output = map.size();
+	}
 	
-	if(map.size() < MAX_N_OUT){
-		std::cerr << "Please enter a MAX_N_OUT that is smaller than the number of unique words in the text file" << std::endl;
-		return EXIT_FAILURE;
+	for(int i = 0; i < output; i++){
+		std::cout << wordCounts[i].first << ":  " << wordCounts[i].second << std::endl;
 	}
-	for(int j = 0; j < MAX_N_OUT; j++){
-		std::cout << wordCounts[j].first << ":  " << wordCounts[j].second << std::endl;
-	}
-	//std::cout << "end of for loop" << std::endl;
 
 	if(!in.eof()){
 		std::cerr << "Error\n";
