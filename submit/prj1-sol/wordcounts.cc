@@ -87,8 +87,8 @@ int main(int argc, char *argv[]){
 	sort(wordCounts.begin(), wordCounts.end(), wordCountCompare);
 	
 	if(map.size() < MAX_N_OUT){
-		std::cerr << "Please enter a MAX_N_OUT that is smaller than the number of different words in the text file" << std::endl;
-	return EXIT_FAILURE;
+		std::cerr << "Please enter a MAX_N_OUT that is smaller than the number of unique words in the text file" << std::endl;
+		return EXIT_FAILURE;
 	}
 	for(int j = 0; j < MAX_N_OUT; j++){
 		std::cout << wordCounts[j].first << ":  " << wordCounts[j].second << std::endl;
