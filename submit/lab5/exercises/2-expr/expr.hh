@@ -3,13 +3,16 @@
 
 #include "tostring.hh"
 
+#include <sstream>
 #include <memory>
+#include <iostream>
 #include <string>
 
 
 class Expr : public ToString {
 public:
   virtual int eval() const = 0;
+  virtual std::string dcCode() = 0;
 };
 
 //ExprPtr is an alias for a smart shared ptr to an Expr.
@@ -29,9 +32,10 @@ public:
   }
 
   std::string dcCode(){
-    return std::to_string(value);
+     std::stringstream s;
+     s<<value;
+     return s.str();
   }
-
   
   std::string toString() const;
 
@@ -59,16 +63,18 @@ public:
     return std::make_shared<AddExpr>(left, right, Private::TAG);
   }
 
+  std::string dcCode(){
+     std::stringstream s;
+     s << left->dcCode() << " " << right->dcCode() << " +";
+     return s.str();
+  }
+
   std::string toString() const;
 
   //use Private to ensure this constructor cannot be called from outside
   //this class even though it is public
   AddExpr(ExprPtr& left, ExprPtr& right, Private x) :
     left(left), right(right) {
-  }
-
-  std::string dcCode(){
-     return std::to_string(value);
   }
 
   int eval() const { return left->eval() + right->eval(); }
@@ -86,6 +92,12 @@ public:
   /** Factory function */
   static ExprPtr make(ExprPtr left, ExprPtr right) {
     return std::make_shared<SubExpr>(left, right, Private::TAG);
+  }
+
+  std::string dcCode(){
+     std::stringstream s;
+     s << left->dcCode() << " " << right->dcCode() << " -";
+     return s.str();
   }
 
   std::string toString() const;
@@ -113,6 +125,12 @@ public:
     return std::make_shared<MulExpr>(left, right, Private::TAG);
   }
 
+  std::string dcCode(){
+     std::stringstream s;
+     s << left->dcCode() << " " << right->dcCode() << " *";
+     return s.str();
+  }
+
   std::string toString() const;
 
   //use Private to ensure this constructor cannot be called from outside
@@ -135,6 +153,12 @@ public:
   /** Factory function */
   static ExprPtr make(ExprPtr left, ExprPtr right) {
     return std::make_shared<DivExpr>(left, right, Private::TAG);
+  }
+
+  std::string dcCode(){
+     std::stringstream s;
+     s << left->dcCode() << " " << right->dcCode() << " /";
+     return s.str();
   }
 
   std::string toString() const;
