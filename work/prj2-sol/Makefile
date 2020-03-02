@@ -1,6 +1,6 @@
-TARGET = seq-test
+TARGET = seq-test nums
 
-OFILES = seq-test.o command.o nums.o
+OFILES = seq-test.o nums.o
 
 CXX = g++
 CFLAGS = -g -Wall -std=c++17
@@ -8,15 +8,13 @@ CFLAGS = -g -Wall -std=c++17
 LDFLAGS =
 
 $(TARGET):	$(OFILES)
-		$(CXX) $(OFILES) $(LDFLGAGS) -o $@
+		$(CXX) $(OFILES) $(LDFLAGS) -o $@
 
 clean:
-		rm -f *~ $(OFILES) $(TARGET)
+	rm -f *~ $(OFILES) $(TARGET)
 
 seq-test.o:	seq-test.cc
 
-command.o:	command.cc
-
 nums.o:		nums.cc
 
-TARGET:		seq-test.o seq-test.cc
+TARGET:		seq-test.o nums.o

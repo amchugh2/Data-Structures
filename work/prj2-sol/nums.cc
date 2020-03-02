@@ -1,8 +1,10 @@
 #include <iostream>
 #include <cstring>
 #include <istream>
+#include <fstream>
+#include "arrayseq.hh"
 
-void main(int argc, char *argv[]){
+int main(int argc, char *argv[]){
 	// Error checking
 	if(argc < 2){
 		std::cerr << "usage: ./nums [-a] INTS_FILE_PATH\n";
@@ -16,24 +18,18 @@ void main(int argc, char *argv[]){
 
 	std::ifstream in(argv[2]);
 	
-	if(!in.good(){
+	if(!in.good()){
 		std::cerr << "cannot read " << argv[2] << ": No such file or directory\n";
 	}
 	
-	using TestType = int;
+	using TestType = unsigned int;
 	int i;
 	// Create seq test type
 	Seq<TestType> seq;
 	
 	while(in.good()){
 		in >> i;
-		
-
-
-       	
-
-
+	}
 }
-
 
 
