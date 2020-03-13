@@ -2,34 +2,45 @@
 #include <cstring>
 #include <istream>
 #include <fstream>
-#include "arrayseq.hh"
+#include "seq.hh"
+
+using namespace std;
+
+class Nums : public Seq {
+	void read_args(char *file){
+		string i;
+		if(argv[0] == "-a"){
+			ifstream in(argv[1]);
+		}
+		else{
+			ifstream in(argv[0]);
+		}
+		in >> i;
+		cout << i << endl;
+	}
+
+};
 
 int main(int argc, char *argv[]){
 	// Error checking
 	if(argc < 2){
-		std::cerr << "usage: ./nums [-a] INTS_FILE_PATH\n";
+		cerr << "usage: ./nums [-a] INTS_FILE_PATH\n";
 		return EXIT_FAILURE;
 	}
-
+	
 	if(argv[1] != "-a"){
-		std::cerr << "Option can only be [-a]\n";
+		cerr << "Option can only be [-a]\n";
 		return EXIT_FAILURE;
 	}
-
-	std::ifstream in(argv[2]);
 	
 	if(!in.good()){
-		std::cerr << "cannot read " << argv[2] << ": No such file or directory\n";
+		cerr << "cannot read " << argv[2] << ": No such file or directory\n";
 	}
 	
 	using TestType = unsigned int;
 	int i;
 	// Create seq test type
-	Seq<TestType> seq;
 	
-	while(in.good()){
-		in >> i;
-	}
 }
 
 
