@@ -1,0 +1,915 @@
+Script started on 2020-03-12 20:31:09-04:00 [TERM="xterm" TTY="/dev/pts/5" COLUMNS="73" LINES="36"]
+bash: /home/umrigar/cs240/bin/student.rc: Permission denied
+amchugh2@remote02:~/i240b/submit/lab6$ ls
+4-quoting  dir	lab6.LOG  t1.c	T1.s  v1.s  v.c  x.c
+amchugh2@remote02:~/i240b/submit/lab6$ mkdir dir
+mkdir: cannot create directory ‘dir’: File exists
+amchugh2@remote02:~/i240b/submit/lab6$ touch 1[Kt1.c[K[K[K[K[K[K[K[K[K[Kls
+4-quoting  dir	lab6.LOG  t1.c	T1.s  v1.s  v.c  x.c
+amchugh2@remote02:~/i240b/submit/lab6$ ls -l
+total 0
+drwxr-x--- 2 amchugh2 amchugh2 135 Mar 12 19:00 4-quoting
+drwxr-x--- 2 amchugh2 amchugh2 114 Mar 12 19:03 dir
+-rw-r----- 1 amchugh2 amchugh2   0 Mar 12 19:02 lab6.LOG
+-rw-r----- 1 amchugh2 amchugh2   0 Mar 12 19:03 t1.c
+-rw-r----- 1 amchugh2 amchugh2   0 Mar 12 19:03 T1.s
+-rw-r----- 1 amchugh2 amchugh2   0 Mar 12 19:03 v1.s
+-rw-r----- 1 amchugh2 amchugh2   0 Mar 12 19:03 v.c
+-rw-r----- 1 amchugh2 amchugh2   0 Mar 12 19:03 x.c
+amchugh2@remote02:~/i240b/submit/lab6$ l[Kls -1 dir
+t1.c
+T1.s
+t2.c
+T2.s1
+v1.s
+v.c
+x.c
+amchugh2@remote02:~/i240b/submit/lab6$ ls -l [K dir
+total 0
+-rw-r----- 1 amchugh2 amchugh2 0 Mar 12 19:02 t1.c
+-rw-r----- 1 amchugh2 amchugh2 0 Mar 12 19:02 T1.s
+-rw-r----- 1 amchugh2 amchugh2 0 Mar 12 19:03 t2.c
+-rw-r----- 1 amchugh2 amchugh2 0 Mar 12 19:03 T2.s1
+-rw-r----- 1 amchugh2 amchugh2 0 Mar 12 19:02 v1.s
+-rw-r----- 1 amchugh2 amchugh2 0 Mar 12 19:02 v.c
+-rw-r----- 1 amchugh2 amchugh2 0 Mar 12 19:02 x.c
+amchugh2@remote02:~/i240b/submit/lab6$ ls -1 -l dir
+total 0
+-rw-r----- 1 amchugh2 amchugh2 0 Mar 12 19:02 t1.c
+-rw-r----- 1 amchugh2 amchugh2 0 Mar 12 19:02 T1.s
+-rw-r----- 1 amchugh2 amchugh2 0 Mar 12 19:03 t2.c
+-rw-r----- 1 amchugh2 amchugh2 0 Mar 12 19:03 T2.s1
+-rw-r----- 1 amchugh2 amchugh2 0 Mar 12 19:02 v1.s
+-rw-r----- 1 amchugh2 amchugh2 0 Mar 12 19:02 v.c
+-rw-r----- 1 amchugh2 amchugh2 0 Mar 12 19:02 x.c
+amchugh2@remote02:~/i240b/submit/lab6$ di[K[Kdir[K[K[Kls -t
+dir  v1.s  x.c	v.c  T1.s  t1.c  lab6.LOG  4-quoting
+amchugh2@remote02:~/i240b/submit/lab6$ -[Kls -1 lt[K[K-t
+dir
+v1.s
+x.c
+v.c
+T1.s
+t1.c
+lab6.LOG
+4-quoting
+amchugh2@remote02:~/i240b/submit/lab6$ ls T*
+T1.s
+amchugh2@remote02:~/i240b/submit/lab6$ ls dir/*.c[K?
+dir/t1.c  dir/T1.s  dir/t2.c  dir/v1.s	dir/v.c  dir/x.c
+amchugh2@remote02:~/i240b/submit/lab6$ ls [t-v]*>[K.c
+t1.c  v.c
+amchugh2@remote02:~/i240b/submit/lab6$ ls [t-v[K[K[K[K2[-[Kr-c]
+ls: cannot access '2[r-c]': No such file or directory
+amchugh2@remote02:~/i240b/submit/lab6$ ls 2[r-c]*
+ls: cannot access '2[r-c]*': No such file or directory
+amchugh2@remote02:~/i240b/submit/lab6$ ls 2[r-c]*[C[1P[r-c]*[C[C[C[C[1P]*[1P]*[1P]*p]*=]*[1P]*-]*s]*
+ls: cannot access '[p-s]*': No such file or directory
+amchugh2@remote02:~/i240b/submit/lab6$ ls [p-s]*.c
+ls: cannot access '[p-s]*.c': No such file or directory
+amchugh2@remote02:~/i240b/submit/lab6$ ls [t-v]*.c
+t1.c  v.c
+amchugh2@remote02:~/i240b/submit/lab6$ ls [t-v]*.c[1P]*.c[1P]*.c[1P]*.cr]*.c-]*.cc]*.c
+ls: cannot access '[r-c]*.c': No such file or directory
+amchugh2@remote02:~/i240b/submit/lab6$ ls [r-c]*.c[1P]*.c[1P]*.c[1P]*.cp]*.c-]*.cs]*.c
+ls: cannot access '[p-s]*.c': No such file or directory
+amchugh2@remote02:~/i240b/submit/lab6$ ls [p-s]*.c2[p-s]*.c
+ls: cannot access '2[p-s]*.c': No such file or directory
+amchugh2@remote02:~/i240b/submit/lab6$ ls dir/*[K?[p-s]?[K.[K*.?
+ls: cannot access 'dir/?[p-s]*.?': No such file or directory
+amchugh2@remote02:~/i240b/submit/lab6$ ls dir/?[p-s]*.?[C[C[C[C[C[C[C[C[K[K[K
+ls: cannot access 'dir/?[p-s]': No such file or directory
+amchugh2@remote02:~/i240b/submit/lab6$ ls dir/?[p-s][Kls -d [K[K[K[p[K[K?[p-s]*
+ls: cannot access '?[p-s]*': No such file or directory
+amchugh2@remote02:~/i240b/submit/lab6$ ls ?[p-s]*dir/?[p-s]ls [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kls bin [K [K/?[p-s]*
+ls: cannot access 'bin/?[p-s]*': No such file or directory
+amchugh2@remote02:~/i240b/submit/lab6$ ls bin/?[p-s]*/bin/?[p-s]*
+/bin/cp    /bin/grep  /bin/lsblk   /bin/ps    /bin/ypdomainname
+/bin/cpio  /bin/ip    /bin/lsmod   /bin/ss    /bin/zsh
+/bin/csh   /bin/ls    /bin/openvt  /bin/true  /bin/zsh5
+amchugh2@remote02:~/i240b/submit/lab6$ ls /bin/?[p-s]*[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[Ketc/*[r-c]
+ls: cannot access '/etc/*[r-c]': No such file or directory
+amchugh2@remote02:~/i240b/submit/lab6$ ls /etc/*[r-c]
+ls: cannot access '/etc/*[r-c]': No such file or directory
+amchugh2@remote02:~/i240b/submit/lab6$ ls /etc/*[r-c][K[K[K[K[K[K[K[K[K[K[K[K[K[Kls /bin/???
+/bin/cat  /bin/dir  /bin/red  /bin/tar
+/bin/csh  /bin/pwd  /bin/sed  /bin/zsh
+amchugh2@remote02:~/i240b/submit/lab6$ ls /bin[/[K[K/[?]*rc
+ls: cannot access '/bin/[?]*rc': No such file or directory
+amchugh2@remote02:~/i240b/submit/lab6$ ls /bin/[?]*rc[K[K[Krc
+ls: cannot access '/bin/[?]rc': No such file or directory
+amchugh2@remote02:~/i240b/submit/lab6$ ls /bin/[?]rc[K[K[K[K[K??rc
+ls: cannot access '/bin/??rc': No such file or directory
+amchugh2@remote02:~/i240b/submit/lab6$ ls /bin/??rc[K[K[Krc
+ls: cannot access '/bin/?rc': No such file or directory
+amchugh2@remote02:~/i240b/submit/lab6$ ls /bin/?rc[C[C[C[C=[K[K[K[K[K[K[K[Ketc/*rc
+/etc/bash.bashrc       /etc/inputrc	  /etc/pbuilderrc
+/etc/chktexrc	       /etc/lintianrc	  /etc/quilt.quiltrc
+/etc/csh.cshrc	       /etc/mail.rc	  /etc/sbclrc
+/etc/gnashpluginrc     /etc/matplotlibrc  /etc/screenrc
+/etc/gnashrc	       /etc/Muttrc	  /etc/slsh.rc
+/etc/gnashthumbnailrc  /etc/nanorc	  /etc/wgetrc
+amchugh2@remote02:~/i240b/submit/lab6$ ls >[K>ls.log
+amchugh2@remote02:~/i240b/submit/lab6$ cat ls.log
+4-quoting
+dir
+lab6.LOG
+ls.log
+t1.c
+T1.s
+v1.s
+v.c
+x.c
+amchugh2@remote02:~/i240b/submit/lab6$ cat <[K>cat.log
+kjdfsdfds
+ksdlfjsfdlkj
+amchugh2@remote02:~/i240b/submit/lab6$ cat cat.log
+kjdfsdfds
+ksdlfjsfdlkj
+amchugh2@remote02:~/i240b/submit/lab6$ ls dir >> ls.log
+amchugh2@remote02:~/i240b/submit/lab6$ cat ls.log
+4-quoting
+dir
+lab6.LOG
+ls.log
+t1.c
+T1.s
+v1.s
+v.c
+x.c
+t1.c
+T1.s
+t2.c
+T2.s1
+v1.s
+v.c
+x.c
+amchugh2@remote02:~/i240b/submit/lab6$ cat <s[Kls.log
+4-quoting
+dir
+lab6.LOG
+ls.log
+t1.c
+T1.s
+v1.s
+v.c
+x.c
+t1.c
+T1.s
+t2.c
+T2.s1
+v1.s
+v.c
+x.c
+amchugh2@remote02:~/i240b/submit/lab6$ wc -l
+
+
+2
+amchugh2@remote02:~/i240b/submit/lab6$ wc -l[K[K[K[K[Kcat <wc -l
+bash: wc: No such file or directory
+amchugh2@remote02:~/i240b/submit/lab6$ cat[K[K[K???? >3.log
+bash: t1.c: command not found
+amchugh2@remote02:~/i240b/submit/lab6$ ???? >3.log[1@[[C[C[C[C] >3.log
+bash: [????]: command not found
+amchugh2@remote02:~/i240b/submit/lab6$ ls /bin/???? > 3.[K[K[K3.log
+amchugh2@remote02:~/i240b/submit/lab6$ cat l[K3.log
+/bin/bash
+/bin/chvt
+/bin/cpio
+/bin/dash
+/bin/date
+/bin/echo
+/bin/grep
+/bin/gzip
+/bin/kill
+/bin/kmod
+/bin/more
+/bin/nano
+/bin/ping
+/bin/rzsh
+/bin/stty
+/bin/sync
+/bin/tcsh
+/bin/true
+/bin/vdir
+/bin/zcat
+/bin/zcmp
+/bin/znew
+/bin/zsh5
+amchugh2@remote02:~/i240b/submit/lab6$ ls .[K/bin.[K/c* >3[K4.log
+amchugh2@remote02:~/i240b/submit/lab6$ ls /bin/c* [K>bin-c.log
+amchugh2@remote02:~/i240b/submit/lab6$ ls -l binc[K-c.log
+-rw-r----- 1 amchugh2 amchugh2 90 Mar 12 21:25 bin-c.log
+amchugh2@remote02:~/i240b/submit/lab6$ man tr
+[?1049h[22;0;0t[?1h=TR(1)                        User Commands                        TR(1)[m
+[m
+[1mNAME[0m[m
+       tr - translate or delete characters[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mtr[0m [[4mOPTION[24m]... [4mSET1[24m [[4mSET2[24m][m
+[m
+[1mDESCRIPTION[0m[m
+       Translate,  squeeze,  and/or delete characters from standard in‐[m
+       put, writing to standard output.[m
+[m
+       [1m-c[0m, [1m-C[0m, [1m--complement[0m[m
+              use the complement of SET1[m
+[m
+       [1m-d[0m, [1m--delete[0m[m
+              delete characters in SET1, do not translate[m
+[m
+       [1m-s[0m, [1m--squeeze-repeats[0m[m
+              replace each sequence of a  repeated  character  that  is[m
+              listed  in  the  last specified SET, with a single occur‐[m
+              rence of that character[m
+[m
+       [1m-t[0m, [1m--truncate-set1[0m[m
+              first truncate SET1 to length of SET2[m
+[m
+       [1m--help[0m display this help and exit[m
+[m
+       [1m--version[0m[m
+              output version information and exit[m
+[m
+       SETs are specified as strings  of  characters.   Most  represent[m
+       themselves.  Interpreted sequences are:[m
+[m
+       \NNN   character with octal value NNN (1 to 3 octal digits)[m
+[7m Manual page tr(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tr(1) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       \\     backslash[m
+[7m Manual page tr(1) line 3 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tr(1) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       \a     audible BEL[m
+[7m Manual page tr(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tr(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       \b     backspace[m
+[7m Manual page tr(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tr(1) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       \f     form feed[m
+[7m Manual page tr(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tr(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       \n     new line[m
+[7m Manual page tr(1) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tr(1) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       \r     return[m
+[7m Manual page tr(1) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tr(1) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       \t     horizontal tab[m
+[7m Manual page tr(1) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tr(1) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       \v     vertical tab[m
+[7m Manual page tr(1) line 17 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tr(1) line 18 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       CHAR1-CHAR2[m
+[7m Manual page tr(1) line 19 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              all characters from CHAR1 to CHAR2 in ascending order[m
+[7m Manual page tr(1) line 20 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tr(1) line 21 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [CHAR*][m
+[7m Manual page tr(1) line 22 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              in SET2, copies of CHAR until length of SET1[m
+[7m Manual page tr(1) line 23 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tr(1) line 24 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [CHAR*REPEAT][m
+[7m Manual page tr(1) line 25 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              REPEAT copies of CHAR, REPEAT octal if starting with 0[m
+[7m Manual page tr(1) line 26 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tr(1) line 27 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [:alnum:][m
+[7m Manual page tr(1) line 28 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              all letters and digits[m
+[7m Manual page tr(1) line 29 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tr(1) line 30 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [:alpha:][m
+[7m Manual page tr(1) line 31 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              all letters[m
+[7m Manual page tr(1) line 32 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tr(1) line 33 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [:blank:][m
+[7m Manual page tr(1) line 34 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              all horizontal whitespace[m
+[7m Manual page tr(1) line 35 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tr(1) line 36 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [:cntrl:][m
+[7m Manual page tr(1) line 37 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              all control characters[m
+[7m Manual page tr(1) line 38 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tr(1) line 39 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [:digit:][m
+[7m Manual page tr(1) line 40 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              all digits[m
+[7m Manual page tr(1) line 41 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tr(1) line 42 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [:graph:][m
+[7m Manual page tr(1) line 43 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              all printable characters, not including space[m
+[7m Manual page tr(1) line 44 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tr(1) line 45 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [:lower:][m
+[7m Manual page tr(1) line 46 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              all lower case letters[m
+[7m Manual page tr(1) line 47 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tr(1) line 48 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [:print:][m
+[7m Manual page tr(1) line 49 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              all printable characters, including space[m
+[7m Manual page tr(1) line 50 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tr(1) line 51 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [:punct:][m
+[7m Manual page tr(1) line 52 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              all punctuation characters[m
+[7m Manual page tr(1) line 53 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tr(1) line 54 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [:space:][m
+[7m Manual page tr(1) line 55 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              all horizontal or vertical whitespace[m
+[7m Manual page tr(1) line 56 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tr(1) line 57 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [:upper:][m
+[7m Manual page tr(1) line 58 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              all upper case letters[m
+[7m Manual page tr(1) line 59 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tr(1) line 60 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [:xdigit:][m
+[7m Manual page tr(1) line 61 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              all hexadecimal digits[m
+[7m Manual page tr(1) line 62 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[36;1H[K[7m Manual page tr(1) line 61 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              REPEAT copies of CHAR, REPEAT octal if starting with 0[m
+[36;1H[K[7m Manual page tr(1) line 60 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [:xdigit:][m
+[7m Manual page tr(1) line 61 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              all hexadecimal digits[m
+[7m Manual page tr(1) line 62 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tr(1) line 63 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [=CHAR=][m
+[7m Manual page tr(1) line 64 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              all characters which are equivalent to CHAR[m
+[7m Manual page tr(1) line 65 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tr(1) line 66 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Translation occurs if [1m-d[0m is not given and both SET1 and SET2 ap‐[m
+[7m Manual page tr(1) line 67 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       pear.  [1m-t[0m may be used only when translating.  SET2  is  extended[m
+[7m Manual page tr(1) line 68 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       to  length of SET1 by repeating its last character as necessary.[m
+[7m Manual page tr(1) line 69 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Excess characters of SET2 are ignored.  Only [:lower:] and [:up‐[m
+[7m Manual page tr(1) line 70 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       per:]  are guaranteed to expand in ascending order; used in SET2[m
+[7m Manual page tr(1) line 71 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       while translating, they may only be used  in  pairs  to  specify[m
+[7m Manual page tr(1) line 72 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       case conversion.  [1m-s[0m uses the last specified SET, and occurs af‐[m
+[7m Manual page tr(1) line 73 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       ter translation or deletion.[m
+[7m Manual page tr(1) line 74 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tr(1) line 75 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mAUTHOR[0m[m
+[7m Manual page tr(1) line 76 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Written by Jim Meyering.[m
+[7m Manual page tr(1) line 77 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tr(1) line 78 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mREPORTING[0m [1mBUGS[0m[m
+[7m Manual page tr(1) line 79 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       GNU coreutils online  help:  <https://www.gnu.org/software/core‐[m
+[7m Manual page tr(1) line 80 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       utils/>[m
+[7m Manual page tr(1) line 81 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Report   tr   translation   bugs   to   <https://translationpro‐[m
+[7m Manual page tr(1) line 82 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       ject.org/team/>[m
+[7m Manual page tr(1) line 83 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tr(1) line 84 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mCOPYRIGHT[0m[m
+[7m Manual page tr(1) line 85 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Copyright © 2018 Free Software Foundation, Inc.  License GPLv3+:[m
+[7m Manual page tr(1) line 86 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>.[m
+[7m Manual page tr(1) line 87 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       This  is  free software: you are free to change and redistribute[m
+[7m Manual page tr(1) line 88 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       it.  There is NO WARRANTY, to the extent permitted by law.[m
+[7m Manual page tr(1) line 89 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tr(1) line 90 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mSEE[0m [1mALSO[0m[m
+[7m Manual page tr(1) line 91 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Full   documentation   at:   <https://www.gnu.org/software/core‐[m
+[7m Manual page tr(1) line 92 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       utils/tr>[m
+[7m Manual page tr(1) line 93 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       or available locally via: info '(coreutils) tr invocation'[m
+[7m Manual page tr(1) line 94 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tr(1) line 95 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[KGNU coreutils 8.30           February 2019                        TR(1)[m
+[7m Manual page tr(1) line 96 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page tr(1) line 96/130 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page tr(1) line 96/130 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page tr(1) line 96/130 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page tr(1) line 96/130 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page tr(1) line 96/130 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page tr(1) line 96/130 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page tr(1) line 96/130 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page tr(1) line 96/130 (END) (press h for help or q to quit)[27m[K[K/[Kuu[Kpp[Kpp[Kee[Krr[K[1;1H              all hexadecimal digits[m
+[2;1H[m
+[3;1H       [=CHAR=][m
+[4;1H              all characters which are equivalent to CHAR[m
+[5;1H[m
+[6;1H       Translation occurs if [1m-d[0m is not given and both SET1 and SET2 ap‐[m
+[7;1H       pear.  [1m-t[0m may be used only when translating.  SET2  is  extended[m
+[8;1H       to  length of SET1 by repeating its last character as necessary.[m
+[9;1H       Excess characters of SET2 are ignored.  Only [:lower:] and [:up‐[m
+[10;1H       per:]  are guaranteed to expand in ascending order; used in SET2[m
+[11;1H       while translating, they may only be used  in  pairs  to  specify[m
+[12;1H       case conversion.  [1m-s[0m uses the last specified SET, and occurs af‐[m
+[13;1H       ter translation or deletion.[m
+[14;1H[m
+[15;1H[1mAUTHOR[0m[m
+[16;1H       Written by Jim Meyering.[m
+[17;1H[m
+[18;1H[1mREPORTING[0m [1mBUGS[0m[m
+[19;1H       GNU coreutils online  help:  <https://www.gnu.org/software/core‐[m
+[20;1H       utils/>[m
+[21;1H       Report   tr   translation   bugs   to   <https://translationpro‐[m
+[22;1H       ject.org/team/>[m
+[23;1H[m
+[24;1H[1mCOPYRIGHT[0m[m
+[25;1H       Copyright © 2018 Free Software Foundation, Inc.  License GPLv3+:[m
+[26;1H       GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>.[m
+[27;1H       This  is  free software: you are free to change and redistribute[m
+[28;1H       it.  There is NO WARRANTY, to the extent permitted by law.[m
+[29;1H[m
+[30;1H[1mSEE[0m [1mALSO[0m[m
+[31;1H       Full   documentation   at:   <https://www.gnu.org/software/core‐[m
+[32;1H       utils/tr>[m
+[33;1H       or available locally via: info '(coreutils) tr invocation'[m
+[34;1H[m
+[35;1HGNU coreutils 8.30           February 2019                        TR(1)[m
+[36;1H[1;1H              all hexadecimal digits[m
+[2;1H[m
+[3;1H       [=CHAR=][m
+[4;1H              all characters which are equivalent to CHAR[m
+[5;1H[m
+[6;1H       Translation occurs if [1m-d[0m is not given and both SET1 and SET2 ap‐[m
+[7;1H       pear.  [1m-t[0m may be used only when translating.  SET2  is  extended[m
+[8;1H       to  length of SET1 by repeating its last character as necessary.[m
+[9;1H       Excess characters of SET2 are ignored.  Only [:lower:] and [:up‐[m
+[10;1H       per:]  are guaranteed to expand in ascending order; used in SET2[m
+[11;1H       while translating, they may only be used  in  pairs  to  specify[m
+[12;1H       case conversion.  [1m-s[0m uses the last specified SET, and occurs af‐[m
+[13;1H       ter translation or deletion.[m
+[14;1H[m
+[15;1H[1mAUTHOR[0m[m
+[16;1H       Written by Jim Meyering.[m
+[17;1H[m
+[18;1H[1mREPORTING[0m [1mBUGS[0m[m
+[19;1H       GNU coreutils online  help:  <https://www.gnu.org/software/core‐[m
+[20;1H       utils/>[m
+[21;1H       Report   tr   translation   bugs   to   <https://translationpro‐[m
+[22;1H       ject.org/team/>[m
+[23;1H[m
+[24;1H[1mCOPYRIGHT[0m[m
+[25;1H       Copyright © 2018 Free Software Foundation, Inc.  License GPLv3+:[m
+[26;1H       GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>.[m
+[27;1H       This  is  free software: you are free to change and redistribute[m
+[28;1H       it.  There is NO WARRANTY, to the extent permitted by law.[m
+[29;1H[m
+[30;1H[1mSEE[0m [1mALSO[0m[m
+[31;1H       Full   documentation   at:   <https://www.gnu.org/software/core‐[m
+[32;1H       utils/tr>[m
+[33;1H       or available locally via: info '(coreutils) tr invocation'[m
+[34;1H[m
+[35;1HGNU coreutils 8.30           February 2019                        TR(1)[m
+[36;1H[K[7mPattern not found  (press RETURN)[27m[36;1H[K[K/[Kll[Koo[Kww[Kee[Krr[K[1;1H              all hexadecimal digits[m
+[2;1H[m
+[3;1H       [=CHAR=][m
+[4;1H              all characters which are equivalent to CHAR[m
+[5;1H[m
+[6;1H       Translation occurs if [1m-d[0m is not given and both SET1 and SET2 ap‐[m
+[7;1H       pear.  [1m-t[0m may be used only when translating.  SET2  is  extended[m
+[8;1H       to  length of SET1 by repeating its last character as necessary.[m
+[9;1H       Excess characters of SET2 are ignored.  Only [:lower:] and [:up‐[m
+[10;1H       per:]  are guaranteed to expand in ascending order; used in SET2[m
+[11;1H       while translating, they may only be used  in  pairs  to  specify[m
+[12;1H       case conversion.  [1m-s[0m uses the last specified SET, and occurs af‐[m
+[13;1H       ter translation or deletion.[m
+[14;1H[m
+[15;1H[1mAUTHOR[0m[m
+[16;1H       Written by Jim Meyering.[m
+[17;1H[m
+[18;1H[1mREPORTING[0m [1mBUGS[0m[m
+[19;1H       GNU coreutils online  help:  <https://www.gnu.org/software/core‐[m
+[20;1H       utils/>[m
+[21;1H       Report   tr   translation   bugs   to   <https://translationpro‐[m
+[22;1H       ject.org/team/>[m
+[23;1H[m
+[24;1H[1mCOPYRIGHT[0m[m
+[25;1H       Copyright © 2018 Free Software Foundation, Inc.  License GPLv3+:[m
+[26;1H       GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>.[m
+[27;1H       This  is  free software: you are free to change and redistribute[m
+[28;1H       it.  There is NO WARRANTY, to the extent permitted by law.[m
+[29;1H[m
+[30;1H[1mSEE[0m [1mALSO[0m[m
+[31;1H       Full   documentation   at:   <https://www.gnu.org/software/core‐[m
+[32;1H       utils/tr>[m
+[33;1H       or available locally via: info '(coreutils) tr invocation'[m
+[34;1H[m
+[35;1HGNU coreutils 8.30           February 2019                        TR(1)[m
+[36;1H[1;1H              all hexadecimal digits[m
+[2;1H[m
+[3;1H       [=CHAR=][m
+[4;1H              all characters which are equivalent to CHAR[m
+[5;1H[m
+[6;1H       Translation occurs if [1m-d[0m is not given and both SET1 and SET2 ap‐[m
+[7;1H       pear.  [1m-t[0m may be used only when translating.  SET2  is  extended[m
+[8;1H       to  length of SET1 by repeating its last character as necessary.[m
+[9;1H       Excess characters of SET2 are ignored.  Only [:[7mlower[27m:] and [:up‐[m
+[10;1H       per:]  are guaranteed to expand in ascending order; used in SET2[m
+[11;1H       while translating, they may only be used  in  pairs  to  specify[m
+[12;1H       case conversion.  [1m-s[0m uses the last specified SET, and occurs af‐[m
+[13;1H       ter translation or deletion.[m
+[14;1H[m
+[15;1H[1mAUTHOR[0m[m
+[16;1H       Written by Jim Meyering.[m
+[17;1H[m
+[18;1H[1mREPORTING[0m [1mBUGS[0m[m
+[19;1H       GNU coreutils online  help:  <https://www.gnu.org/software/core‐[m
+[20;1H       utils/>[m
+[21;1H       Report   tr   translation   bugs   to   <https://translationpro‐[m
+[22;1H       ject.org/team/>[m
+[23;1H[m
+[24;1H[1mCOPYRIGHT[0m[m
+[25;1H       Copyright © 2018 Free Software Foundation, Inc.  License GPLv3+:[m
+[26;1H       GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>.[m
+[27;1H       This  is  free software: you are free to change and redistribute[m
+[28;1H       it.  There is NO WARRANTY, to the extent permitted by law.[m
+[29;1H[m
+[30;1H[1mSEE[0m [1mALSO[0m[m
+[31;1H       Full   documentation   at:   <https://www.gnu.org/software/core‐[m
+[32;1H       utils/tr>[m
+[33;1H       or available locally via: info '(coreutils) tr invocation'[m
+[34;1H[m
+[35;1HGNU coreutils 8.30           February 2019                        TR(1)[m
+[36;1H[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7m Manual page tr(1) line 104/130 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       to  length of SET1 by repeating its last character as necessary.[m
+[36;1H[K[7m Manual page tr(1) line 103/130 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       pear.  [1m-t[0m may be used only when translating.  SET2  is  extended[m
+[36;1H[K[7m Manual page tr(1) line 102/130 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       Translation occurs if [1m-d[0m is not given and both SET1 and SET2 ap‐[m
+[36;1H[K[7m Manual page tr(1) line 101/130 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[36;1H[K[7m Manual page tr(1) line 100/130 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              all characters which are equivalent to CHAR[m
+[36;1H[K[7m Manual page tr(1) line 99/130 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [=CHAR=][m
+[36;1H[K[7m Manual page tr(1) line 98/130 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[36;1H[K[7m Manual page tr(1) line 97/130 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              all hexadecimal digits[m
+[36;1H[K[7m Manual page tr(1) line 96/130 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [:xdigit:][m
+[36;1H[K[7m Manual page tr(1) line 95/130 98% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[36;1H[K[7m Manual page tr(1) line 94/130 98% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              all upper case letters[m
+[36;1H[K[7m Manual page tr(1) line 93/130 96% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [:upper:][m
+[36;1H[K[7m Manual page tr(1) line 92/130 96% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[36;1H[K[7m Manual page tr(1) line 91/130 94% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              all horizontal or vertical whitespace[m
+[36;1H[K[7m Manual page tr(1) line 90/130 94% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [:space:][m
+[36;1H[K[7m Manual page tr(1) line 89/130 93% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[36;1H[K[7m Manual page tr(1) line 88/130 92% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              all punctuation characters[m
+[36;1H[K[7m Manual page tr(1) line 87/130 90% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [:punct:][m
+[36;1H[K[7m Manual page tr(1) line 86/130 88% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[36;1H[K[7m Manual page tr(1) line 85/130 86% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              all printable characters, including space[m
+[36;1H[K[7m Manual page tr(1) line 84/130 86% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [:print:][m
+[36;1H[K[7m Manual page tr(1) line 83/130 86% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[36;1H[K[7m Manual page tr(1) line 82/130 85% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              all [7mlower[27m case letters[m
+[36;1H[K[7m Manual page tr(1) line 81/130 83% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [:[7mlower[27m:][m
+[36;1H[K[7m Manual page tr(1) line 80/130 83% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[36;1H[K[7m Manual page tr(1) line 79/130 81% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              all printable characters, not including space[m
+[36;1H[K[7m Manual page tr(1) line 78/130 80% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [:graph:][m
+[36;1H[K[7m Manual page tr(1) line 77/130 80% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[36;1H[K[7m Manual page tr(1) line 76/130 79% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              all digits[m
+[36;1H[K[7m Manual page tr(1) line 75/130 78% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [:digit:][m
+[36;1H[K[7m Manual page tr(1) line 74/130 78% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[36;1H[K[7m Manual page tr(1) line 73/130 77% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              all control characters[m
+[36;1H[K[7m Manual page tr(1) line 72/130 75% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [:cntrl:][m
+[36;1H[K[7m Manual page tr(1) line 71/130 74% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[36;1H[K[7m Manual page tr(1) line 70/130 72% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              all horizontal whitespace[m
+[36;1H[K[7m Manual page tr(1) line 69/130 70% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [:blank:][m
+[36;1H[K[7m Manual page tr(1) line 68/130 68% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[36;1H[K[7m Manual page tr(1) line 67/130 66% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              all letters[m
+[36;1H[K[7m Manual page tr(1) line 66/130 64% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [:alpha:][m
+[36;1H[K[7m Manual page tr(1) line 65/130 64% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[36;1H[K[7m Manual page tr(1) line 64/130 63% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              all letters and digits[m
+[36;1H[K[7m Manual page tr(1) line 63/130 62% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [:alnum:][m
+[36;1H[K[7m Manual page tr(1) line 62/130 62% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tr(1) line 63/130 62% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [=CHAR=][m
+[7m Manual page tr(1) line 64/130 63% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              all characters which are equivalent to CHAR[m
+[7m Manual page tr(1) line 65/130 64% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tr(1) line 66/130 64% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Translation occurs if [1m-d[0m is not given and both SET1 and SET2 ap‐[m
+[7m Manual page tr(1) line 67/130 66% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       pear.  [1m-t[0m may be used only when translating.  SET2  is  extended[m
+[7m Manual page tr(1) line 68/130 68% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       to  length of SET1 by repeating its last character as necessary.[m
+[7m Manual page tr(1) line 69/130 70% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Excess characters of SET2 are ignored.  Only [:[7mlower[27m:] and [:up‐[m
+[7m Manual page tr(1) line 70/130 72% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              all horizontal whitespace[m
+[36;1H[K[7m Manual page tr(1) line 69/130 70% (press h for help or q to quit)[27m[K[K [K::[Kxx[K[7m Manual page tr(1) line 69/130 70% (press h for help or q to quit)[27m[K[K       Excess characters of SET2 are ignored.  Only [:[7mlower[27m:] and [:up‐[m
+[7m Manual page tr(1) line 70/130 72% (press h for help or q to quit)[27m[K[K [K::[K^?^?[K[7m Manual page tr(1) line 70/130 72% (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0tamchugh2@remote02:~/i240b/submit/lab6$ .[Kls /~i240b/submitlab[K[K[K/lab6 [[K[K/[:upper:]>4 .[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C5 .log
+ls: cannot access '/~i240b/submit/lab6/[:upper:]': No such file or directory
+amchugh2@remote02:~/i240b/submit/lab6$ ls /~i240b/submit/lab6/[:upper:]>5.log[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ci240b/submit/lab6/[:upper:]>5.l[1Pog[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C~/i240b/submit/lab6/[:upper:]>5.log[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+ls: cannot access '/home/amchugh2/i240b/submit/lab6/[:upper:]': No such file or directory
+amchugh2@remote02:~/i240b/submit/lab6$ ls ~/i240b/submit/lab6/[:upper:]>5.log[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C [:upper:]>5.log[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+ls: cannot access '[:upper:]': No such file or directory
+amchugh2@remote02:~/i240b/submit/lab6$ ls ~/i240b/submit/lab6/ [:upper:]>5.log[C[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ka[Kman tr
+[?1049h[22;0;0t[?1h=TR(1)                        User Commands                        TR(1)[m
+[m
+[1mNAME[0m[m
+       tr - translate or delete characters[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mtr[0m [[4mOPTION[24m]... [4mSET1[24m [[4mSET2[24m][m
+[m
+[1mDESCRIPTION[0m[m
+       Translate,  squeeze,  and/or delete characters from standard in‐[m
+       put, writing to standard output.[m
+[m
+       [1m-c[0m, [1m-C[0m, [1m--complement[0m[m
+              use the complement of SET1[m
+[m
+       [1m-d[0m, [1m--delete[0m[m
+              delete characters in SET1, do not translate[m
+[m
+       [1m-s[0m, [1m--squeeze-repeats[0m[m
+              replace each sequence of a  repeated  character  that  is[m
+              listed  in  the  last specified SET, with a single occur‐[m
+              rence of that character[m
+[m
+       [1m-t[0m, [1m--truncate-set1[0m[m
+              first truncate SET1 to length of SET2[m
+[m
+       [1m--help[0m display this help and exit[m
+[m
+       [1m--version[0m[m
+              output version information and exit[m
+[m
+       SETs are specified as strings  of  characters.   Most  represent[m
+       themselves.  Interpreted sequences are:[m
+[m
+       \NNN   character with octal value NNN (1 to 3 octal digits)[m
+[7m Manual page tr(1) line 1 (press h for help or q to quit)[27m[K[K[7m Manual page tr(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0tamchugh2@remote02:~/i240b/submit/lab6$ tr [[Kman trls ~/i240b/submit/lab6/ [:upper:]>5.log[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[:upper:]>5.[1Plog[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C [:upper:]>5.log[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[1@[[1@:[1@u[1@p[1@p[1@e[1@r[1@:[1@] ~/i240b/submit/lab6/  [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C* 
+ls: cannot access '[:upper:]': No such file or directory
+ /home/amchugh2/i240b/submit/lab6/3.log
+ /home/amchugh2/i240b/submit/lab6/4.log
+ /home/amchugh2/i240b/submit/lab6/5.log
+ /home/amchugh2/i240b/submit/lab6/bin-c.log
+ /home/amchugh2/i240b/submit/lab6/cat.log
+ /home/amchugh2/i240b/submit/lab6/lab6.LOG
+ /home/amchugh2/i240b/submit/lab6/ls.log
+ /home/amchugh2/i240b/submit/lab6/t1.c
+ /home/amchugh2/i240b/submit/lab6/T1.s
+ /home/amchugh2/i240b/submit/lab6/v1.s
+ /home/amchugh2/i240b/submit/lab6/v.c
+ /home/amchugh2/i240b/submit/lab6/x.c
+
+/home/amchugh2/i240b/submit/lab6/4-quoting:
+'**'  '1$2'  "'12"  '1"2'  'a$b'  '\\ab'  'a"b'  "a'b"	 -l
+
+/home/amchugh2/i240b/submit/lab6/dir:
+t1.c  T1.s  t2.c  T2.s1  v1.s  v.c  x.c
+amchugh2@remote02:~/i240b/submit/lab6$ ls [:upper:] ~/i240b/submit/lab6/* [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[:upper:] ~/i240b/submit/lab6/* [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C:[:upper:] ~/i240b/submit/lab6/* [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cl[:upper:] ~/i240b/submit/lab6[1@/[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Co[:upper:] ~/i240b/submit/lab[1@6[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cw[:upper:] ~/i240b/submit/la[1@b[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce[:upper:] ~/i240b/submit/l[1@a[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cr[:upper:] ~/i240b/submit/[1@l[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C:[:upper:] ~/i240b/submit[1@/[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C][:upper:] ~/i240b/submi[1@t[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C [:upper:] ~/i240b/subm[1@i[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+ls: cannot access '[:lower:]': No such file or directory
+ls: cannot access '[:upper:]': No such file or directory
+ /home/amchugh2/i240b/submit/lab6/3.log
+ /home/amchugh2/i240b/submit/lab6/4.log
+ /home/amchugh2/i240b/submit/lab6/5.log
+ /home/amchugh2/i240b/submit/lab6/bin-c.log
+ /home/amchugh2/i240b/submit/lab6/cat.log
+ /home/amchugh2/i240b/submit/lab6/lab6.LOG
+ /home/amchugh2/i240b/submit/lab6/ls.log
+ /home/amchugh2/i240b/submit/lab6/t1.c
+ /home/amchugh2/i240b/submit/lab6/T1.s
+ /home/amchugh2/i240b/submit/lab6/v1.s
+ /home/amchugh2/i240b/submit/lab6/v.c
+ /home/amchugh2/i240b/submit/lab6/x.c
+
+/home/amchugh2/i240b/submit/lab6/4-quoting:
+'**'  '1$2'  "'12"  '1"2'  'a$b'  '\\ab'  'a"b'  "a'b"	 -l
+
+/home/amchugh2/i240b/submit/lab6/dir:
+t1.c  T1.s  t2.c  T2.s1  v1.s  v.c  x.c
+amchugh2@remote02:~/i240b/submit/lab6$ ls [:lower:] [:upper:] ~/i240b/submit/lab6/* [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C'[:lower:] [:upper:] ~/i240b/sub[1@m[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C' [:upper:] ~/i240b/su[1@b[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C' [:upper:] ~/i240b/s[1@u[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C [:upper:] ~/i240b/su[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C'[:upper:] ~/i240b/s[1@u[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C' ~/i240b/[1@s[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+ls: cannot access '[:lower:]': No such file or directory
+ls: cannot access '[:upper:]': No such file or directory
+ /home/amchugh2/i240b/submit/lab6/3.log
+ /home/amchugh2/i240b/submit/lab6/4.log
+ /home/amchugh2/i240b/submit/lab6/5.log
+ /home/amchugh2/i240b/submit/lab6/bin-c.log
+ /home/amchugh2/i240b/submit/lab6/cat.log
+ /home/amchugh2/i240b/submit/lab6/lab6.LOG
+ /home/amchugh2/i240b/submit/lab6/ls.log
+ /home/amchugh2/i240b/submit/lab6/t1.c
+ /home/amchugh2/i240b/submit/lab6/T1.s
+ /home/amchugh2/i240b/submit/lab6/v1.s
+ /home/amchugh2/i240b/submit/lab6/v.c
+ /home/amchugh2/i240b/submit/lab6/x.c
+
+/home/amchugh2/i240b/submit/lab6/4-quoting:
+'**'  '1$2'  "'12"  '1"2'  'a$b'  '\\ab'  'a"b'  "a'b"	 -l
+
+/home/amchugh2/i240b/submit/lab6/dir:
+t1.c  T1.s  t2.c  T2.s1  v1.s  v.c  x.c
+amchugh2@remote02:~/i240b/submit/lab6$ ls '[:lower:]' '[:upper:]' ~/i240b/submit/lab6/* [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ktr '[:lower[K[K[K[K[Klower:'[K] '[K[K' '[:uppr[Ker'[K:]}[K] <[K[K[K' ~/i240b /submit/lab6 [K
+tr: extra operand ‘/home/amchugh2/i240b/submit/lab6’
+Try 'tr --help' for more information.
+amchugh2@remote02:~/i240b/submit/lab6$ tr '[:lower:]' '[:upper:]' ~/i240b/submit/lab6[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ci240b/s[1Pubmit/lab6[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ci240b/su[1Pbmit/lab6[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+tr: extra operand ‘i240b/submit/lab6’
+Try 'tr --help' for more information.
+amchugh2@remote02:~/i240b/submit/lab6$ tr '[:lower:]' '[:upper:]' i240b/submit/lab6[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C~/i240b/submit/lab6[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C' ~/i240b/s[1Pubmit/lab6[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C ~/i240b/su[1Pbmit/lab6[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C:upper: ~/i240b/sub[1Pmit/lab6[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C:upper: ~/i240b/subm[1Pit/lab6[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C :upper: ~/i240b/submi[1Pt/lab6[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C :upper: ~/i240b/submit[1P/lab6[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C:lower: :upper: ~/i240b/submit/[1Plab6[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C:lower: :upper: ~/i240b/submit/l[1Pab6[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+tr: extra operand ‘/home/amchugh2/i240b/submit/lab6’
+Try 'tr --help' for more information.
+amchugh2@remote02:~/i240b/submit/lab6$ tr :lower: :upper: ~/i240b/submit/lab6[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C]:lower: :upper: ~/i240b/submit/lab6[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C:lower: :upper: ~/i240b/submit/l[1Pab6[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[:lower: :upper: ~/i240b/submit/lab6[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C]: :upper: ~/i240b/submit/lab6[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[:upper: ~/i240b/submit/lab6[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C"]: [:upper: ~/i240b/submit/lab6[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C]: [:upper: ~/i240b/submi[1Pt/lab6[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C:]: [:upper: ~/i240b/submit/lab6[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C [:upper: ~/i240b/submi[1Pt/lab6[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C} ~/i240b/submit/lab6[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C ~/i240b/submi[1Pt/lab6[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+tr: extra operand ‘/home/amchugh2/i240b/submit/lab6’
+Try 'tr --help' for more information.
+amchugh2@remote02:~/i240b/submit/lab6$ tr [:lower:] [:upper: ~/i240b/submit/lab6[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C]: ~/i240b/submit/lab6[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+tr: extra operand ‘/home/amchugh2/i240b/submit/lab6’
+Try 'tr --help' for more information.
+amchugh2@remote02:~/i240b/submit/lab6$ tr [:lower:] [:upper]: ~/i240b/submit/lab6[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K:
+
+
+amchugh2@remote02:~/i240b/submit/lab6$ tr [K[K[Ktr [:lower:] [:upper]:[K[K:]
+
+
+amchugh2@remote02:~/i240b/submit/lab6$ tr [:lower:] [:upper:] output.txt
+tr: extra operand ‘output.txt’
+Try 'tr --help' for more information.
+amchugh2@remote02:~/i240b/submit/lab6$ tr [:lower:] [:upper:] output.txt[K[K[K[K[K[K[K[K[K[K[K
+.
+.
+
+
+
+
+
+
+
+
+
+
+amchugh2@remote02:~/i240b/submit/lab6$ tr [:lower:] [:upper:] .
+tr: extra operand ‘.’
+Try 'tr --help' for more information.
+amchugh2@remote02:~/i240b/submit/lab6$ tr [:lower:] [:upper:] .[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ktr --help
+Usage: tr [OPTION]... SET1 [SET2]
+Translate, squeeze, and/or delete characters from standard input,
+writing to standard output.
+
+  -c, -C, --complement    use the complement of SET1
+  -d, --delete            delete characters in SET1, do not translate
+  -s, --squeeze-repeats   replace each sequence of a repeated character
+                            that is listed in the last specified SET,
+                            with a single occurrence of that character
+  -t, --truncate-set1     first truncate SET1 to length of SET2
+      --help     display this help and exit
+      --version  output version information and exit
+
+SETs are specified as strings of characters.  Most represent themselves.
+Interpreted sequences are:
+
+  \NNN            character with octal value NNN (1 to 3 octal digits)
+  \\              backslash
+  \a              audible BEL
+  \b              backspace
+  \f              form feed
+  \n              new line
+  \r              return
+  \t              horizontal tab
+  \v              vertical tab
+  CHAR1-CHAR2     all characters from CHAR1 to CHAR2 in ascending order
+  [CHAR*]         in SET2, copies of CHAR until length of SET1
+  [CHAR*REPEAT]   REPEAT copies of CHAR, REPEAT octal if starting with 0
+  [:alnum:]       all letters and digits
+  [:alpha:]       all letters
+  [:blank:]       all horizontal whitespace
+  [:cntrl:]       all control characters
+  [:digit:]       all digits
+  [:graph:]       all printable characters, not including space
+  [:lower:]       all lower case letters
+  [:print:]       all printable characters, including space
+  [:punct:]       all punctuation characters
+  [:space:]       all horizontal or vertical whitespace
+  [:upper:]       all upper case letters
+  [:xdigit:]      all hexadecimal digits
+  [=CHAR=]        all characters which are equivalent to CHAR
+
+Translation occurs if -d is not given and both SET1 and SET2 appear.
+-t may be used only when translating.  SET2 is extended to length of
+SET1 by repeating its last character as necessary.  Excess characters
+of SET2 are ignored.  Only [:lower:] and [:upper:] are guaranteed to
+expand in ascending order; used in SET2 while translating, they may
+only be used in pairs to specify case conversion.  -s uses the last
+specified SET, and occurs after translation or deletion.
+
+GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
+Full documentation at: <https://www.gnu.org/software/coreutils/tr>
+or available locally via: info '(coreutils) tr invocation'
+amchugh2@remote02:~/i240b/submit/lab6$ ls | tr [:lower:
+tr: missing operand after ‘[:lower:’
+Two strings must be given when translating.
+Try 'tr --help' for more information.
+amchugh2@remote02:~/i240b/submit/lab6$ ls | tr [:lower:] [:u[[er[K[K[K[K[[[K[Kpper:]
+3.LOG
+4.LOG
+4-QUOTING
+5.LOG
+BIN-C.LOG
+CAT.LOG
+DIR
+LAB6.LOG
+LS.LOG
+T1.C
+T1.S
+V1.S
+V.C
+X.C
+amchugh2@remote02:~/i240b/submit/lab6$ cd 4-quoting
+amchugh2@remote02:~/i240b/submit/lab6/4-quoting$ ls
+'**'  '1$2'  "'12"  '1"2'  'a$b'  '\\ab'  'a"b'  "a'b"	 -l
+amchugh2@remote02:~/i240b/submit/lab6/4-quoting$ echo //[K[K\\
+\
+amchugh2@remote02:~/i240b/submit/lab6/4-quoting$ echo \"
+"
+amchugh2@remote02:~/i240b/submit/lab6/4-quoting$ echo \'
+'
+amchugh2@remote02:~/i240b/submit/lab6/4-quoting$ echo \*
+*
+amchugh2@remote02:~/i240b/submit/lab6/4-quoting$ echo \@[K$HOME\"\\
+$HOME"\
+amchugh2@remote02:~/i240b/submit/lab6/4-quoting$ echo '\'
+\
+amchugh2@remote02:~/i240b/submit/lab6/4-quoting$ echo '\'[K\'
+\\
+amchugh2@remote02:~/i240b/submit/lab6/4-quoting$ echo '*$~'
+*$~
+amchugh2@remote02:~/i240b/submit/lab6/4-quoting$ echo '\''
+> bash: unexpected EOF while looking for matching `''
+bash: syntax error: unexpected end of file
+amchugh2@remote02:~/i240b/submit/lab6/4-quoting$ echo "\"\\"
+"\
+amchugh2@remote02:~/i240b/submit/lab6/4-quoting$ echo "\"\\"[K[K[K[K[K[K"$HOME"
+/home/amchugh2
+amchugh2@remote02:~/i240b/submit/lab6/4-quoting$ echo ][K\
+> 
+
+Script done on 2020-03-12 21:40:49-04:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2020-03-12 21:40:52-04:00 [TERM="xterm" TTY="/dev/pts/5" COLUMNS="73" LINES="36"]
+bash: /home/umrigar/cs240/bin/student.rc: Permission denied
+amchugh2@remote02:~/i240b/submit/lab6$ echo \[K[K[K[K[K[Kvim lab6.LOG
+[?1000h[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;36r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[36;1H"lab6.LOG" 798L, 63728C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1HScript started on 2020-03-12 20:31:09-04:00 [TERM="xterm" TTY="/dev/pts/55[2;1H" COLUMNS="73" LINES="36"]
+bash: /home/umrigar/cs240/bin/student.rc: Permission denied[34m^M[m
+amchugh2@remote02:~/i240b/submit/lab6$ ls[34m^M[m
+4-quoting  dir  lab6.LOG  t1.c  T1.s  v1.s  v.c  x.c[34m^M[m
+amchugh2@remote02:~/i240b/submit/lab6$ mkdir dir[34m^M[m
+mkdir: cannot create directory ‘[7;33Hdir’[7;37H: File exists[34m^M[m
+amchugh2@remote02:~/i240b/submit/lab6$ touch 1[34m^H^[[m[Kt1.c[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[[[9;1HK[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[Kls[34m^M[m
+4-quoting  dir  lab6.LOG  t1.c  T1.s  v1.s  v.c  x.c[34m^M[m
+amchugh2@remote02:~/i240b/submit/lab6$ ls -l[34m^M[m
+total 0[34m^M[m
+drwxr-x--- 2 amchugh2 amchugh2 135 Mar 12 19:00 4-quoting[34m^M[m
+drwxr-x--- 2 amchugh2 amchugh2 114 Mar 12 19:03 dir[34m^M[m
+-rw-r----- 1 amchugh2 amchugh2   0 Mar 12 19:02 lab6.LOG[34m^M[m
+-rw-r----- 1 amchugh2 amchugh2   0 Mar 12 19:03 t1.c[34m^M[m
+-rw-r----- 1 amchugh2 amchugh2   0 Mar 12 19:03 T1.s[34m^M[m
+-rw-r----- 1 amchugh2 amchugh2   0 Mar 12 19:03 v1.s[34m^M[m
+-rw-r----- 1 amchugh2 amchugh2   0 Mar 12 19:03 v.c[34m^M[m
+-rw-r----- 1 amchugh2 amchugh2   0 Mar 12 19:03 x.c[34m^M[m
+amchugh2@remote02:~/i240b/submit/lab6$ l[34m^H^[[m[Kls -1 dir[34m^M[m
+t1.c[34m^M[m
+T1.s[34m^M[m
+t2.c[34m^M[m
+T2.s1[34m^M[m
+v1.s[34m^M[m
+v.c[34m^M[m
+x.c[34m^M[m
+amchugh2@remote02:~/i240b/submit/lab6$ ls -l [34m^H^[[m[K dir[34m^M[m
+total 0[34m^M[m
+-rw-r----- 1 amchugh2 amchugh2 0 Mar 12 19:02 t1.c[34m^M[m
+-rw-r----- 1 amchugh2 amchugh2 0 Mar 12 19:02 T1.s[34m^M[m
+-rw-r----- 1 amchugh2 amchugh2 0 Mar 12 19:03 t2.c[34m^M[m
+-rw-r----- 1 amchugh2 amchugh2 0 Mar 12 19:03 T2.s1[34m^M[m
+-rw-r----- 1 amchugh2 amchugh2 0 Mar 12 19:02 v1.s[34m^M[m[36;56H1,1[11CTop[1;1H[?25h[?25l[36;46H:[1;1H[36;1H[K[36;1H:[?2004h[?25hx[?25l[?25h[?25l[?1000l[?2004l[23;2t[23;1t[22;2t[22;1t[23;2t[23;1t[36;1H[K[36;1H[?2004l[?1l>[?25h[?1049l[23;0;0tamchugh2@remote02:~/i240b/submit/lab6$ vi[K[Kechp[Ko \
+> ac[Kbc \
+> 123 \[K
+abc 123
+amchugh2@remote02:~/i240b/submit/lab6$ ls [$]
+ls: cannot access '[$]': No such file or directory
+amchugh2@remote02:~/i240b/submit/lab6$ ls [$]/[$]4[$]-[$]q[$]u[$]o[$]t[$]i[$]n[$]g[$]/[$]
+ls: cannot access '/4-quoting/[$]': No such file or directory
+amchugh2@remote02:~/i240b/submit/lab6$ ls [t[K$]*
+ls: cannot access '[$]*': No such file or directory
+amchugh2@remote02:~/i240b/submit/lab6$ ls /4-quoting/[$].[K*
+ls: cannot access '/4-quoting/[$]*': No such file or directory
+amchugh2@remote02:~/i240b/submit/lab6$ echo '*#[K$~'
+*$~
+amchugh2@remote02:~/i240b/submit/lab6$ echo '*$~'\'*$~'
+> '*$~"[K'
+> 123[K[K[K123
+> \
+> 
+> bash: unexpected EOF while looking for matching `''
+bash: syntax error: unexpected end of file
+amchugh2@remote02:~/i240b/submit/lab6$ ls find [K[K[K[K[K[K [$}[K][K[K[K*
+3.log  5.log	  cat.log   ls.log  T1.s  v.c
+4.log  bin-c.log  lab6.LOG  t1.c    v1.s  x.c
+
+4-quoting:
+'**'  '1$2'  "'12"  '1"2'  'a$b'  '\\ab'  'a"b'  "a'b"	 -l
+
+dir:
+t1.c  T1.s  t2.c  T2.s1  v1.s  v.c  x.c
+amchugh2@remote02:~/i240b/submit/lab6$ ls[K[Khttps://docs.google.com/forms/u/0/d/e/1FAIpQLSfJgBGGhLuqnn2clYamQZwBbbcmmVG2h3raUCY2tj4iHwLInQ/formResponse ls $
+bash: https://docs.google.com/forms/u/0/d/e/1FAIpQLSfJgBGGhLuqnn2clYamQZwBbbcmmVG2h3raUCY2tj4iHwLInQ/formResponsels: No such file or directory
+amchugh2@remote02:~/i240b/submit/lab6$ ls
+3.log  4-quoting  bin-c.log  dir       ls.log  T1.s  v.c
+4.log  5.log	  cat.log    lab6.LOG  t1.c    v1.s  x.c
+amchugh2@remote02:~/i240b/submit/lab6$ cd 4-quoting
+amchugh2@remote02:~/i240b/submit/lab6/4-quoting$ ls
+'**'  '1$2'  "'12"  '1"2'  'a$b'  '\\ab'  'a"b'  "a'b"	 -l
+amchugh2@remote02:~/i240b/submit/lab6/4-quoting$ ls $
+ls: cannot access '$': No such file or directory
+amchugh2@remote02:~/i240b/submit/lab6/4-quoting$ ls ][K[$]
+ls: cannot access '[$]': No such file or directory
+amchugh2@remote02:~/i240b/submit/lab6/4-quoting$ ;s[K[Kls ?
+ls: cannot access '?': No such file or directory
+amchugh2@remote02:~/i240b/submit/lab6/4-quoting$ ls 4-quoting/[$]
+ls: cannot access '4-quoting/[$]': No such file or directory
+amchugh2@remote02:~/i240b/submit/lab6/4-quoting$ ls 4-quoting/[$][K[K[K[K/?
+ls: cannot access '4-quoting/?': No such file or directory
+amchugh2@remote02:~/i240b/submit/lab6/4-quoting$ ls 4-quoting/?[K[K[K[K[K[K[K[K[K[K[K~/i240b/submit/lab6/4 -quoting/?
+ls: cannot access '/home/amchugh2/i240b/submit/lab6/4-quoting/?': No such file or directory
+amchugh2@remote02:~/i240b/submit/lab6/4-quoting$ ls ~/i240b/submit/lab6/4-quoting/?[K*
+'/home/amchugh2/i240b/submit/lab6/4-quoting/**'
+'/home/amchugh2/i240b/submit/lab6/4-quoting/1$2'
+"/home/amchugh2/i240b/submit/lab6/4-quoting/'12"
+'/home/amchugh2/i240b/submit/lab6/4-quoting/1"2'
+'/home/amchugh2/i240b/submit/lab6/4-quoting/a$b'
+'/home/amchugh2/i240b/submit/lab6/4-quoting/\\ab'
+'/home/amchugh2/i240b/submit/lab6/4-quoting/a"b'
+"/home/amchugh2/i240b/submit/lab6/4-quoting/a'b"
+ /home/amchugh2/i240b/submit/lab6/4-quoting/-l
+amchugh2@remote02:~/i240b/submit/lab6/4-quoting$ ls ~/i240b/submit/lab6/4-quoting/*[K*[$]
+ls: cannot access '/home/amchugh2/i240b/submit/lab6/4-quoting/*[$]': No such file or directory
+amchugh2@remote02:~/i240b/submit/lab6/4-quoting$ ls ~/i240b/submit/lab6/4-quoting/*[$][K[K[K[K$
+ls: cannot access '/home/amchugh2/i240b/submit/lab6/4-quoting/$': No such file or directory
+amchugh2@remote02:~/i240b/submit/lab6/4-quoting$ ls ~/i240b/submit/lab6/4-quoting/$[K*.?
+ls: cannot access '/home/amchugh2/i240b/submit/lab6/4-quoting/*.?': No such file or directory
+amchugh2@remote02:~/i240b/submit/lab6/4-quoting$ ls ~/i240b/submit/lab6/4-quoting/*.?[K[K[K$*
+'**'  '1$2'  "'12"  '1"2'  'a$b'  '\\ab'  'a"b'  "a'b"	 -l
+amchugh2@remote02:~/i240b/submit/lab6/4-quoting$ ls ~/i240b/submit/lab6/4-quoting/$*[K[K*S
+ls: cannot access '/home/amchugh2/i240b/submit/lab6/4-quoting/*S': No such file or directory
+amchugh2@remote02:~/i240b/submit/lab6/4-quoting$ ls ~/i240b/submit/lab6/4-quoting/*S[K$
+ls: cannot access '/home/amchugh2/i240b/submit/lab6/4-quoting/*$': No such file or directory
+amchugh2@remote02:~/i240b/submit/lab6/4-quoting$ ls *[K*'$'*
+'1$2'  'a$b'
+amchugh2@remote02:~/i240b/submit/lab6/4-quoting$ ls *"'"*
+"'12"  "a'b"
+amchugh2@remote02:~/i240b/submit/lab6/4-quoting$ ls *"'"*[C[1P*[1P*[1P*\*
+'**'
+amchugh2@remote02:~/i240b/submit/lab6/4-quoting$ ls *\*[K[K[K\
+> '**'  '1$2'  "'12"  '1"2'  'a$b'  '\\ab'  'a"b'  "a'b"	 -l
+
+Script done on 2020-03-12 22:04:01-04:00 [COMMAND_EXIT_CODE="0"]

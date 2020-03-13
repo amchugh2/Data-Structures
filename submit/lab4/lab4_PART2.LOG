@@ -1,0 +1,89 @@
+Script started on 2020-02-27 21:33:41-05:00 [TERM="xterm" TTY="/dev/pts/4" COLUMNS="100" LINES="35"]
+bash: /home/umrigar/cs240/bin/student.rc: Permission denied
+amchugh2@remote05:~/i240b/submit/lab4$ ls
+exercises  lab4.LOG  lab4_PART2.LOG
+amchugh2@remote05:~/i240b/submit/lab4$ cd exercises
+amchugh2@remote05:~/i240b/submit/lab4/exercises$ ls
+1-point  2-shape  3-expr  Makefile
+amchugh2@remote05:~/i240b/submit/lab4/exercises$ c[Kv[Kcd 3-expr
+amchugh2@remote05:~/i240b/submit/lab4/exercises/3-expr$ ls
+expr.cc  expr.o  main.cc  parse.cc  parse.o	 tostring.hh
+expr.hh  main	 main.o   parse.hh  tostring.cc  tostring.o
+amchugh2@remote05:~/i240b/submit/lab4/exercises/3-expr$ vi[K[Kls
+expr.cc  expr.o  main.cc  parse.cc  parse.o	 tostring.hh
+expr.hh  main	 main.o   parse.hh  tostring.cc  tostring.o
+amchugh2@remote05:~/i240b/submit/lab4/exercises/3-expr$ vim expr.hh
+[?1000h[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;35r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[35;1H"expr.hh" 131L, 2953C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[35m#ifndef EXPR_HH_
+#define EXPR_HH_
+
+#include [m[31m"tostring.hh"[m
+
+[35m#include [m[31m<memory>[m
+[35m#include [m[31m<string>[m
+
+
+[32mclass[m Expr : [33mpublic[m ToString {
+};
+
+[34m//ExprPtr is an alias for a smart shared ptr to an Expr.
+//using is like a typedef[m
+[33musing[m ExprPtr = std::shared_ptr<Expr>;
+
+[34m/** An IntExpr only contains an integer value */[m
+[32mclass[m IntExpr : [33mpublic[m Expr {
+[33mprivate[m:
+  [32menum[m [32mclass[m Private { TAG };
+[33mpublic[m:
+  [32mconst[m [32mint[m value;
+
+  [34m/** Factory function */[m
+  [32mstatic[m ExprPtr make([32mint[m val) {
+    [33mreturn[m std::make_shared<IntExpr>(val, Private::TAG);
+  }[30;3Hstd::string toString() [32mconst[m;
+
+  [34m//use Private to ensure this constructor cannot be called from outside
+[m  [34m//this class even though it is public[m
+  IntExpr([32mint[m val, Private x) : value(val) { }[35;83H1,1[11CTop[1;1H[?25h[?25l[35;73H~@k[1;1H[35;73H   [1;1H[35;1H[1m-- INSERT --[m[35;13H[K[35;83H1,1[11CTop[1;1H[?25h[?25l[35;83H2[2;1H[?25h[?25l[35;83H4[4;1H[?25h[?25l[35;83H5[5;1H[?25h[?25l[35;83H6[6;1H[?25h[?25l[35;83H7[7;1H[?25h[?25l[35;83H8[8;1H[?25h[?25l[35;83H7[7;1H[?25h[?25l[35;83H6[6;1H[?25h[?25l[35;83H7[7;1H[?25h[?25l[35;83H8[8;1H[?25h[?25l[35;83H9[9;1H[?25h[?25l[35;83H10,1[10;1H[?25h[?25l[35;83H9,1 [9;1H[?25h[?25l[35;83H8[8;1H[?25h[?25l[35;83H7[7;1H[?25h[?25l[35;83H6[6;1H[?25h[?25l[35;83H5[5;1H[?25h[?25l[35;83H4[4;1H[?25h[?25l[35;83H3[3;1H[?25h[?25l[35;83H2[2;1H[?25h[?25l[35;83H1[1;1H[?25h[?25l[35;83H2[2;1H[?25h[?25l[35;83H3[3;1H[?25h[?25l[35;83H4[4;1H[?25h[?25l[35;83H5[5;1H[?25h[?25l[35;83H6[6;1H[?25h[?25l[35;83H7[7;1H[?25h[?25l[35;83H8[8;1H[?25h[?25l[35;83H9[9;1H[?25h[?25l[35;83H10,1[10;1H[?25h[?25l[29C[46m{
+}[m[35;84H1[11;1H[?25h[?25l[10;30H{
+}[35;84H2[12;1H[?25h[?25l[35;84H3[13;1H[?25h[?25l[35;84H4[14;1H[?25h[?25l[35;84H5[15;1H[?25h[?25l[35;84H6[16;1H[?25h[?25l[35;84H7[17;1H[?25h[?25l[35;84H8[18;1H[?25h[?25l[35;84H9[19;1H[?25h[?25l[35;83H20[20;1H[?25h[?25l[35;84H1[21;1H[?25h[?25l[35;84H2[22;1H[?25h[?25l[35;84H3[23;1H[?25h[?25l[35;84H4[24;1H[?25h[?25l[35;84H5[25;1H[?25h[?25l[35;84H6[26;1H[?25h[?25l[35;84H7[27;1H[?25h[?25l[35;84H8[28;1H[?25h[?25l[35;84H9[29;1H[?25h[?25l[1;34r[34;1H
+[1;35r[35;83H[K[35;83H30,1[11C1%[29;1H[?25h[?25l[1;34r[34;1H
+[1;35r[34;1H}; [34m//IntExpr[m[35;83H[K[35;83H31,1[11C2%[29;1H[?25h[?25l[1;34r[34;1H
+[1;35r[35;83H[K[35;83H32,1[11C3%[29;1H[?25h[?25l[1;34r[34;1H
+[1;35r[34;1H[34m//KISS results in repetitive code for binary expressions.[m[35;83H[K[35;83H33,1[11C4%[29;1H[?25h[?25l[1;34r[34;1H
+[1;35r[34;1H[34m//Not using alternatives like a template class[m[35;83H[K[35;83H34,1[11C5%[29;1H[?25h[?25l[1;34r[34;1H
+[1;35r[35;83H[K[35;83H35,1[11C6%[29;1H[?25h[?25l[1;34r[34;1H
+[1;35r[35;83H[K[35;83H36,1[11C7%[11;29H[46m{[29;1H}[?25h[?25l[1;34r[m[34;1H
+[1;35r[34;1H[32mclass[m AddExpr : [33mpublic[m Expr {[35;83H[K[35;83H37,1[11C8%[10;29H{[28;1H}
+[?25h[?25l[1;34r[34;1H
+[1;35r[34;1H[33mprivate[m:[35;83H[K[35;83H38,1[11C9%[29;1H[?25h[?25l[1;34r[34;1H
+[1;35r[34;3H[32menum[m [32mclass[m Private { TAG };[35;83H[K[35;83H39,1[10C10%[29;1H[?25h[?25l[1;34r[1;1H[2M[1;35r[33;1H[33mpublic[m:
+  [32mconst[m ExprPtr left;[35;83H[K[35;83H41,1[10C12%[29;1H[?25h[?25l[1;34r[34;1H
+[1;35r[34;3H[32mconst[m ExprPtr right;[35;83H[K[35;83H42,1[10C13%[29;1H[?25h[?25l[1;34r[34;1H
+[1;35r[35;83H[K[35;83H43,1[10C14%[29;1H[?25h[?25l[1;34r[34;1H
+[1;35r[34;3H[34m/** Factory function */[m[35;83H[K[35;83H44,1[10C15%[29;1H[?25h[?25l[1;34r[34;1H
+[1;35r[34;3H[32mstatic[m ExprPtr make(ExprPtr left, ExprPtr right) {[35;83H[K[35;83H45,1[10C16%[29;1H[?25h[?25l[1;34r[34;1H
+[1;35r[34;5H[33mreturn[m std::make_shared<AddExpr>(left, right, Private::TAG);[35;83H[K[35;83H46,1[10C17%[29;1H[?25h[?25l[1;34r[34;1H
+[1;35r[34;3H}[35;83H[K[35;83H47,1[10C18%[29;1H[?25h[?25l[1;34r[34;1H
+[1;35r[35;83H[K[35;83H48,1[10C19%[29;1H[?25h[?25l[1;34r[34;1H
+[1;35r[34;3Hstd::string toString() [32mconst[m;[35;83H[K[35;83H49,1[10C20%[29;1H[?25h[?25l[1;34r[1;1H[2M[1;35r[34;3H[34m//use Private to ensure this constructor cannot be called from outside[m[35;83H[K[35;83H51,1[10C22%[29;1H[?25h[?25l[1;34r[34;1H
+[1;35r[34;3H[34m//this class even though it is public[m[35;83H[K[35;83H52,1[10C23%[29;1H[?25h[?25l[1;34r[34;1H
+[1;35r[34;3HAddExpr(ExprPtr& left, ExprPtr& right, Private x) :[35;83H[K[35;83H53,1[10C24%[29;1H[?25h[?25l[1;34r[34;1H
+[1;35r[34;5Hleft(left), right(right) {[35;83H[K[35;83H54,1[10C25%[29;1H[?25h[?25l[1;34r[34;1H
+[1;35r[34;3H}[35;83H[K[35;83H55,1[10C26%[29;1H[?25h[?25l[1;34r[1;1H[2M[1;35r[33;1H}; [34m//AddExpr[m[35;83H[K[35;83H57,1[10C28%[29;1H[?25h[?25l[1;34r[34;1H
+[1;35r[35;83H[K[35;83H58,1[10C29%[29;1H[?25h[?25l[1;34r[1;1H[2M[1;35r[33;1H[32mclass[m SubExpr : [33mpublic[m Expr {
+[33mprivate[m:[35;83H[K[35;83H60,1[10C31%[29;1H[?25h[?25l[1;34r[34;1H
+[1;35r[34;3H[32menum[m [32mclass[m Private { TAG };[35;83H[K[35;83H61,1[10C32%[10;29H[46m{[29;1H}[?25h[?25l[1;34r[m[34;1H
+[1;35r[34;1H[33mpublic[m:[35;83H[K[35;83H62,1[10C34%[9;29H{[28;1H}
+[?25h[?25l[1;34r[34;1H
+[1;35r[34;3H[32mconst[m ExprPtr left;[35;83H[K[35;83H63,1[10C35%[29;1H[?25h[?25l[1;34r[34;1H
+[1;35r[34;3H[32mconst[m ExprPtr right;[35;83H[K[35;83H64,1[10C36%[29;1H[?25h[?25l[1;34r[34;1H
+[1;35r[35;83H[K[35;83H65,1[10C37%[29;1H[?25h[?25l[1;34r[34;1H
+[1;35r[34;3H[34m/** Factory function */[m[35;83H[K[35;83H66,1[10C38%[29;1H[?25h[?25l[1;34r[34;1H
+[1;35r[34;3H[32mstatic[m ExprPtr make(ExprPtr left, ExprPtr right) {[35;83H[K[35;83H67,1[10C39%[29;1H[?25h[?25l[1;34r[34;1H
+[1;35r[34;5H[33mreturn[m std::make_shared<SubExpr>(left, right, Private::TAG);[35;83H[K[35;83H68,1[10C40%[29;1H[?25h[?25l[1;34r[1;1H[2M[1;35r[33;3H}[35;83H[K[35;83H70,1[10C42%[29;1H[?25h[?25l[1;34r[34;1H
+[1;35r[34;3Hstd::string toString() [32mconst[m;[35;83H[K[35;83H71,1[10C43%[29;1H[?25h[?25l[1;34r[34;1H
+[1;35r[35;83H[K[35;83H72,1[10C44%[29;1H[?25h[?25l[1;34r[34;1H
+[1;35r[34;3H[34m//use Private to ensure this constructor cannot be called from outside[m[35;83H[K[35;83H73,1[10C45%[29;1H[?25h[?25l[1;34r[34;1H
+[1;35r[34;3H[34m//this class even though it is public[m[35;83H[K[35;83H74,1[10C46%[29;1H[?25h[?25l[1;34r[34;1H
+[1;35r[34;3HSubExpr(ExprPtr& left, ExprPtr& right, Private x) :[35;83H[K[35;83H75,1[10C47%[29;1H[?25h[?25l[1;34r[34;1H
+[1;35r[34;5Hleft(left), right(right) {[35;83H[K[
