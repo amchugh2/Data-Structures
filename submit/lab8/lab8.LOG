@@ -1,0 +1,300 @@
+Script started on 2020-03-27 12:10:35-04:00 [TERM="xterm" TTY="/dev/pts/2" COLUMNS="100" LINES="35"]
+amchugh2@remote05:~/i240b/submit/lab8$ env
+SHELL=/bin/bash
+DERBY_HOME=/usr/lib/jvm/java-8-oracle/db
+JAVA_HOME=/usr/lib/jvm/java-8-oracle
+KRB5CCNAME=FILE:/tmp/krb5cc_14322_E9l7zjPIPR
+PWD=/home/amchugh2/i240b/submit/lab8
+LOGNAME=amchugh2
+XDG_SESSION_TYPE=tty
+J2REDIR=/usr/lib/jvm/java-8-oracle/jre
+VIRTUALENVWRAPPER_SCRIPT=/usr/share/virtualenvwrapper/virtualenvwrapper.sh
+HOME=/home/amchugh2
+LANG=en_US.UTF-8
+_VIRTUALENVWRAPPER_API= mkvirtualenv rmvirtualenv lsvirtualenv showvirtualenv workon add2virtualenv cdsitepackages cdvirtualenv lssitepackages toggleglobalsitepackages cpvirtualenv setvirtualenvproject mkproject cdproject mktmpenv
+SSH_CONNECTION=96.242.43.31 22289 128.226.114.205 22
+XDG_SESSION_CLASS=user
+TERM=xterm
+J2SDKDIR=/usr/lib/jvm/java-8-oracle
+USER=amchugh2
+SHLVL=2
+XDG_SESSION_ID=193724
+CLASSPATH=.:/home/amchugh2/cs240/lib
+LD_LIBRARY_PATH=.:/home/amchugh2/cs240/lib
+XDG_RUNTIME_DIR=/run/user/14322
+SSH_CLIENT=96.242.43.31 22289 22
+PATH=/home/amchugh2/cs240/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/14322/bus
+MAIL=/var/mail/amchugh2
+SSH_TTY=/dev/pts/2
+OLDPWD=/home/amchugh2/i240b/submit
+_=/usr/bin/env
+amchugh2@remote05:~/i240b/submit/lab8$ echo $HOME
+/home/amchugh2
+amchugh2@remote05:~/i240b/submit/lab8$ echo $PATH
+/home/amchugh2/cs240/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+amchugh2@remote05:~/i240b/submit/lab8$ [Kamchugh2@remote05:~/i240b/submit/lab8$ a[Kecho $xx
+
+amchugh2@remote05:~/i240b/submit/lab8$ xx=123
+amchugh2@remote05:~/i240b/submit/lab8$ echo $xxx
+
+amchugh2@remote05:~/i240b/submit/lab8$ e[Kecho [K[K[K[K[Kxxx=123
+amchugh2@remote05:~/i240b/submit/lab8$ echo $xxx
+123
+amchugh2@remote05:~/i240b/submit/lab8$ env | grep xxx
+amchugh2@remote05:~/i240b/submit/lab8$ exo[Kport xxx
+amchugh2@remote05:~/i240b/submit/lab8$ env [K[K[K[Kexport xxx[4@nv | grep[C[C[C[C
+xxx=123
+amchugh2@remote05:~/i240b/submit/lab8$ export xx=456
+amchugh2@remote05:~/i240b/submit/lab8$ export xx=456nv | grep xxx[K
+xxx=123
+xx=456
+amchugh2@remote05:~/i240b/submit/lab8$ e[Kxxx= 4[K$path[K[K[K[KPATH
+bash: /home/amchugh2/cs240/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin: No such file or directory
+amchugh2@remote05:~/i240b/submit/lab8$ p = $PATH
+bash: p: command not found
+amchugh2@remote05:~/i240b/submit/lab8$ echo #[K$p
+
+amchugh2@remote05:~/i240b/submit/lab8$ echo $p[K[Kp
+p
+amchugh2@remote05:~/i240b/submit/lab8$ echo p$p[K[K[K[K[K[K[Kp=4PA[K[K[K$PATH
+amchugh2@remote05:~/i240b/submit/lab8$ p=$PATH[1Pecho p
+p
+amchugh2@remote05:~/i240b/submit/lab8$ echo p$p
+/home/amchugh2/cs240/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+amchugh2@remote05:~/i240b/submit/lab8$ 4PAT[K[K[K[K#[K$PATH=
+bash: /home/amchugh2/cs240/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin=: No such file or directory
+amchugh2@remote05:~/i240b/submit/lab8$ 4P[K[K$path[K[K[K[KPATH=""
+bash: /home/amchugh2/cs240/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin=: No such file or directory
+amchugh2@remote05:~/i240b/submit/lab8$ set 4PATH=[K[K[K[K[K[K$PATH=""
+amchugh2@remote05:~/i240b/submit/lab8$ echo $p[KPATH
+/home/amchugh2/cs240/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+amchugh2@remote05:~/i240b/submit/lab8$ echo $PATH =[K[K[K[K[K[K[K[K[K[K[K[Kset $PATH="" n[K[K[K[K Null
+amchugh2@remote05:~/i240b/submit/lab8$ set $PATH= Null[Kset $PATH=""[Kset $PATH= Null[Kset $PATH=""[4P$PATH=""[Kecho $p
+/home/amchugh2/cs240/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+amchugh2@remote05:~/i240b/submit/lab8$ echo $p[KPATH
+/home/amchugh2/cs240/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+amchugh2@remote05:~/i240b/submit/lab8$ export PATH=#P[K[K$PATH:
+amchugh2@remote05:~/i240b/submit/lab8$ export PATH=$PATH:[8Pcho $PATHp[KPATH
+/home/amchugh2/cs240/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:
+amchugh2@remote05:~/i240b/submit/lab8$ PATH=
+amchugh2@remote05:~/i240b/submit/lab8$ PATH=echo $PATHxport PATH=$PATH:[8Pcho $PATH
+
+amchugh2@remote05:~/i240b/submit/lab8$ ls
+bash: ls: No such file or directory
+amchugh2@remote05:~/i240b/submit/lab8$ PATH=p
+amchugh2@remote05:~/i240b/submit/lab8$ ls
+bash: ls: command not found
+amchugh2@remote05:~/i240b/submit/lab8$ pa[K[Kecho $p
+/home/amchugh2/cs240/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+amchugh2@remote05:~/i240b/submit/lab8$ PATH =[K[K=$p
+amchugh2@remote05:~/i240b/submit/lab8$ ls
+exercises  lab8.LOG
+amchugh2@remote05:~/i240b/submit/lab8$ ls ; wc *
+exercises  lab8.LOG
+wc: exercises: Is a directory
+      0       0       0 exercises
+      0       0       0 lab8.LOG
+      0       0       0 total
+amchugh2@remote05:~/i240b/submit/lab8$ find -L !/c[K[K[K~/cs240 -name '*.c'
+amchugh2@remote05:~/i240b/submit/lab8$ find -L ~/cs240 -name '*.c'c'
+/home/amchugh2/cs240/exercises/questions/src/cpp/code/x-ref-ptr-const-errors/const-ptr-inc.cc
+/home/amchugh2/cs240/exercises/questions/src/cpp/code/x-ref-ptr-const-errors/ok-1.cc
+/home/amchugh2/cs240/exercises/questions/src/cpp/code/x-ref-ptr-const-errors/ok-2.cc
+/home/amchugh2/cs240/exercises/questions/src/cpp/code/x-ref-ptr-const-errors/ptr-to-non-const.cc
+/home/amchugh2/cs240/exercises/questions/src/cpp/code/x-ref-ptr-const-errors/ref-to-expr.cc
+/home/amchugh2/cs240/exercises/questions/src/cpp/code/x-ref-ptr-const-errors/ref-to-literal.cc
+/home/amchugh2/cs240/exercises/questions/src/cpp/code/x-ref-ptr-const-errors/ref-to-non-const.cc
+/home/amchugh2/cs240/exercises/questions/src/cpp/code/x-ref-ptr-const-errors/uninit-ref.cc
+/home/amchugh2/cs240/labs/lab1/exercises/0-hello/hello.cc
+/home/amchugh2/cs240/labs/lab1/exercises/1-monolithic/fns-compare.cc
+/home/amchugh2/cs240/labs/lab1/exercises/2-separate-compilation/fns-compare.cc
+/home/amchugh2/cs240/labs/lab1/exercises/2-separate-compilation/linear.cc
+/home/amchugh2/cs240/labs/lab1/exercises/3-makefile/constant.cc
+/home/amchugh2/cs240/labs/lab1/exercises/3-makefile/cubic.cc
+/home/amchugh2/cs240/labs/lab1/exercises/3-makefile/exponential.cc
+/home/amchugh2/cs240/labs/lab1/exercises/3-makefile/fact.cc
+/home/amchugh2/cs240/labs/lab1/exercises/3-makefile/fns-compare.cc
+/home/amchugh2/cs240/labs/lab1/exercises/3-makefile/lg.cc
+/home/amchugh2/cs240/labs/lab1/exercises/3-makefile/linear.cc
+/home/amchugh2/cs240/labs/lab1/exercises/3-makefile/nlg.cc
+/home/amchugh2/cs240/labs/lab1/exercises/3-makefile/quadratic.cc
+/home/amchugh2/cs240/labs/lab1/exercises/4-dependencies/constant.cc
+/home/amchugh2/cs240/labs/lab1/exercises/4-dependencies/cubic.cc
+/home/amchugh2/cs240/labs/lab1/exercises/4-dependencies/exponential.cc
+/home/amchugh2/cs240/labs/lab1/exercises/4-dependencies/fact.cc
+/home/amchugh2/cs240/labs/lab1/exercises/4-dependencies/fns-compare.cc
+/home/amchugh2/cs240/labs/lab1/exercises/4-dependencies/lg.cc
+/home/amchugh2/cs240/labs/lab1/exercises/4-dependencies/linear.cc
+/home/amchugh2/cs240/labs/lab1/exercises/4-dependencies/nlg.cc
+/home/amchugh2/cs240/labs/lab1/exercises/4-dependencies/quadratic.cc
+/home/amchugh2/cs240/labs/lab1/exercises/5-auto-dependencies/constant.cc
+/home/amchugh2/cs240/labs/lab1/exercises/5-auto-dependencies/cubic.cc
+/home/amchugh2/cs240/labs/lab1/exercises/5-auto-dependencies/exponential.cc
+/home/amchugh2/cs240/labs/lab1/exercises/5-auto-dependencies/fact.cc
+/home/amchugh2/cs240/labs/lab1/exercises/5-auto-dependencies/fns-compare.cc
+/home/amchugh2/cs240/labs/lab1/exercises/5-auto-dependencies/lg.cc
+/home/amchugh2/cs240/labs/lab1/exercises/5-auto-dependencies/linear.cc
+/home/amchugh2/cs240/labs/lab1/exercises/5-auto-dependencies/nlg.cc
+/home/amchugh2/cs240/labs/lab1/exercises/5-auto-dependencies/quadratic.cc
+/home/amchugh2/cs240/labs/lab2/exercises/1-hello/hello.cc
+/home/amchugh2/cs240/labs/lab2/exercises/2-hello/hello.cc
+/home/amchugh2/cs240/labs/lab2/exercises/3-overload/overload.cc
+/home/amchugh2/cs240/labs/lab3/exercises/1-greet/greet.cc
+/home/amchugh2/cs240/labs/lab3/exercises/2-greet/greet.cc
+/home/amchugh2/cs240/labs/lab3/exercises/3-greet/greet.cc
+/home/amchugh2/cs240/labs/lab3/exercises/4-sortnums/sortnums.cc
+/home/amchugh2/cs240/labs/lab3/exercises/5-numpaths/numpaths.cc
+/home/amchugh2/cs240/labs/lab3/exercises/data/gen-nums.cc
+/home/amchugh2/cs240/labs/lab4/exercises/1-point/main.cc
+/home/amchugh2/cs240/labs/lab4/exercises/1-point/point.cc
+/home/amchugh2/cs240/labs/lab4/exercises/2-shape/main.cc
+/home/amchugh2/cs240/labs/lab4/exercises/2-shape/point.cc
+/home/amchugh2/cs240/labs/lab4/exercises/2-shape/tostring.cc
+/home/amchugh2/cs240/labs/lab4/exercises/3-expr/expr.cc
+/home/amchugh2/cs240/labs/lab4/exercises/3-expr/main.cc
+/home/amchugh2/cs240/labs/lab4/exercises/3-expr/parse.cc
+/home/amchugh2/cs240/labs/lab4/exercises/3-expr/tostring.cc
+/home/amchugh2/cs240/labs/lab5/exercises/1-animal/main.cc
+/home/amchugh2/cs240/labs/lab5/exercises/2-expr/expr.cc
+/home/amchugh2/cs240/labs/lab5/exercises/2-expr/main.cc
+/home/amchugh2/cs240/labs/lab5/exercises/2-expr/parse.cc
+/home/amchugh2/cs240/labs/lab5/exercises/2-expr/tostring.cc
+/home/amchugh2/cs240/labs/lab7/exercises/1-out/main.cc
+/home/amchugh2/cs240/projects/prj1-sol/wordcounts.cc
+/home/amchugh2/cs240/projects/prj2/extras/command.cc
+/home/amchugh2/cs240/projects/prj2/extras/seq-test.cc
+/home/amchugh2/cs240/projects/prj2-sol/command.cc
+/home/amchugh2/cs240/projects/prj2-sol/nums.cc
+/home/amchugh2/cs240/projects/prj2-sol/seq-test.cc
+/home/amchugh2/cs240/slides/c++-intro/code/hello.cc
+/home/amchugh2/cs240/slides/c++-intro/code/alloc-dealloc.cc
+/home/amchugh2/cs240/slides/c++-intro/code/class-point.cc
+/home/amchugh2/cs240/slides/c++-intro/code/sum-array.cc
+/home/amchugh2/cs240/slides/c++-intro/code/autogen-fns1.cc
+/home/amchugh2/cs240/slides/c++-intro/code/autogen-fns2.cc
+/home/amchugh2/cs240/slides/c++-intro/code/exercises/autogen-fns.cc
+/home/amchugh2/cs240/slides/c++-intro/code/exercises/call-params.cc
+/home/amchugh2/cs240/slides/c++-intro/code/exercises/constness.cc
+/home/amchugh2/cs240/slides/c++-intro/code/exercises/ref-ptrs.cc
+/home/amchugh2/cs240/slides/c++-intro/code/ptr.cc
+/home/amchugh2/cs240/slides/c++-intro/code/smart-ptr.cc
+/home/amchugh2/cs240/slides/c++-intro/code/struct-point.cc
+/home/amchugh2/cs240/slides/collections1/code/binary-search/main.cc
+/home/amchugh2/cs240/slides/collections1/code/linear-search/main.cc
+/home/amchugh2/cs240/slides/collections1/code/lists/command.cc
+/home/amchugh2/cs240/slides/collections1/code/lists/main.cc
+/home/amchugh2/cs240/slides/collections1/code/lists/tostring.cc
+/home/amchugh2/cs240/slides/collections1/code/ordered-linear-search/main.cc
+/home/amchugh2/cs240/slides/collections1/code/queues/main.cc
+/home/amchugh2/cs240/slides/collections2/code/int-bst.cc
+/home/amchugh2/cs240/slides/collections2/code/maxheap.cc
+/home/amchugh2/cs240/slides/complexity1/code/max-find.cc
+/home/amchugh2/cs240/slides/complexity1/code/seq-search.cc
+/home/amchugh2/cs240/slides/complexity1/code/sq.cc
+amchugh2@remote05:~/i240b/submit/lab8$ find -L ~/cs240 -name '*.cc' | wc  -l
+94
+amchugh2@remote05:~/i240b/submit/lab8$ fin d[K[K[K[K[Kfind / name '*cc[K[K.cc' @/[K[K2>d[Kd[Kde[Kde[K[K[K/dev/null >c- files.lst &
+[1] 2601253
+amchugh2@remote05:~/i240b/submit/lab8$ jobs
+[1]+  Running                 find / name '*.cc' 2> /dev/null > c-files.lst &
+amchugh2@remote05:~/i240b/submit/lab8$ kill %1
+amchugh2@remote05:~/i240b/submit/lab8$ cd ~
+[1]+  Terminated              find / name '*.cc' 2> /dev/null > c-files.lst  (wd: ~/i240b/submit/lab8)
+(wd now: ~)
+amchugh2@remote05:~$ pwd
+/home/amchugh2
+amchugh2@remote05:~$ xx=123
+amchugh2@remote05:~$ pwd; echo $xx; (xx=abc; cd/;[K [K[K '[K/; pwd; echo $xx); pwd'[K; e cho $xx
+/home/amchugh2
+123
+/
+abc
+/home/amchugh2
+123
+amchugh2@remote05:~$ cc[K[Kcd 2[K3-subshells
+bash: cd: 3-subshells: No such file or directory
+amchugh2@remote05:~$ ls
+amchugh2       cs240	       good	  lab2final  Public
+amchugh2.circ  cs320	       i220a	  lab2good   Templates
+Arduino        cs373	       i220a.bak  lab3	     tmp
+cs120	       Desktop	       i220a_new  lab5	     toneMelody
+cs120lab4      Documents       i220X	  lab8	     Videos
+cs120lab6      Downloads       i240b	  Music      workspace
+cs120lab7      git-repos       lab	  Pictures
+cs220	       git-repos_copy  lab2	  projects
+amchugh2@remote05:~$ cd i240b
+amchugh2@remote05:~/i240b$ ls
+README.md  submit  work
+amchugh2@remote05:~/i240b$ cd submit
+amchugh2@remote05:~/i240b/submit$ ls
+exercises  lab1  lab3  lab5  lab7  prj1-sol
+lab0	   lab2  lab4  lab6  lab8
+amchugh2@remote05:~/i240b/submit$ c[Kcd la8[Kb8
+amchugh2@remote05:~/i240b/submit/lab8$ ls
+c-files.lst  exercises	lab8.LOG
+amchugh2@remote05:~/i240b/submit/lab8$ cd [K[Kcd[K[Kd exercises
+amchugh2@remote05:~/i240b/submit/lab8/exercises$ ls
+3-subshells
+amchugh2@remote05:~/i240b/submit/lab8/exercises$ cd 3-subshells
+amchugh2@remote05:~/i240b/submit/lab8/exercises/3-subshells$ make
+cd ~/cs240
+ls
+Makefile
+amchugh2@remote05:~/i240b/submit/lab8/exercises/3-subshells$ ls
+Makefile
+amchugh2@remote05:~/i240b/submit/lab8/exercises/3-subshells$ vim Makefile [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ke
+[?1000h[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;36r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[36;1H"Makefile" 3L, 23C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[36mall:[m
+[31m                cd ~/cs240
+                ls[m
+[1m[34m~                                                                        [5;1H~                                                                        [6;1H~                                                                        [7;1H~                                                                        [8;1H~                                                                        [9;1H~                                                                        [10;1H~                                                                        [11;1H~                                                                        [12;1H~                                                                        [13;1H~                                                                        [14;1H~                                                                        [15;1H~                                                                        [16;1H~                                                                        [17;1H~                                                                        [18;1H~                                                                        [19;1H~                                                                        [20;1H~                                                                        [21;1H~                                                                        [22;1H~                                                                        [23;1H~                                                                        [24;1H~                                                                        [25;1H~                                                                        [26;1H~                                                                        [27;1H~                                                                        [28;1H~                                                                        [29;1H~                                                                        [30;1H~                                                                        [31;1H~                                                                        [32;1H~                                                                        [33;1H~                                                                        [34;1H~                                                                        [35;1H~                                                                        [m[36;56H1,1[11CAll[1;1H[?25h[?25l[36;46H:[1;1H[36;1H[K[36;1H:[?2004h[?25hc[?25l[?25ho[?25l[?25hl[?25l[?25ho[?25l[?25h[?25l [?25hm[?25l[?25ho[?25l[?25hr[?25l[?25hn[?25l[?25hi[?25l[?25hn[?25l[?25hg[?25l[?25h[?25l[30m[47m[1;1H[27m[23m[29m[m[30m[47m[H[2J[1;1H[36mall:[m[30m[47m
+[31m                cd ~/cs240
+                ls[m[30m[47m
+[1m[34m~                                                                        [5;1H~                                                                        [6;1H~                                                                        [7;1H~                                                                        [8;1H~                                                                        [9;1H~                                                                        [10;1H~                                                                        [11;1H~                                                                        [12;1H~                                                                        [13;1H~                                                                        [14;1H~                                                                        [15;1H~                                                                        [16;1H~                                                                        [17;1H~                                                                        [18;1H~                                                                        [19;1H~                                                                        [20;1H~                                                                        [21;1H~                                                                        [22;1H~                                                                        [23;1H~                                                                        [24;1H~                                                                        [25;1H~                                                                        [26;1H~                                                                        [27;1H~                                                                        [28;1H~                                                                        [29;1H~                                                                        [30;1H~                                                                        [31;1H~                                                                        [32;1H~                                                                        [33;1H~                                                                        [34;1H~                                                                        [35;1H~                                                                        [m[30m[47m[36;56H1,1[11CAll[1;1H[?25h[?25l[36;56H2,6-20[2;20H[?25h[?25l[36;46H~@k[2;20H[36;46H   [2;20H[36;1H[1m-- INSERT --[m[30m[47m[36;56H[K[36;56H2,6-20[8CAll[2;20H[?25h[?25l[31m(~/cs240[m[30m[47m[36;58H7-21[2;21H[?25h[?25l[31m~/cs240[m[30m[47m[2;27H[K[36;58H6-20[2;20H[?25h[?25l[36;56H3,5-19[3;19H[?25h[?25l[36;58H4-18[3;18H[?25h[?25l[36;56H2[2;18H[?25h[?25l[36;58H3-17[2;17H[?25h[?25l[31m(cd ~/cs240[m[30m[47m[36;58H4-18[2;18H[?25h[?25l[36;58H5-19[2;19H[?25h[?25l[36;58H6-20[2;20H[?25h[?25l[36;58H7-21[2;21H[?25h[?25l[36;58H8-22[2;22H[?25h[?25l[36;58H9-23[2;23H[?25h[?25l[36;58H10-24[2;24H[?25h[?25l[36;59H1-25[2;25H[?25h[?25l[36;59H2-26[2;26H[?25h[?25l[36;59H3-27[2;27H[?25h[?25l[36;59H4-28[2;28H[?25h[?25l[31m)[m[30m[47m[2;17H[31m[46m([10C)[m[30m[47m[36;59H5-29[2;29H[?25h[36;1H[K[2;28H[?25l[36;46H^[[2;28H[36;46H  [2;29H[36;56H2,14-28[7CAll[2;28H[?25h[?25l[36;46H:[2;28H[36;46H[K[36;1H:[?2004h[?25hx[?25l[?25h[?25l[?1000l[?2004l"Makefile" 3L, 25C written[23;2t[23;1t[22;2t[22;1t[23;2t[23;1t
+[39;49m[?2004l[?1l>[?25h[?1049l[23;0;0tamchugh2@remote05:~/i240b/submit/lab8/exercises/3-subshells$ make
+(cd ~/cs240)
+ls
+Makefile
+amchugh2@remote05:~/i240b/submit/lab8/exercises/3-subshells$ makevim Makefile [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ke
+[?1000h[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;36r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[36;1H"Makefile" 3L, 25C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[36mall:[m
+[31m                [m[31m[46m([m[31mcd ~/cs240[m[31m[46m)[m
+[31m                ls[m
+[1m[34m~                                                                        [5;1H~                                                                        [6;1H~                                                                        [7;1H~                                                                        [8;1H~                                                                        [9;1H~                                                                        [10;1H~                                                                        [11;1H~                                                                        [12;1H~                                                                        [13;1H~                                                                        [14;1H~                                                                        [15;1H~                                                                        [16;1H~                                                                        [17;1H~                                                                        [18;1H~                                                                        [19;1H~                                                                        [20;1H~                                                                        [21;1H~                                                                        [22;1H~                                                                        [23;1H~                                                                        [24;1H~                                                                        [25;1H~                                                                        [26;1H~                                                                        [27;1H~                                                                        [28;1H~                                                                        [29;1H~                                                                        [30;1H~                                                                        [31;1H~                                                                        [32;1H~                                                                        [33;1H~                                                                        [34;1H~                                                                        [35;1H~                                                                        [m[36;56H2,14-28[7CAll[2;28H[?25h[?25l[36;46H:[2;28H[36;1H[K[36;1H:[?2004h[?25hc[?25l[?25ho[?25l[?25hl[?25l[?25ho[?25l[?25h[?25l [?25hm[?25l[?25ho[?25l[?25hr[?25l[?25hn[?25l[?25hi[?25l[?25hn[?25l[?25hg[?25l[?25h[?25l[30m[47m[2;28H[27m[23m[29m[m[30m[47m[H[2J[1;1H[36mall:[m[30m[47m
+[31m                [m[30m[47m[31m[46m([m[30m[47m[31mcd ~/cs240[m[30m[47m[31m[46m)[m[30m[47m
+[31m                ls[m[30m[47m
+[1m[34m~                                                                        [5;1H~                                                                        [6;1H~                                                                        [7;1H~                                                                        [8;1H~                                                                        [9;1H~                                                                        [10;1H~                                                                        [11;1H~                                                                        [12;1H~                                                                        [13;1H~                                                                        [14;1H~                                                                        [15;1H~                                                                        [16;1H~                                                                        [17;1H~                                                                        [18;1H~                                                                        [19;1H~                                                                        [20;1H~                                                                        [21;1H~                                                                        [22;1H~                                                                        [23;1H~                                                                        [24;1H~                                                                        [25;1H~                                                                        [26;1H~                                                                        [27;1H~                                                                        [28;1H~                                                                        [29;1H~                                                                        [30;1H~                                                                        [31;1H~                                                                        [32;1H~                                                                        [33;1H~                                                                        [34;1H~                                                                        [35;1H~                                                                        [m[30m[47m[36;56H2,14-28[7CAll[2;28H[?25h[?25l[36;46H~@k[2;28H[36;46H   [2;28H[36;1H[1m-- INSERT --[m[30m[47m[36;56H[K[36;56H2,14-28[7CAll[2;28H[?25h[?25l[36;59H5-29[2;29H[?25h[?25l[2;28H[K[2;17H[31m([m[30m[47m[36;59H4-28[2;28H[?25h[?25l[36;59H3-27[2;27H[?25h[?25l[36;59H2-26[2;26H[?25h[?25l[36;59H1-25[2;25H[?25h[?25l[36;59H0-24[2;24H[?25h[?25l[36;58H9-23 [2;23H[?25h[?25l[36;58H8-22[2;22H[?25h[?25l[36;58H7-21[2;21H[?25h[?25l[36;58H6-20[2;20H[?25h[?25l[36;58H5-19[2;19H[?25h[?25l[36;58H4-18[2;18H[?25h[?25l[31mcd ~/cs240[m[30m[47m[2;27H[K[36;58H3-17[2;17H[?25h[?25l[36;4H[1mREPLACE --[m[30m[47m[36;56H[K[36;56H2,3-17[8CAll[2;17H[?25h[?25l[36;56H3[3;17H[?25h[?25l[36;58H2-9 [3;9H[?25h[?25l[36;58H1  [3;1H[?25h[?25l[36;4H[1mINSERTE -[m[30m[47m[36;13H[K[36;56H3,1[11CAll[3;1H[?25h[?25l[2;27H[31m              ls[m[30m[47m
+[1m[34m~                                                                        [m[30m[47m[36;56H2,13-27[2;27H[?25h[?25l[36;59H4-28[2;28H[?25h[?25l[31m;[m[30m[47m[36;59H5-29[2;29H[?25h[?25l[4C[31mls[m[30m[47m[2;35H[K[2;29H[?25h[?25l[31mls[m[30m[47m[2;31H[K[2;29H[?25h[?25l[31m ls[m[30m[47m[36;59H6-30[2;30H[?25h[?25l[36;59H5-29[2;29H[?25h[?25l[36;59H4-28[2;28H[?25h[?25l[36;59H3-27[2;27H[?25h[?25l[31m ; ls[m[30m[47m[2;31H[K[36;59H2-26[2;26H[?25h[?25l[31m0 ; ls[m[30m[47m[36;59H3-27[2;27H[?25h[?25l[31m; ls[m[30m[47m[2;31H[K[2;27H[?25h[36;1H[K[2;26H[?25l[36;46H^[[2;26H[36;46H  [2;27H[36;56H2,12-26[7CAll[2;26H[?25h[?25l[36;46H:[2;26H[36;46H[K[36;1H:[?2004h[?25hx[?25l[?25h[?25l[?1000l[?2004l"Makefile" 2L, 22C written[23;2t[23;1t[22;2t[22;1t[23;2t[23;1t
+[39;49m[?2004l[?1l>[?25h[?1049l[23;0;0tamchugh2@remote05:~/i240b/submit/lab8/exercises/3-subshells$ make
+cd ~/cs240; ls
+announce.html  bin	      exercises   index.umt  online	slides
+announce.umt   docs	      hws	  labs	     projects	umt.make
+assets	       exams-quizzes  index.html  misc	     README.md
+amchugh2@remote05:~/i240b/submit/lab8/exercises/3-subshells$ cd[K[Kcd ..
+amchugh2@remote05:~/i240b/submit/lab8/exercises$ grep -i 'MAIN(' \fi[K[K[K'find ~/ cs240/projects/[K -name '*.cc'[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgrep -i 'MAIN(' `find ~/cs240/projects -name '*.cc'`
+/home/amchugh2/cs240/projects/prj1-sol/wordcounts.cc:main(int argc, char *argv[])
+/home/amchugh2/cs240/projects/prj2/extras/seq-test.cc:int main(int argc, char *argv[]) {
+/home/amchugh2/cs240/projects/prj2-sol/nums.cc:int main(int argc, char* argv[])
+/home/amchugh2/cs240/projects/prj2-sol/seq-test.cc:int main(int argc, char *argv[]) {
+amchugh2@remote05:~/i240b/submit/lab8/exercises$ wc -l
+0
+amchugh2@remote05:~/i240b/submit/lab8/exercises$ wc l[K-l
+0
+amchugh2@remote05:~/i240b/submit/lab8/exercises$ echo $?
+0
+amchugh2@remote05:~/i240b/submit/lab8/exercises$ false; echo 123
+123
+amchugh2@remote05:~/i240b/submit/lab8/exercises$ true; echo 123
+123
+amchugh2@remote05:~/i240b/submit/lab8/exercises$ false && echo [K12[K[K 123
+amchugh2@remote05:~/i240b/submit/lab8/exercises$ true && echo 123
+123
+amchugh2@remote05:~/i240b/submit/lab8/exercises$ false || echo 123
+123
+amchugh2@remote05:~/i240b/submit/lab8/exercises$ true || echo 123
+amchugh2@remote05:~/i240b/submit/lab8/exercises$ sleep 5 && echo 123 &
+[1] 2603120
+amchugh2@remote05:~/i240b/submit/lab8/exercises$ 123
+exit
+
+Script done on 2020-03-27 12:35:15-04:00 [COMMAND_EXIT_CODE="0"]
