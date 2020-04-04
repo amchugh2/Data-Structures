@@ -92,11 +92,19 @@ static void
 go(SortP sort, std::string filePath, bool isVerbose, int nRead)
 {
   std::vector<int> ints = readIntsFromFile(filePath, nRead);
-  int* a = ints.data();
-  int n = ints.size();
-  long t0 = now();
-  sort(a, n);
-  long t1 = now();
+  int* a;
+  int n;
+  long t0;
+  long t1;
+  std::cout << "n\t time" << std::endl;
+  for(unsigned int i = 0; i < ints.size(); i++){
+	a = ints.data();
+  	n = ints.size();
+  	t0 = now();
+  	sort(a, n);
+  	t1 = now();
+	std::cout<< i.size() << "\t" << (t0 - t1) << std::endl;
+  }
 }
 
 int
