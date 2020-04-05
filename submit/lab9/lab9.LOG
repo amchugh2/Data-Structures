@@ -166222,3 +166222,802 @@ exercises  lab9.LOG
 amchugh2@remote07:~/i240b/submit/lab9$ exit
 
 Script done on 2020-04-04 23:26:12-04:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2020-04-05 10:46:28-04:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="100" LINES="35"]
+amchugh2@remote00:~/i240b/submit/lab9$ ls
+exercises  lab9.LOG
+amchugh2@remote00:~/i240b/submit/lab9$ cd exercses[K[K[Kises
+amchugh2@remote00:~/i240b/submit/lab9/exercises$ ls
+2-sorts  3-stats  4-time  ascending.dat  descending.dat  Makefile  plot.gp  random.dat
+amchugh2@remote00:~/i240b/submit/lab9/exercises$ cd 3-stats
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ ls
+main  main.cc  main.o  newops.hh  ops.cc  ops.hh  ops.o  sorts.cc  sorts.hh  sorts.o
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ alg0 [K = "insertionSort bubbleSort selectionS ort"
+bash: alg0: command not found
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ alg0 = "insertionSort bubbleSort selectionSort"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C"insertionSort bubbleSort selectionSor[1Pt"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C="insertionSort bubbleSort selectionSort[1P"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ alg0="insertionSort bubbleSort selectionSort"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Calg1="mergeSr[Kort quickSort:[K"
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ for alg[K[K in alg[K[K[K[K $alg0, [K[K; do ./main $al[K ../random.dat  [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kt  `seq 1000 1000 10000` > $a.dat; done
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ for a in $alg0; do ./main $a ../random.dat `seq 1000 1000 10000` > $a.dat; done[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C; do ./main $a ../random.dat `s[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1; do ./main $a ../random.dat `[1@s[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ for a in $alg0 $alg1; do ../plot.gp $a.dat > $a.png; done
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ ls
+bubbleSort.dat	   main		  mergeSort.png  ops.o		    selectionSort.png
+bubbleSort.png	   main.cc	  newops.hh	 quickSort.dat	    sorts.cc
+insertionSort.dat  main.o	  ops.cc	 quickSort.png	    sorts.hh
+insertionSort.png  mergeSort.dat  ops.hh	 selectionSort.dat  sorts.o
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ for f in `seq 100000`; do echo $f; done > ../ascending.dat
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ ./main insertionSort ../ascending.dat `seq 2000 2000 10000`
+n	compares	swaps	
+2000	-1791651846	22022
+4000	-1791649846	22022
+6000	-1791647846	22022
+8000	-1791645846	22022
+10000	-1791643846	22022
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ vim newops.hh
+[?1000h[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;35r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[35;1H"newops.hh" 23L, 335C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[35m#ifndef NEWOPS_HH_
+#define NEWOPS_HH_
+
+#include [m[31m"ops.hh"[m
+
+[32mclass[m newOps : [33mpublic[m Ops [46m{[m
+[33mpublic[m:[8;9H[32mint[m compare_count;[9;9H[32mint[m swap_count;[11;9H[32mvirtual[m [32mint[m compare([32mint[m a, [32mint[m b) [32moverride[m {[12;17Hcompare_count++;[13;17H[33mreturn[m Ops::compare(a,b);[14;9H}[15;9H[32mvirtual[m [32mvoid[m swap([32mint[m a[], [32mint[m i, [32mint[m j) [32moverride[m {[16;17HOps::swap(a, i, j);[17;17Hswap_count++;[18;9H}
+[46m}[m;
+
+[35m#endif[m
+
+
+[1m[34m~                                                                                                   [25;1H~                                                                                                   [26;1H~                                                                                                   [27;1H~                                                                                                   [28;1H~                                                                                                   [29;1H~                                                                                                   [30;1H~                                                                                                   [31;1H~                                                                                                   [32;1H~                                                                                                   [33;1H~                                                                                                   [34;1H~                                                                                                   [m[35;83H19,1[10CAll[19;1H[?25h[?25l[35;73H~@k[19;1H[35;73H   [19;1H[35;1H[1m-- INSERT --[m[35;13H[K[35;83H19,1[10CAll[19;1H[?25h[?25l[35;86H2[19;2H[?25h[?25l[6;27H{[19;1H}[35;84H8,1[18;1H[?25h[?25l[35;84H7[17;1H[?25h[?25l[35;84H6[16;1H[?25h[?25l[35;84H5[15;1H[?25h[?25l[35;84H4[14;1H[?25h[?25l[35;84H3[13;1H[?25h[?25l[35;84H2[12;1H[?25h[?25l[35;84H1[11;1H[?25h[?25l[35;84H0[10;1H[?25h[?25l[35;83H9,1 [9;1H[?25h[?25l[35;83H8[8;1H[?25h[?25l[35;83H7,2[7;2H[?25h[?25l[35;83H8,1[8;1H[?25h[?25l[35;83H9[9;1H[?25h[?25l[35;83H10,1[10;1H[?25h[?25l[35;84H1[11;1H[?25h[?25l[35;84H2[12;1H[?25h[?25l[35;86H2-9[12;9H[?25h[?25l[35;86H3-17[12;17H[?25h[?25l[35;86H4-18[12;18H[?25h[?25l[35;86H5-19[12;19H[?25h[?25l[35;86H6-20[12;20H[?25h[?25l[35;86H7-21[12;21H[?25h[?25l[35;86H8-22[12;22H[?25h[?25l[35;86H9-23[12;23H[?25h[?25l[35;86H10-24[12;24H[?25h[?25l[35;87H1-25[12;25H[?25h[?25l[35;87H2-26[12;26H[?25h[?25l[35;87H3-27[12;27H[?25h[?25l[35;87H4-28[12;28H[?25h[?25l[35;87H5-29[12;29H[?25h[?25l[35;87H6-30[12;30H[?25h[?25l[35;87H7-31[12;31H[?25h[?25l[35;87H8-32[12;32H[?25h[?25l;[12;32H[K[35;87H7-31[12;31H[?25h[?25l+;[35;87H8-32[12;32H[?25h[?25l[31m1[m;[35;87H9-33[12;33H[?25h[?25l[35;84H3[13;33H[?25h[?25l[35;84H2[12;33H[?25h[?25l[35;87H8-32[12;32H[?25h[?25l[31m1[m;[12;33H[K[35;87H7-31[12;31H[?25h[?25l=[31m1[m;[35;87H8-32[12;32H[?25h[?25l[35;84H3[13;32H[?25h[?25l[11;52H[46m{[14;9H}[m[35;84H4,3-10 [14;10H[?25h[?25l[11;52H{[14;9H}[15;32H[46m[][m[35;84H5,25-32[15;32H[?25h[?25l[][35;84H6,18[16;32H[?25h[?25l[35;84H7,16-30[17;30H[?25h[?25l[35;87H5-29[17;29H[?25h[?25l[35;87H4-28[17;28H[?25h[?25l[35;87H5-29[17;29H[?25h[?25l;[17;29H[K[35;87H4-28[17;28H[?25h[?25l=;[35;87H5-29[17;29H[?25h[?25l[31m1[m;[35;87H6-30[17;30H[?25h[?25l[35;84H6[16;30H[?25h[?25l[35;84H5,23[15;30H[?25h[?25l[11;52H[46m{[14;9H}[m[35;84H4,3-10 [14;10H[?25h[?25l[11;52H{[14;9H}[35;84H3,16-30[13;30H[?25h[?25l[35;84H2[12;30H[?25h[?25l[35;84H1,23[11;30H[?25h[?25l[35;84H0,1    [10;1H[?25h[?25l[35;83H9,17-24[9;24H[?25h[?25l[35;83H8,20-27[8;27H[?25h[?25l[35;83H7,8    [7;8H[?25h[?25l[6;27H[46m{[19;1H}[m[35;83H6,28[6;28H[?25h[?25l{[19;1H}[35;83H5,1 [5;1H[?25h[?25l[35;83H4,18[4;18H[?25h[?25l[15;59H[46m{[18;9H}[m[35;83H15,53-60[15;60H[?25h[?25l[16;34r[16;1H[L[1;35r[18;9H[46m        [m[19;9H}[35;83H[K[35;83H16,3-17[7CAll[15;59H{[18;9H        [16;17H[?25h[?25lc[35;86H4-18[16;18H[?25h[?25l[16;17H[K[35;86H3-17[16;17H[?25h[?25ls[35;86H4-18[16;18H[?25h[?25lw[35;86H5-19[16;19H[?25h[?25la[35;86H6-20[16;20H[?25h[?25lp[35;86H7-21[16;21H[?25h[?25l_[35;86H8-22[16;22H[?25h[?25lc[35;86H9-23[16;23H[?25h[?25lo[35;86H10-24[16;24H[?25h[?25lu[35;87H1-25[16;25H[?25h[?25ln[35;87H2-26[16;26H[?25h[?25lt[35;87H3-27[16;27H[?25h[?25l+[35;87H4-28[16;28H[?25h[?25l=[35;87H5-29[16;29H[?25h[?25l[31m1[m[35;87H6-30[16;30H[?25h[?25l;[35;87H7-31[16;31H[?25h[?25l[35;84H7[17;31H[?25h[?25l[35;84H8[18;31H[?25h[?25l[18;30H[K[35;87H6-30[18;30H[?25h[?25l[18;29H[K[35;87H5-29[18;29H[?25h[?25l[18;27H[K[35;87H3-27[18;27H[?25h[?25l[18;25H[K[35;87H1-25[18;25H[?25h[?25l[18;24H[K[35;87H0-24[18;24H[?25h[?25l[18;23H[K[35;86H9-23 [18;23H[?25h[?25l[18;22H[K[35;86H8-22[18;22H[?25h[?25l[18;20H[K[35;86H6-20[18;20H[?25h[?25l[18;19H[K[35;86H5-19[18;19H[?25h[?25l[18;18H[K[35;86H4-18[18;18H[?25h[?25l[18;17H[K[35;86H3-17[18;17H[?25h[?25l[35;86H2-9 [18;9H[?25h[?25l[35;86H1  [18;1H[?25h[?25l[17;34r[34;1H
+[1;35r[17;17HOps::swap(a, i, j);[34;1H[1m[34m~                                                                                                   [m[35;83H[K[35;83H17,22-36      All[17;36H[?25h[35;1H[K[17;35H[?25l[35;73H^[[17;35H[35;73H  [17;36H[35;83H17,21-35      All[17;35H[?25h[?25l[35;73H:[17;35H[35;73H[K[35;1H:[?2004h[?25hx[?25l[?25h[?25l[?1000l[?2004l"newops.hh" 23L, 337C written[23;2t[23;1t[22;2t[22;1t[23;2t[23;1t
+[?2004l[?1l>[?25h[?1049l[23;0;0tamchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ vim newops.hh./main insertionSort ../ascending.dat `seq 2000 2000 10000`[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfor f in `seq 100000`; do echo $f; done > ..[1P/ascending.dat[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfor a in $alg0 $alg1; do ../plot.gp $a.dat > $a.png; done[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1; do ./main $a ../random
+[22@`seq 1000 1000 10000` > $a.dat[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C0
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[17Palg1="mergeSort quickSort"
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C0="insertionSort bubbleSort selectionSort"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[17P1="mergeSort quickSort"
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfor a in $alg0; do ./main $a ../random.dat `seq 1000 1000 10000` > $a.dat; done[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C0 $alg1; do ../plot.gp $a
+[22P> $a.png[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[Kmake -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+g++ sorts.o ops.o main.o -o main
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ make -f ../Makefile[6Pvim newops.hh./main insertionSort ../ascending.dat `seq 2000 2000 10000`
+n	compares	swaps	
+2000	1963171834	21987
+4000	1963173834	21987
+6000	1963175834	21987
+8000	1963177834	21987
+10000	1963179834	21987
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$  [Kvim mainc[K.cc
+[?1000h[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;35r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[35;1H"main.cc" 128L, 3220C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;3H[33mfor[m ([32mint[m i = [31m0[m; i < n; i++) {[2;11Hstd::cout << a[i] << std::endl;
+  std::cout << std::endl;[4;9H}
+}
+
+[32mstatic[m [32mvoid[m
+go(SortP sort, std::string filePath, [32mbool[m isVerbose, [32mint[m nRead)
+[46m{[m
+  std::vector<[32mint[m> ints = readIntsFromFile(filePath, nRead);
+  [32mint[m* a = ints.data();
+  [32mint[m n = ints.size();
+  newOps ops;
+  sort(a, n, &ops);
+  [33mif[m (isVerbose) outArray(a, n);
+   std::cout << nRead << [31m"[m[35m\t[m[31m"[m << ops.compare_count << [31m"[m[35m\t[m[31m"[m << ops.swap_count << std::endl;
+[46m}[m
+
+[32mint[m
+main([32mint[m argc, [32mchar[m* argv[]) {
+  [33mif[m (argc < [31m3[m) {
+    std::cerr << [31m"usage: "[m << argv[[31m0[m][23;15H<< [31m" [-v] ALGORITHM INTS_DATA_FILE|- [N...]"[m << std::endl;
+    std::exit([31m1[m);
+  }
+  [32mbool[m isVerbose = std::strcmp(argv[[31m1[m], [31m"-v"[m) == [31m0[m;
+  [32mbool[m nVerbose = (isVerbose) ? [31m1[m : [31m0[m;
+  [32mconst[m [32mchar[m* algorithm = argv[[31m1[m + nVerbose];
+  [32mconst[m std::string filePath(argv[[31m2[m + nVerbose]);
+  SortP sort = getSort(algorithm);
+  [32mint[m sizeArgsIndex = [31m3[m + nVerbose;
+  std::cout << [31m"n"[m << [31m"[m[35m\t[m[31m"[m << [31m"compares"[m << [31m"[m[35m\t[m[31m"[m << [31m"swaps"[m << [31m"[m[35m\t[m[31m"[m << std::endl;
+  [33mif[m (sizeArgsIndex == argc) {
+    go(sort, filePath, isVerbose, -[31m1[m);[35;83H103,1[9C91%[17;1H[?25h[?25l[35;1H[K[35;1H:[?2004h[?25hc[?25l[?25ho[?25l[?25hl[?25l[?25ho[?25l[?25h[?25l [?25hm[?25l[?25ho[?25l[?25hr[?25l[?25hn[?25l[?25hi[?25l[?25hn[?25l[?25hg[?25l[?25h[?25l[30m[47m[27m[23m[29m[m[30m[47m[H[2J[1;3H[33mfor[m[30m[47m ([32mint[m[30m[47m i = [31m0[m[30m[47m; i < n; i++) {[2;11Hstd::cout << a[i] << std::endl;
+  std::cout << std::endl;[4;9H}
+}
+
+[32mstatic[m[30m[47m [32mvoid[m[30m[47m
+go(SortP sort, std::string filePath, [32mbool[m[30m[47m isVerbose, [32mint[m[30m[47m nRead)
+[46m{[m[30m[47m
+  std::vector<[32mint[m[30m[47m> ints = readIntsFromFile(filePath, nRead);
+  [32mint[m[30m[47m* a = ints.data();
+  [32mint[m[30m[47m n = ints.size();
+  newOps ops;
+  sort(a, n, &ops);
+  [33mif[m[30m[47m (isVerbose) outArray(a, n);
+   std::cout << nRead << [31m"[m[30m[47m[35m\t[m[30m[47m[31m"[m[30m[47m << ops.compare_count << [31m"[m[30m[47m[35m\t[m[30m[47m[31m"[m[30m[47m << ops.swap_count << std::endl;
+[46m}[m[30m[47m
+
+[32mint[m[30m[47m
+main([32mint[m[30m[47m argc, [32mchar[m[30m[47m* argv[]) {
+  [33mif[m[30m[47m (argc < [31m3[m[30m[47m) {
+    std::cerr << [31m"usage: "[m[30m[47m << argv[[31m0[m[30m[47m][23;15H<< [31m" [-v] ALGORITHM INTS_DATA_FILE|- [N...]"[m[30m[47m << std::endl;
+    std::exit([31m1[m[30m[47m);
+  }
+  [32mbool[m[30m[47m isVerbose = std::strcmp(argv[[31m1[m[30m[47m], [31m"-v"[m[30m[47m) == [31m0[m[30m[47m;
+  [32mbool[m[30m[47m nVerbose = (isVerbose) ? [31m1[m[30m[47m : [31m0[m[30m[47m;
+  [32mconst[m[30m[47m [32mchar[m[30m[47m* algorithm = argv[[31m1[m[30m[47m + nVerbose];
+  [32mconst[m[30m[47m std::string filePath(argv[[31m2[m[30m[47m + nVerbose]);
+  SortP sort = getSort(algorithm);
+  [32mint[m[30m[47m sizeArgsIndex = [31m3[m[30m[47m + nVerbose;
+  std::cout << [31m"n"[m[30m[47m << [31m"[m[30m[47m[35m\t[m[30m[47m[31m"[m[30m[47m << [31m"compares"[m[30m[47m << [31m"[m[30m[47m[35m\t[m[30m[47m[31m"[m[30m[47m << [31m"swaps"[m[30m[47m << [31m"[m[30m[47m[35m\t[m[30m[47m[31m"[m[30m[47m << std::endl;
+  [33mif[m[30m[47m (sizeArgsIndex == argc) {
+    go(sort, filePath, isVerbose, -[31m1[m[30m[47m);[35;83H103,1[9C91%[17;1H[?25h[?25l[35;73H~@k[17;1H[35;73H   [18;1H[9;1H{[17;1H}[35;85H4,0-1[18;1H[?25h[?25l[35;73H~@k[18;1H[35;73H   [19;1H[35;85H5,1  [19;1H[?25h[?25l[35;73H~@k[19;1H[35;73H   [20;1H[35;85H6[20;1H[?25h[?25l[35;73H~@k[20;1H[35;73H   [19;1H[35;85H5[19;1H[?25h[?25l[35;73H~@k[19;1H[35;73H   [18;1H[35;85H4,0-1[18;1H[?25h[?25l[35;73H~@k[18;1H[35;73H   [17;1H[9;1H[46m{[17;1H}[m[30m[47m[35;85H3,1  [17;1H[?25h[?25l[35;73H~@k[17;1H[35;73H   [16;1H[9;1H{[17;1H}[35;85H2[16;1H[?25h[?25l[35;73H~@k[16;1H[35;73H   [15;1H[35;85H1[15;1H[?25h[?25l[35;73H~@k[15;1H[35;73H   [14;1H[35;85H0[14;1H[?25h[?25l[35;73H~@k[14;1H[35;73H   [13;1H[35;83H99,1 [13;1H[?25h[?25l[35;73H~@k[13;1H[35;73H   [12;1H[35;84H8[12;1H[?25h[?25l[35;73H~@k[12;1H[35;73H   [12;2H[35;86H2[12;2H[?25h[?25l[35;73H~@k[12;2H[35;73H   [12;3H[35;86H3[12;3H[?25h[?25l[35;73H~@k[12;3H[35;73H   [12;4H[35;86H4[12;4H[?25h[?25l[35;73H~@k[12;4H[35;73H   [12;5H[35;86H5[12;5H[?25h[?25l[35;73H~@k[12;5H[35;73H   [12;6H[35;86H6[12;6H[?25h[?25l[35;73H~@k[12;6H[35;73H   [12;7H[35;86H7[12;7H[?25h[?25l[35;73H~@k[12;7H[35;73H   [12;8H[35;86H8[12;8H[?25h[?25l[35;73H~@k[12;8H[35;73H   [12;9H[35;86H9[12;9H[?25h[?25l[35;73H~@k[12;9H[35;73H   [12;10H[35;86H10[12;10H[?25h[?25l[35;73H~@k[12;10H[35;73H   [12;11H[35;87H1[12;11H[?25h[?25l[35;73H~@k[12;11H[35;73H   [12;12H[35;87H2[12;12H[?25h[?25l[35;73H~@k[12;12H[35;73H   [12;13H[35;87H3[12;13H[?25h[?25l[35;73H~@k[12;13H[35;73H   [12;14H[35;87H4[12;14H[?25h[?25l[35;73H~@k[12;14H[35;73H   [12;15H[35;87H5[12;15H[?25h[?25l[35;73H~@k[12;15H[35;73H   [12;16H[35;87H6[12;16H[?25h[?25l[35;73H~@k[12;16H[35;73H   [12;17H[35;87H7[12;17H[?25h[?25l[35;73H~@k[12;17H[35;73H   [12;18H[35;87H8[12;18H[?25h[?25l[35;73H~@k[12;18H[35;73H   [12;19H[35;87H9[12;19H[?25h[?25l[35;73H~@k[12;19H[35;73H   [12;20H[46m()[m[30m[47m[35;86H20[12;20H[?25h[?25l[35;73H~@k[12;20H[35;73H   [12;21H[35;87H1[12;21H[?25h[?25l[35;73H~@k[12;21H[35;73H   [12;22H()[35;87H2[12;22H[?25h[?25l[35;73H~@k[12;22H[35;73H   [12;22H[?25h[?25l[35;73H~@k[12;22H[35;73H   [12;22H[?25h[?25l[35;73H~@k[12;22H[35;73H   [12;22H[?25h[?25l[35;73H~@k[12;22H[35;73H   [12;22H[?25h[?25l[35;73H~@k[12;22H[35;73H   [12;22H[?25h[?25l[35;73H~@k[12;22H[35;73H   [12;22H[?25h[?25l[35;73H~@k[12;22H[35;73H   [12;22H[?25h[?25l[35;73H~@k[12;22H[35;73H   [12;22H[?25h[?25l[35;73H~@k[12;22H[35;73H   [12;22H[35;1H[1m-- INSERT --[m[30m[47m[35;83H[K[35;83H98,22[9C91%[12;22H[?25h[?25l[35;87H3[12;23H[?25h[?25l[13;34r[13;1H[L[1;35r[35;83H[K[35;83H99,3[10C90%[13;3H[?25h[?25lO[35;86H4[13;4H[?25h[?25lP[35;86H5[13;5H[?25h[?25ls[35;86H6[13;6H[?25h[?25l[35;86H7[13;7H[?25h[?25l[35;86H6[13;6H[?25h[?25l[13;5H[K[35;86H5[13;5H[?25h[?25l[13;4H[K[35;86H4[13;4H[?25h[?25ls[35;86H5[13;5H[?25h[?25lp[35;86H6[13;6H[?25h[?25l[13;5H[K[35;86H5[13;5H[?25h[?25l[13;4H[K[35;86H4[13;4H[?25h[?25lp[35;86H5[13;5H[?25h[?25ls[35;86H6[13;6H[?25h[?25l[35;86H7[13;7H[?25h[?25lo[35;86H8[13;8H[?25h[?25lp[35;86H9[13;9H[?25h[?25ls[35;86H10[13;10H[?25h[?25l;[35;87H1[13;11H[?25h[?25l[35;83H100,11[14;11H[?25h[?25l[35;88H2[14;12H[?25h[?25l[35;88H3[14;13H[?25h[?25l;[14;13H[K[35;88H2[14;12H[?25h[?25l[35;85H1[15;12H[?25h[?25l[35;85H2[16;12H[?25h[?25l[35;85H3[17;12H[?25h[?25l[35;88H3[17;13H[?25h[?25l[35;88H4[17;14H[?25h[?25l[35;88H5[17;15H[?25h[?25l[35;88H6[17;16H[?25h[?25l[35;88H7[17;17H[?25h[?25l[35;88H8[17;18H[?25h[?25l[35;88H9[17;19H[?25h[?25l[35;87H20[17;20H[?25h[?25l[35;88H1[17;21H[?25h[?25l[35;88H2[17;22H[?25h[?25l[35;88H3[17;23H[?25h[?25l[35;88H4[17;24H[?25h[?25l[35;88H5[17;25H[?25h[?25l[35;88H6[17;26H[?25h[?25l[35;88H7[17;27H[?25h[?25l[35;88H8[17;28H[?25h[?25l[35;88H9[17;29H[?25h[?25l[35;87H30[17;30H[?25h[?25l[35;88H1[17;31H[?25h[?25l[35;88H2[17;32H[?25h[?25l[35;88H3[17;33H[?25h[?25l[35;88H4[17;34H[?25h[?25l[35;88H5[17;35H[?25h[?25l[35;88H6[17;36H[?25h[?25l[35;88H7[17;37H[?25h[?25l[35;88H8[17;38H[?25h[?25l[35;88H9[17;39H[?25h[?25l[35;87H40[17;40H[?25h[?25l[35;87H39[17;39H[?25h[?25l[35;88H8[17;38H[?25h[?25l[35;88H7[17;37H[?25h[?25l.compare_count << [31m"[m[30m[47m[35m\t[m[30m[47m[31m"[m[30m[47m << ops.swap_count << std::endl;[17;90H[K[35;88H6[17;36H[?25h[?25l[35;88H7[17;37H[?25h[?25l[35;88H8[17;38H[?25h[?25l[35;88H9[17;39H[?25h[?25l[35;87H40[17;40H[?25h[?25l[35;88H1[17;41H[?25h[?25l[35;88H2[17;42H[?25h[?25l[35;88H3[17;43H[?25h[?25l[35;88H4[17;44H[?25h[?25l[35;88H5[17;45H[?25h[?25l[35;88H6[17;46H[?25h[?25l[35;88H7[17;47H[?25h[?25l[35;88H8[17;48H[?25h[?25l[35;88H9[17;49H[?25h[?25l[35;87H50[17;50H[?25h[?25l[35;88H1[17;51H[?25h[?25l[35;88H3[17;53H[?25h[?25l[35;88H4[17;54H[?25h[?25l[35;88H5[17;55H[?25h[?25l[35;88H6[17;56H[?25h[?25l[35;88H7[17;57H[?25h[?25l[35;88H8[17;58H[?25h[?25l[35;88H9[17;59H[?25h[?25l[35;87H60[17;60H[?25h[?25l[35;88H1[17;61H[?25h[?25l[35;88H2[17;62H[?25h[?25l[35;88H3[17;63H[?25h[?25l[35;88H4[17;64H[?25h[?25l[35;88H5[17;65H[?25h[?25l.swap_count << std::endl;[17;89H[K[35;88H4[17;64H[?25h[35;1H[K[17;63H[?25l[35;73H^[[17;63H[35;73H  [17;64H[35;83H103,63[8C90%[17;63H[?25h[?25l[35;73H:[17;63H[35;73H[K[35;1H:[?2004h[?25hx[?25l[?25h[?25l[?1000l[?2004l"main.cc" 129L, 3228C written[23;2t[23;1t[22;2t[22;1t[23;2t[23;1t
+[39;49m[?2004l[?1l>[?25h[?1049l[23;0;0tamchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ vim main.cc./main insertionSort ../ascending.dat `seq 2000 2000 10000`[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[24Pmake -f ../Makefile
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+g++ sorts.o ops.o main.o -o main
+cat </dev/null >.gitignore
+echo .deps >.gitignore
+for t in main sorts.o ops.o main.o; do echo $t >>.gitignore; done
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ make -f ../Makefile[8Pvim main.cc./main insertionSort ../ascending.dat `seq 2000 2000 10000`
+n	compares	swaps	
+2000	-2143028465	32766
+4000	-2143028465	32766
+6000	-2143028465	32766
+8000	-2143028465	32766
+10000	-2143028465	32766
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ ./main insertionSort ../ascending.dat `seq 2000 2000 10000`[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[24Pmake -f ../Makefile
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Pvim main.cc
+[?1000h[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;35r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[35;1H"main.cc" 129L, 3228C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;3H[33mfor[m ([32mint[m i = [31m0[m; i < n; i++) {[2;11Hstd::cout << a[i] << std::endl;
+  std::cout << std::endl;[4;9H}
+}
+
+[32mstatic[m [32mvoid[m
+go(SortP sort, std::string filePath, [32mbool[m isVerbose, [32mint[m nRead)
+{
+  std::vector<[32mint[m> ints = readIntsFromFile(filePath, nRead);
+  [32mint[m* a = ints.data();
+  [32mint[m n = ints.size();
+  Ops ops;
+  newOps op;
+  sort(a, n, &ops);
+  [33mif[m (isVerbose) outArray(a, n);
+   std::cout << nRead << [31m"[m[35m\t[m[31m"[m << op.compare_count << [31m"[m[35m\t[m[31m"[m << op.swap_count << std::endl;
+}
+
+[32mint[m
+main([32mint[m argc, [32mchar[m* argv[]) {
+  [33mif[m (argc < [31m3[m) {
+    std::cerr << [31m"usage: "[m << argv[[31m0[m][24;15H<< [31m" [-v] ALGORITHM INTS_DATA_FILE|- [N...]"[m << std::endl;
+    std::exit([31m1[m);
+  }
+  [32mbool[m isVerbose = std::strcmp(argv[[31m1[m], [31m"-v"[m) == [31m0[m;
+  [32mbool[m nVerbose = (isVerbose) ? [31m1[m : [31m0[m;
+  [32mconst[m [32mchar[m* algorithm = argv[[31m1[m + nVerbose];
+  [32mconst[m std::string filePath(argv[[31m2[m + nVerbose]);
+  SortP sort = getSort(algorithm);
+  [32mint[m sizeArgsIndex = [31m3[m + nVerbose;
+  std::cout << [31m"n"[m << [31m"[m[35m\t[m[31m"[m << [31m"compares"[m << [31m"[m[35m\t[m[31m"[m << [31m"swaps"[m << [31m"[m[35m\t[m[31m"[m << std::endl;
+  [33mif[m (sizeArgsIndex == argc) {[35;83H103,63[8C90%[17;63H[?25h[?25l[35;73H~@k[17;63H[35;73H   [17;63H[35;1H[1m-- INSERT --[m[35;13H[K[35;83H103,63[8C90%[17;63H[?25h[?25l[35;85H2,3[16;33H[?25h[?25l[35;85H3,6[17;63H[?25h[?25l[35;85H2,3[16;33H[?25h[?25l[35;85H1,20[15;20H[?25h[?25l[35;85H0,13[14;13H[?25h[?25l[35;88H2[14;12H[?25h[?25ls;[35;88H3[14;13H[?25h[?25l[35;83H99,11 [13;11H[?25h[?25l[13;10H[K[35;87H0[13;10H[?25h[?25l[13;9H[K[35;86H9 [13;9H[?25h[?25l[13;8H[K[35;86H8[13;8H[?25h[?25l[13;7H[K[35;86H7[13;7H[?25h[?25l[35;86H6[13;6H[?25h[?25l[13;5H[K[35;86H5[13;5H[?25h[?25l[13;4H[K[35;86H4[13;4H[?25h[?25l[13;3H[K[35;86H3[13;3H[?25h[?25l[35;86H2[13;2H[?25h[?25l[35;86H1[13;1H[?25h[?25l[12;34r[34;1H
+[1;35r[12;3H[32mint[m n = ints.size();[34;5Hgo(sort, filePath, isVerbose, -[31m1[m);[35;83H[K[35;83H98,23[9C91%[12;23H[?25h[?25l[35;84H9,14[13;14H[?25h[?25l[35;83H100,20[14;20H[?25h[?25l[35;85H1,23[15;23H[?25h[?25l[35;85H2[16;23H[?25h[?25l[35;88H4[16;24H[?25h[?25l[35;88H5[16;25H[?25h[?25l[35;88H6[16;26H[?25h[?25l[35;88H7[16;27H[?25h[?25l[35;88H8[16;28H[?25h[?25l[35;88H9[16;29H[?25h[?25l[35;87H30[16;30H[?25h[?25l[35;88H1[16;31H[?25h[?25l[35;88H2[16;32H[?25h[?25l[35;88H3[16;33H[?25h[?25l[35;88H4[16;34H[?25h[?25l[35;88H5[16;35H[?25h[?25l[35;88H6[16;36H[?25h[?25ls.compare_count << [31m"[m[35m\t[m[31m"[m << op.swap_count << std::endl;[35;88H7[16;37H[?25h[?25l[35;88H8[16;38H[?25h[?25l[35;88H9[16;39H[?25h[?25l[35;87H40[16;40H[?25h[?25l[35;88H1[16;41H[?25h[?25l[35;88H2[16;42H[?25h[?25l[35;88H3[16;43H[?25h[?25l[35;88H4[16;44H[?25h[?25l[35;88H5[16;45H[?25h[?25l[35;88H6[16;46H[?25h[?25l[35;88H7[16;47H[?25h[?25l[35;88H8[16;48H[?25h[?25l[35;88H9[16;49H[?25h[?25l[35;87H50[16;50H[?25h[?25l[35;88H1[16;51H[?25h[?25l[35;88H2[16;52H[?25h[?25l[35;88H3[16;53H[?25h[?25l[35;88H4[16;54H[?25h[?25l[35;88H5[16;55H[?25h[?25l[35;88H6[16;56H[?25h[?25l[35;88H7[16;57H[?25h[?25l[35;88H8[16;58H[?25h[?25l[35;88H9[16;59H[?25h[?25l[35;87H60[16;60H[?25h[?25l[35;88H1[16;61H[?25h[?25l[35;88H2[16;62H[?25h[?25l[35;88H3[16;63H[?25h[?25l[35;88H4[16;64H[?25h[?25l[35;88H5[16;65H[?25h[?25ls.swap_count << std::endl;[35;88H6[16;66H[?25h[35;1H[K[16;65H[?25l[35;73H^[[16;65H[35;73H  [16;66H[35;83H102,65[8C91%[16;65H[?25h[?25l[35;73H:[16;65H[35;73H[K[35;1H:[?2004h[?25hx[?25l[?25h[?25l[?1000l[?2004l"main.cc" 128L, 3220C written[23;2t[23;1t[22;2t[22;1t[23;2t[23;1t
+[?2004l[?1l>[?25h[?1049l[23;0;0tamchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ vim main.cc./main insertionSort ../ascending.dat `seq 2000 2000 10000`[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[24Pmake -f ../Makefile
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+g++ sorts.o ops.o main.o -o main
+cat </dev/null >.gitignore
+echo .deps >.gitignore
+for t in main sorts.o ops.o main.o; do echo $t >>.gitignore; done
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ make -f ../Makefile[8Pvim main.cc./main insertionSort ../ascending.dat `seq 2000 2000 10000`
+n	compares	swaps	
+2000	1968078842	22039
+4000	1968080842	22039
+6000	1968082842	22039
+8000	1968084842	22039
+10000	1968086842	22039
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ vim main.cc
+[?1000h[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;35r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[35;1H"main.cc" 128L, 3220C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H{
+  [33mfor[m ([32mint[m i = [31m0[m; i < n; i++) {[3;11Hstd::cout << a[i] << std::endl;
+  std::cout << std::endl;[5;9H}
+}
+
+[32mstatic[m [32mvoid[m
+go(SortP sort, std::string filePath, [32mbool[m isVerbose, [32mint[m nRead)
+{
+  std::vector<[32mint[m> ints = readIntsFromFile(filePath, nRead);
+  [32mint[m* a = ints.data();
+  [32mint[m n = ints.size();
+  newOps ops;
+  sort(a, n, &ops);
+  [33mif[m (isVerbose) outArray(a, n);
+   std::cout << nRead << [31m"[m[35m\t[m[31m"[m << ops.compare_count << [31m"[m[35m\t[m[31m"[m << ops.swap_count << std::endl;
+}
+
+[32mint[m
+main([32mint[m argc, [32mchar[m* argv[]) {
+  [33mif[m (argc < [31m3[m) {
+    std::cerr << [31m"usage: "[m << argv[[31m0[m][24;15H<< [31m" [-v] ALGORITHM INTS_DATA_FILE|- [N...]"[m << std::endl;
+    std::exit([31m1[m);
+  }
+  [32mbool[m isVerbose = std::strcmp(argv[[31m1[m], [31m"-v"[m) == [31m0[m;
+  [32mbool[m nVerbose = (isVerbose) ? [31m1[m : [31m0[m;
+  [32mconst[m [32mchar[m* algorithm = argv[[31m1[m + nVerbose];
+  [32mconst[m std::string filePath(argv[[31m2[m + nVerbose]);
+  SortP sort = getSort(algorithm);
+  [32mint[m sizeArgsIndex = [31m3[m + nVerbose;
+  std::cout << [31m"n"[m << [31m"[m[35m\t[m[31m"[m << [31m"compares"[m << [31m"[m[35m\t[m[31m"[m << [31m"swaps"[m << [31m"[m[35m\t[m[31m"[m << std::endl;
+  [33mif[m (sizeArgsIndex == argc) {[35;83H102,65[8C90%[17;65H[?25h[?25l[35;73H~@k[17;65H[35;73H   [18;1H[10;1H[46m{[18;1H}[m[35;85H3,1 [18;1H[?25h[?25l[35;73H~@k[18;1H[35;73H   [19;1H[10;1H{[18;1H}[35;85H4,0-1[19;1H[?25h[?25l[35;73H~@k[19;1H[35;73H   [20;3H[35;85H5,3  [20;3H[?25h[?25l[35;73H~@k[20;3H[35;73H   [21;30H[35;85H6,30[21;30H[?25h[?25l[35;73H~@k[21;30H[35;73H   [20;3H[35;85H5,3 [20;3H[?25h[?25l[35;73H~@k[20;3H[35;73H   [19;1H[35;85H4,0-1[19;1H[?25h[?25l[35;73H~@k[19;1H[35;73H   [18;1H[10;1H[46m{[18;1H}[m[35;85H3,1  [18;1H[?25h[?25l[35;73H~@k[18;1H[35;73H   [17;65H[10;1H{[18;1H}[35;85H2,65[17;65H[?25h[?25l[35;73H~@k[17;65H[35;73H   [16;32H[35;85H1,32[16;32H[?25h[?25l[35;73H~@k[16;32H[35;73H   [15;19H[35;85H0,19[15;19H[?25h[?25l[35;73H~@k[15;19H[35;73H   [16;32H[35;85H1,32[16;32H[?25h[?25l[35;73H~@k[16;32H[35;73H   [17;65H[35;85H2,65[17;65H[?25h[?25l[35;73H~@k[17;65H[35;73H   [17;64H[35;88H4[17;64H[?25h[?25l[35;73H~@k[17;64H[35;73H   [17;63H[35;88H3[17;63H[?25h[?25l[35;73H~@k[17;63H[35;73H   [17;62H[35;88H2[17;62H[?25h[?25l[35;73H~@k[17;62H[35;73H   [17;61H[35;88H1[17;61H[?25h[?25l[35;73H~@k[17;61H[35;73H   [17;60H[35;88H0[17;60H[?25h[?25l[35;73H~@k[17;60H[35;73H   [17;59H[35;87H59[17;59H[?25h[?25l[35;73H~@k[17;59H[35;73H   [17;58H[35;88H8[17;58H[?25h[?25l[35;73H~@k[17;58H[35;73H   [17;57H[35;88H7[17;57H[?25h[?25l[35;73H~@k[17;57H[35;73H   [17;56H[35;88H6[17;56H[?25h[?25l[35;73H~@k[17;56H[35;73H   [17;55H[35;88H5[17;55H[?25h[?25l[35;73H~@k[17;55H[35;73H   [17;54H[35;88H4[17;54H[?25h[?25l[35;73H~@k[17;54H[35;73H   [17;53H[35;88H3[17;53H[?25h[?25l[35;73H~@k[17;53H[35;73H   [17;52H[35;88H2[17;52H[?25h[?25l[35;73H~@k[17;52H[35;73H   [17;51H[35;88H1[17;51H[?25h[?25l[35;73H~@k[17;51H[35;73H   [17;50H[35;88H0[17;50H[?25h[?25l[35;73H~@k[17;50H[35;73H   [17;49H[35;87H49[17;49H[?25h[?25l[35;73H~@k[17;49H[35;73H   [17;48H[35;88H8[17;48H[?25h[?25l[35;73H~@k[17;48H[35;73H   [17;47H[35;88H7[17;47H[?25h[?25l[35;73H~@k[17;47H[35;73H   [17;46H[35;88H6[17;46H[?25h[?25l[35;73H~@k[17;46H[35;73H   [17;45H[35;88H5[17;45H[?25h[?25l[35;73H~@k[17;45H[35;73H   [17;44H[35;88H4[17;44H[?25h[?25l[35;73H~@k[17;44H[35;73H   [17;43H[35;88H3[17;43H[?25h[?25l[35;73H~@k[17;43H[35;73H   [17;42H[35;88H2[17;42H[?25h[?25l[35;73H~@k[17;42H[35;73H   [17;41H[35;88H1[17;41H[?25h[?25l[35;73H~@k[17;41H[35;73H   [17;40H[35;88H0[17;40H[?25h[?25l[35;73H~@k[17;40H[35;73H   [17;39H[35;87H39[17;39H[?25h[?25l[35;73H~@k[17;39H[35;73H   [17;38H[35;88H8[17;38H[?25h[?25l[35;73H~@k[17;38H[35;73H   [17;37H[35;88H7[17;37H[?25h[?25l[35;73H~@k[17;37H[35;73H   [17;37H[35;1H[1m-- INSERT --[m[35;13H[K[35;83H102,37[8C90%[17;37H[?25h[35;1H[K[17;36H[?25l[35;73H^[[17;36H[35;73H  [17;37H[35;83H102,36[8C90%[17;36H[?25h[?25l[35;73H~@k[17;36H[35;73H   [17;36H[35;1H[1m-- INSERT --[m[35;83H[K[35;83H102,36[8C90%[17;36H[?25h[?25l[35;4H[1mREPLACE --[m[35;83H[K[35;83H102,36[8C90%[17;36H[?25h[?25l[35;4H[1mINSERTE -[m[35;13H[K[35;83H102,36[8C90%[17;36H[?25h[?25l[35;85H1,33[16;33H[?25h[?25l[35;85H0,20[15;20H[?25h[?25l[35;83H99,14 [14;14H[?25h[?25l[35;83H100,20[15;20H[?25h[?25l[35;85H1,33[16;33H[?25h[?25l[35;85H2,36[17;36H[?25h[35;1H[K[17;35H[?25l[35;73H^[[17;35H[35;73H  [17;36H[35;83H102,35[8C90%[17;35H[?25h[?25l[35;73H:[17;35H[35;73H[K[35;1H:[?2004h[?25hx[?25l[?25h[?25l[?1000l[?2004l[23;2t[23;1t[22;2t[22;1t[23;2t[23;1t[35;1H[K[35;1H[?2004l[?1l>[?25h[?1049l[23;0;0tamchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ vim newops.hh
+[?1000h[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;35r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[35;1H"newops.hh" 23L, 337C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[35m#ifndef NEWOPS_HH_
+#define NEWOPS_HH_
+
+#include [m[31m"ops.hh"[m
+
+[32mclass[m newOps : [33mpublic[m Ops {
+[33mpublic[m:[8;9H[32mint[m compare_count;[9;9H[32mint[m swap_count;[11;9H[32mvirtual[m [32mint[m compare([32mint[m a, [32mint[m b) [32moverride[m {[12;17Hcompare_count+=[31m1[m;[13;17H[33mreturn[m Ops::compare(a,b);[14;9H}[15;9H[32mvirtual[m [32mvoid[m swap([32mint[m a[], [32mint[m i, [32mint[m j) [32moverride[m {[16;17Hswap_count+=[31m1[m;[17;17HOps::swap(a, i, j);[18;9H}
+};
+
+[35m#endif[m
+
+
+[1m[34m~                                                                                                   [25;1H~                                                                                                   [26;1H~                                                                                                   [27;1H~                                                                                                   [28;1H~                                                                                                   [29;1H~                                                                                                   [30;1H~                                                                                                   [31;1H~                                                                                                   [32;1H~                                                                                                   [33;1H~                                                                                                   [34;1H~                                                                                                   [m[35;83H17,21-35      All[17;35H[?25h[?25l[35;1H[1m-- INSERT --[m[35;13H[K[35;83H17,21-35      All[?25h[?25l[35;84H6,17-31[16;31H[?25h[?25l[35;84H5,28-35[15;35H[?25h[?25l[11;52H[46m{[14;9H}[m[35;84H4,3-10 [14;10H[?25h[?25l[11;52H{[14;9H}[35;84H3,21-35[13;35H[?25h[?25l[35;84H2,20-34[12;34H[?25h[?25l[35;84H1,28-35[11;35H[?25h[?25l[35;84H0,1    [10;1H[?25h[?25l[35;83H9,17-24[9;24H[?25h[?25l[35;83H8,20-27[8;27H[?25h[?25l[35;83H7,8    [7;8H[?25h[?25l[7;7H[K[35;85H7[7;7H[?25h[?25lpubli[7;6H[K[35;85H6[7;6H[?25h[?25l[7;5H[K[35;85H5[7;5H[?25h[?25l[7;4H[K[35;85H4[7;4H[?25h[?25l[7;3H[K[35;85H3[7;3H[?25h[?25l[7;2H[K[35;85H2[7;2H[?25h[?25l[7;1H[K[35;85H1[7;1H[?25h[?25l[6;34r[34;1H
+[1;35r[6;1H[32mclass[m newOps : [33mpublic[m Ops {[34;1H[1m[34m~                                                                                                   [m[35;83H[K[35;83H6,28[10CAll[6;27H[46m{[18;1H}[6;28H[?25h[?25l[m{[18;1H}[35;83H7,20-27[7;27H[?25h[?25l[35;85H19-26[7;26H[?25h[?25l[35;86H8-25[7;25H[?25h[?25l[35;86H7-24[7;24H[?25h[?25l[35;86H6-23[7;23H[?25h[?25l[35;86H5-22[7;22H[?25h[?25l[35;86H4-21[7;21H[?25h[?25l[35;86H3-20[7;20H[?25h[?25l[35;86H2-19[7;19H[?25h[?25l[35;86H1-18[7;18H[?25h[?25l[35;86H0-17[7;17H[?25h[?25l[35;85H9-16 [7;16H[?25h[?25l[35;85H8-15[7;15H[?25h[?25l[35;85H7-14[7;14H[?25h[?25l[35;85H6-13[7;13H[?25h[?25l[35;85H5-12[7;12H[?25h[?25l[35;85H4-11[7;11H[?25h[?25l[35;85H3-10[7;10H[?25h[?25l[35;85H2-9 [7;9H[?25h[?25l[35;85H1  [7;1H[?25h[?25l[35;85H2-9[7;9H[?25h[?25l[35;85H1  [7;1H[?25h[?25l[35;85H2-9[7;9H[?25h[?25l[35;83H8[8;9H[?25h[?25l[35;83H9,1  [9;1H[?25h[?25l[35;83H10,2-9[10;9H[?25h[?25l[35;84H1[11;9H[?25h[?25l[35;84H2[12;9H[?25h[?25l[10;52H[46m{[13;9H}[m[35;84H3[13;9H[?25h[?25l[10;52H{[13;9H}[35;84H2[12;9H[?25h[?25l[35;84H1[11;9H[?25h[?25l[35;86H3-17[11;17H[?25h[?25l[35;86H4-18[11;18H[?25h[?25l[35;86H5-19[11;19H[?25h[?25l[35;86H6-20[11;20H[?25h[?25l[35;86H7-21[11;21H[?25h[?25l[35;86H8-22[11;22H[?25h[?25l[35;86H9-23[11;23H[?25h[?25l[35;86H10-24[11;24H[?25h[?25l[35;87H1-25[11;25H[?25h[?25l[35;87H2-26[11;26H[?25h[?25l[35;87H3-27[11;27H[?25h[?25l[35;87H4-28[11;28H[?25h[?25l[35;87H5-29[11;29H[?25h[?25l[35;87H6-30[11;30H[?25h[?25l[35;87H7-31[11;31H[?25h[?25l[35;87H8-32[11;32H[?25h[?25l[31m1[m;[11;33H[K[35;87H7-31[11;31H[?25h[?25l+[31m1[m;[35;87H8-32[11;32H[?25h[?25l;[11;33H[K[11;32H[?25h[?25l[35;84H2[12;32H[?25h[?25l[10;52H[46m{[13;9H}[m[35;84H3,3-10 [13;10H[?25h[?25l[10;52H{[13;9H}[14;32H[46m[][m[35;84H4,25-32[14;32H[?25h[?25l[][35;84H5,17-31[15;31H[?25h[?25l[35;87H6-30[15;30H[?25h[?25l;[15;30H[K[35;87H5-29[15;29H[?25h[?25l;[15;29H[K[35;87H4-28[15;28H[?25h[?25l+;[35;87H5-29[15;29H[?25h[35;1H[K[15;28H[?25l[35;73H^[[15;28H[35;73H  [15;29H[35;83H15,14-28      All[15;28H[?25h[?25l[35;73H:[15;28H[35;73H[K[35;1H:[?2004h[?25hx[?25l[?25h[?25l[?1000l[?2004l"newops.hh" 22L, 327C written[23;2t[23;1t[22;2t[22;1t[23;2t[23;1t
+[?2004l[?1l>[?25h[?1049l[23;0;0tamchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ vim newops.hh[2Pmain.cc./main insertionSort ../ascending.dat `seq 2000 2000 10000`[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[24Pmake -f ../Makefile
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Pvim main.ccmake -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+[01m[Kmain.cc:[m[K In function ‘[01m[Kvoid go(SortP, std::__cxx11::string, bool, int)[m[K’:
+[01m[Kmain.cc:102:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kint newOps::compare_count[m[K’ is private within this context
+    std::cout << nRead << "\t" << ops.[01;31m[Kcompare_count[m[K << "\t" << ops.swap_count << std::endl;
+                                      [01;31m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[Kmain.cc:9[m[K:
+[01m[Knewops.hh:7:6:[m[K [01;36m[Knote: [m[Kdeclared private here
+  int [01;36m[Kcompare_count[m[K;
+      [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[Kmain.cc:102:67:[m[K [01;31m[Kerror: [m[K‘[01m[Kint newOps::swap_count[m[K’ is private within this context
+    std::cout << nRead << "\t" << ops.compare_count << "\t" << ops.[01;31m[Kswap_count[m[K << std::endl;
+                                                                   [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[Kmain.cc:9[m[K:
+[01m[Knewops.hh:8:6:[m[K [01;36m[Knote: [m[Kdeclared private here
+  int [01;36m[Kswap_count[m[K;
+      [01;36m[K^~~~~~~~~~[m[K
+make: *** [../Makefile:48: main.o] Error 1
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ vim newopjs[K[Ks.hh
+[?1000h[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;35r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[35;1H"newops.hh" 22L, 327C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[35m#ifndef NEWOPS_HH_
+#define NEWOPS_HH_
+
+#include [m[31m"ops.hh"[m
+
+[32mclass[m newOps : [33mpublic[m Ops {[7;9H[32mint[m compare_count;[8;9H[32mint[m swap_count;[10;9H[32mvirtual[m [32mint[m compare([32mint[m a, [32mint[m b) [32moverride[m {[11;17Hcompare_count++;[12;17H[33mreturn[m Ops::compare(a,b);[13;9H}[14;9H[32mvirtual[m [32mvoid[m swap([32mint[m a[], [32mint[m i, [32mint[m j) [32moverride[m {[15;17Hswap_count++;[16;17HOps::swap(a, i, j);[17;9H}
+};
+
+[35m#endif[m
+
+
+[1m[34m~                                                                                                   [24;1H~                                                                                                   [25;1H~                                                                                                   [26;1H~                                                                                                   [27;1H~                                                                                                   [28;1H~                                                                                                   [29;1H~                                                                                                   [30;1H~                                                                                                   [31;1H~                                                                                                   [32;1H~                                                                                                   [33;1H~                                                                                                   [34;1H~                                                                                                   [m[35;83H15,14-28      All[15;28H[?25h[?25l[35;73H~@k[15;28H[35;73H   [15;28H[35;1H[1m-- INSERT --[m[35;13H[K[35;83H15,14-28      All[15;28H[?25h[?25l[35;84H4,21[14;28H[?25h[?25l[10;52H[46m{[13;9H}[m[35;84H3,3-10 [13;10H[?25h[?25l[10;52H{[13;9H}[35;84H2,14-28[12;28H[?25h[?25l[35;84H1[11;28H[?25h[?25l[10;28H[46m([12C)[m[35;84H0,21[10;28H[?25h[?25l([12C)[35;83H9,1     [9;1H[?25h[?25l[35;83H8,17-24[8;24H[?25h[?25l[35;83H7,20-27[7;27H[?25h[?25l[6;27H[46m{[18;1H}[m[35;83H6,28   [6;28H[?25h[?25l[7;34r[7;1H[L[1;35r[18;1H[46m        [m
+}[35;83H[K[35;83H7,2-9[9CAll[6;27H{[18;1H        [7;9H[?25h[?25l[35;85H1  [7;1H[?25h[?25lp[35;85H2[7;2H[?25h[?25lu[35;85H3[7;3H[?25h[?25lb[35;85H4[7;4H[?25h[?25ll[35;85H5[7;5H[?25h[?25li[35;85H6[7;6H[?25h[?25l[33mpublic[m[35;85H7[7;7H[?25h[?25l:[35;85H8[7;8H[?25h[35;1H[K[7;7H[?25l[35;73H^[[7;7H[35;73H  [7;8H[35;83H7,7[11CAll[7;7H[?25h[?25l[35;73H:[7;7H[35;73H[K[35;1H:[?2004h[?25hx[?25l[?25h[?25l[?1000l[?2004l"newops.hh" 23L, 335C written[23;2t[23;1t[22;2t[22;1t[23;2t[23;1t
+[?2004l[?1l>[?25h[?1049l[23;0;0tamchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ vim newops.hhmake -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+g++ sorts.o ops.o main.o -o main
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ make -f ../Makefile[Kmake -f ../Makefile[6Pvim newops.hhmake -f ../Makefile[6Pvim newops.hh
+[?1000h[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;35r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[35;1H"newops.hh" 23L, 335C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[35m#ifndef NEWOPS_HH_
+#define NEWOPS_HH_
+
+#include [m[31m"ops.hh"[m
+
+[32mclass[m newOps : [33mpublic[m Ops {
+[33mpublic[m:[8;9H[32mint[m compare_count;[9;9H[32mint[m swap_count;[11;9H[32mvirtual[m [32mint[m compare([32mint[m a, [32mint[m b) [32moverride[m {[12;17Hcompare_count++;[13;17H[33mreturn[m Ops::compare(a,b);[14;9H}[15;9H[32mvirtual[m [32mvoid[m swap([32mint[m a[], [32mint[m i, [32mint[m j) [32moverride[m {[16;17Hswap_count++;[17;17HOps::swap(a, i, j);[18;9H}
+};
+
+[35m#endif[m
+
+
+[1m[34m~                                                                                                   [25;1H~                                                                                                   [26;1H~                                                                                                   [27;1H~                                                                                                   [28;1H~                                                                                                   [29;1H~                                                                                                   [30;1H~                                                                                                   [31;1H~                                                                                                   [32;1H~                                                                                                   [33;1H~                                                                                                   [34;1H~                                                                                                   [m[35;83H7,7[11CAll[7;7H[?25h[?25l[35;73H:[7;7H[35;1H[K[35;1H:[?2004h[?25hx[?25l[?25h[?25l[?1000l[?2004l[23;2t[23;1t[22;2t[22;1t[23;2t[23;1t[35;1H[K[35;1H[?2004l[?1l>[?25h[?1049l[23;0;0tamchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ vim ops.hh
+[?1000h[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;35r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[35;1H"ops.hh" 17L, 277C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[35m#ifndef OPS_HH_
+#define OPS_HH_[m
+
+[34m/** sorting operations */[m
+[32mclass[m Ops {
+[33mpublic[m:
+
+  [34m/** return < [m[31m0[m[34m, == [m[31m0[m[34m, > [m[31m0[m[34m if a < b, a == b, a > b */[m
+  [32mvirtual[m [32mint[m compare([32mint[m a, [32mint[m b);
+
+  [34m/** swap a[i] and a[j] */[m
+  [32mvirtual[m [32mvoid[m swap([32mint[m a[], [32mint[m i, [32mint[m j);
+};[17;1H[35m#endif[m [34m//ifndef OPS_HH_[m
+[1m[34m~                                                                                                   [19;1H~                                                                                                   [20;1H~                                                                                                   [21;1H~                                                                                                   [22;1H~                                                                                                   [23;1H~                                                                                                   [24;1H~                                                                                                   [25;1H~                                                                                                   [26;1H~                                                                                                   [27;1H~                                                                                                   [28;1H~                                                                                                   [29;1H~                                                                                                   [30;1H~                                                                                                   [31;1H~                                                                                                   [32;1H~                                                                                                   [33;1H~                                                                                                   [34;1H~                                                                                                   [m[35;83H14,0-1[8CAll[14;1H[?25h[?25l[35;73H:[14;1H[35;1H[K[35;1H:[?2004h[?25hc[?25l[?25ho[?25l[?25hl[?25l[?25ho[?25l[?25h[?25l [?25hm[?25l[?25ho[?25l[?25hr[?25l[?25hn[?25l[?25hi[?25l[?25hn[?25l[?25hg[?25l[?25h[?25l[30m[47m[14;1H[27m[23m[29m[m[30m[47m[H[2J[1;1H[35m#ifndef OPS_HH_
+#define OPS_HH_[m[30m[47m
+
+[34m/** sorting operations */[m[30m[47m
+[32mclass[m[30m[47m Ops {
+[33mpublic[m[30m[47m:
+
+  [34m/** return < [m[30m[47m[31m0[m[30m[47m[34m, == [m[30m[47m[31m0[m[30m[47m[34m, > [m[30m[47m[31m0[m[30m[47m[34m if a < b, a == b, a > b */[m[30m[47m
+  [32mvirtual[m[30m[47m [32mint[m[30m[47m compare([32mint[m[30m[47m a, [32mint[m[30m[47m b);
+
+  [34m/** swap a[i] and a[j] */[m[30m[47m
+  [32mvirtual[m[30m[47m [32mvoid[m[30m[47m swap([32mint[m[30m[47m a[], [32mint[m[30m[47m i, [32mint[m[30m[47m j);
+};[17;1H[35m#endif[m[30m[47m [34m//ifndef OPS_HH_[m[30m[47m
+[1m[34m~                                                                                                   [19;1H~                                                                                                   [20;1H~                                                                                                   [21;1H~                                                                                                   [22;1H~                                                                                                   [23;1H~                                                                                                   [24;1H~                                                                                                   [25;1H~                                                                                                   [26;1H~                                                                                                   [27;1H~                                                                                                   [28;1H~                                                                                                   [29;1H~                                                                                                   [30;1H~                                                                                                   [31;1H~                                                                                                   [32;1H~                                                                                                   [33;1H~                                                                                                   [34;1H~                                                                                                   [m[30m[47m[35;83H14,0-1[8CAll[14;1H[?25h[?25l[35;73H"[14;1H[?25h[?25l[35;74Hx[14;1H[?25h[?25l[35;75H:[14;1H[35;73H[K[35;1H:[?2004h[?25hx[?25l[?25h[?25l[?1000l[?2004l[23;2t[23;1t[22;2t[22;1t[23;2t[23;1t[35;1H[K[35;1H[?2004l[?1l>[?25h[?1049l[23;0;0tamchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ vim ops.hhnewops.hh
+[?1000h[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;35r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[35;1H"newops.hh" 23L, 335C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[35m#ifndef NEWOPS_HH_
+#define NEWOPS_HH_
+
+#include [m[31m"ops.hh"[m
+
+[32mclass[m newOps : [33mpublic[m Ops {
+[33mpublic[m:[8;9H[32mint[m compare_count;[9;9H[32mint[m swap_count;[11;9H[32mvirtual[m [32mint[m compare([32mint[m a, [32mint[m b) [32moverride[m {[12;17Hcompare_count++;[13;17H[33mreturn[m Ops::compare(a,b);[14;9H}[15;9H[32mvirtual[m [32mvoid[m swap([32mint[m a[], [32mint[m i, [32mint[m j) [32moverride[m {[16;17Hswap_count++;[17;17HOps::swap(a, i, j);[18;9H}
+};
+
+[35m#endif[m
+
+
+[1m[34m~                                                                                                   [25;1H~                                                                                                   [26;1H~                                                                                                   [27;1H~                                                                                                   [28;1H~                                                                                                   [29;1H~                                                                                                   [30;1H~                                                                                                   [31;1H~                                                                                                   [32;1H~                                                                                                   [33;1H~                                                                                                   [34;1H~                                                                                                   [m[35;83H7,7[11CAll[7;7H[?25h[?25l[35;73H:[7;7H[35;1H[K[35;1H:[?2004h[?25hx[?25l[?25h[?25l[?1000l[?2004l[23;2t[23;1t[22;2t[22;1t[23;2t[23;1t[35;1H[K[35;1H[?2004l[?1l>[?25h[?1049l[23;0;0tamchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ vim main.cc
+[?1000h[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;35r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[35;1H"main.cc" 128L, 3220C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H{
+  [33mfor[m ([32mint[m i = [31m0[m; i < n; i++) {[3;11Hstd::cout << a[i] << std::endl;
+  std::cout << std::endl;[5;9H}
+}
+
+[32mstatic[m [32mvoid[m
+go(SortP sort, std::string filePath, [32mbool[m isVerbose, [32mint[m nRead)
+{
+  std::vector<[32mint[m> ints = readIntsFromFile(filePath, nRead);
+  [32mint[m* a = ints.data();
+  [32mint[m n = ints.size();
+  newOps ops;
+  sort(a, n, &ops);
+  [33mif[m (isVerbose) outArray(a, n);
+   std::cout << nRead << [31m"[m[35m\t[m[31m"[m << ops.compare_count << [31m"[m[35m\t[m[31m"[m << ops.swap_count << std::endl;
+}
+
+[32mint[m
+main([32mint[m argc, [32mchar[m* argv[]) {
+  [33mif[m (argc < [31m3[m) {
+    std::cerr << [31m"usage: "[m << argv[[31m0[m][24;15H<< [31m" [-v] ALGORITHM INTS_DATA_FILE|- [N...]"[m << std::endl;
+    std::exit([31m1[m);
+  }
+  [32mbool[m isVerbose = std::strcmp(argv[[31m1[m], [31m"-v"[m) == [31m0[m;
+  [32mbool[m nVerbose = (isVerbose) ? [31m1[m : [31m0[m;
+  [32mconst[m [32mchar[m* algorithm = argv[[31m1[m + nVerbose];
+  [32mconst[m std::string filePath(argv[[31m2[m + nVerbose]);
+  SortP sort = getSort(algorithm);
+  [32mint[m sizeArgsIndex = [31m3[m + nVerbose;
+  std::cout << [31m"n"[m << [31m"[m[35m\t[m[31m"[m << [31m"compares"[m << [31m"[m[35m\t[m[31m"[m << [31m"swaps"[m << [31m"[m[35m\t[m[31m"[m << std::endl;
+  [33mif[m (sizeArgsIndex == argc) {[35;83H102,35[8C90%[17;35H[?25h[?25l[35;1H[K[35;1H:[?2004h[?25hc[?25l[?25ho[?25l[?25hl[?25l[?25ho[?25l[?25h[?25l [?25hm[?25l[?25ho[?25l[?25hr[?25l[?25hn[?25l[?25hi[?25l[?25hn[?25l[?25hg[?25l[?25h[?25l[30m[47m[27m[23m[29m[m[30m[47m[H[2J[1;1H{
+  [33mfor[m[30m[47m ([32mint[m[30m[47m i = [31m0[m[30m[47m; i < n; i++) {[3;11Hstd::cout << a[i] << std::endl;
+  std::cout << std::endl;[5;9H}
+}
+
+[32mstatic[m[30m[47m [32mvoid[m[30m[47m
+go(SortP sort, std::string filePath, [32mbool[m[30m[47m isVerbose, [32mint[m[30m[47m nRead)
+{
+  std::vector<[32mint[m[30m[47m> ints = readIntsFromFile(filePath, nRead);
+  [32mint[m[30m[47m* a = ints.data();
+  [32mint[m[30m[47m n = ints.size();
+  newOps ops;
+  sort(a, n, &ops);
+  [33mif[m[30m[47m (isVerbose) outArray(a, n);
+   std::cout << nRead << [31m"[m[30m[47m[35m\t[m[30m[47m[31m"[m[30m[47m << ops.compare_count << [31m"[m[30m[47m[35m\t[m[30m[47m[31m"[m[30m[47m << ops.swap_count << std::endl;
+}
+
+[32mint[m[30m[47m
+main([32mint[m[30m[47m argc, [32mchar[m[30m[47m* argv[]) {
+  [33mif[m[30m[47m (argc < [31m3[m[30m[47m) {
+    std::cerr << [31m"usage: "[m[30m[47m << argv[[31m0[m[30m[47m][24;15H<< [31m" [-v] ALGORITHM INTS_DATA_FILE|- [N...]"[m[30m[47m << std::endl;
+    std::exit([31m1[m[30m[47m);
+  }
+  [32mbool[m[30m[47m isVerbose = std::strcmp(argv[[31m1[m[30m[47m], [31m"-v"[m[30m[47m) == [31m0[m[30m[47m;
+  [32mbool[m[30m[47m nVerbose = (isVerbose) ? [31m1[m[30m[47m : [31m0[m[30m[47m;
+  [32mconst[m[30m[47m [32mchar[m[30m[47m* algorithm = argv[[31m1[m[30m[47m + nVerbose];
+  [32mconst[m[30m[47m std::string filePath(argv[[31m2[m[30m[47m + nVerbose]);
+  SortP sort = getSort(algorithm);
+  [32mint[m[30m[47m sizeArgsIndex = [31m3[m[30m[47m + nVerbose;
+  std::cout << [31m"n"[m[30m[47m << [31m"[m[30m[47m[35m\t[m[30m[47m[31m"[m[30m[47m << [31m"compares"[m[30m[47m << [31m"[m[30m[47m[35m\t[m[30m[47m[31m"[m[30m[47m << [31m"swaps"[m[30m[47m << [31m"[m[30m[47m[35m\t[m[30m[47m[31m"[m[30m[47m << std::endl;
+  [33mif[m[30m[47m (sizeArgsIndex == argc) {[35;83H102,35[8C90%[17;35H[?25h[?25l[35;73H~@k[17;35H[35;73H   [17;35H[35;1H[1m-- INSERT --[m[30m[47m[35;83H[K[35;83H102,35[8C90%[17;35H[?25h[?25l[27m[23m[29m[m[30m[47m[H[2J[1;3HSortP sort;
+};
+
+[32mstatic[m[30m[47m Algorithm algorithms[] = {
+  { [31m"insertionSort"[m[30m[47m, insertionSort },
+  { [31m"bubbleSort"[m[30m[47m, bubbleSort },
+  { [31m"selectionSort"[m[30m[47m, selectionSort },
+  { [31m"mergeSort"[m[30m[47m, mergeSort },
+  { [31m"quickSort"[m[30m[47m, quickSort },
+};
+
+[34m/** Return sorting function specified by name; terminate program
+ *  if not valid.
+ */[m[30m[47m
+[32mstatic[m[30m[47m SortP
+getSort(std::string name)
+{
+  std::string names;
+  [33mfor[m[30m[47m ([32mauto[m[30m[47m i = [31m0u[m[30m[47m; i < [33msizeof[m[30m[47m(algorithms)/[33msizeof[m[30m[47m(algorithms[[31m0[m[30m[47m]); ++i) {
+    [32mconst[m[30m[47m std::string algName = algorithms[i].name;
+    [33mif[m[30m[47m (algName == name) [33mreturn[m[30m[47m algorithms[i].sort;
+    [33mif[m[30m[47m (names.size() > [31m0[m[30m[47m) names += [31m"|"[m[30m[47m;
+    names += algName;
+  }
+  std::cerr << [31m"unknown algorithm "[m[30m[47m << name[26;13H<< [31m" must be one of "[m[30m[47m << names << std::endl;
+  std::exit([31m1[m[30m[47m);
+}
+
+[34m/** Output a line containing whitespace separated contents of a [[m[30m[47m[31m0[m[30m[47m[34m, n) */[m[30m[47m
+[32mstatic[m[30m[47m [32mvoid[m[30m[47m
+outArray([32mint[m[30m[47m a[], [32mint[m[30m[47m n)
+{
+  [33mfor[m[30m[47m ([32mint[m[30m[47m i = [31m0[m[30m[47m; i < n; i++) {
+[1m-- INSERT --[m[30m[47m[70C82,1[10C56%[29;1H[?25h[?25l[27m[23m[29m[m[30m[47m[H[2J[1;3H[32mbool[m[30m[47m isStdin = filePath == [31m"-"[m[30m[47m;
+  std::ifstream file;
+  [33mif[m[30m[47m (!isStdin) file.open(filePath);
+  std::istream& in = (isStdin) ? std::cin : file;
+  [33mif[m[30m[47m (!in) {
+    [33mthrow[m[30m[47m std::invalid_argument(std::string([31m"cannot read "[m[30m[47m) + filePath +[7;33H[31m": "[m[30m[47m + std::strerror(errno));
+  }
+  std::vector<[32mint[m[30m[47m> ints;
+  [33mfor[m[30m[47m ([32mint[m[30m[47m i = [31m0[m[30m[47m; n < [31m0[m[30m[47m || i < n; ++i) {
+    [32mint[m[30m[47m v;
+    in >> v;
+    [33mif[m[30m[47m (in.eof()) {[14;7H[33mif[m[30m[47m (n > [31m0[m[30m[47m) {[15;9Hstd::cerr << [31m"got eof on while reading "[m[30m[47m << filePath[16;19H<< [31m" after reading "[m[30m[47m << i << [31m" ints; expected "[m[30m[47m << n[17;19H<< std::endl;[18;9Hstd::exit([31m1[m[30m[47m);[19;7H}[20;7H[33mbreak[m[30m[47m;
+    }
+    ints.push_back(v);
+  }
+  [33mreturn[m[30m[47m ints;
+}
+
+[34m//type for pointer to a sorting function [m[30m[47m
+[33musing[m[30m[47m SortP = [32mvoid[m[30m[47m (*)([32mint[m[30m[47m a[], [32mint[m[30m[47m n, Ops* ops);
+
+[34m//map algorithm name to corresponding function[m[30m[47m
+[32mstruct[m[30m[47m Algorithm {
+  std::string name;
+  SortP sort;
+};
+[1m-- INSERT --[m[30m[47m[70C50,1[10C22%[29;1H[?25h[?25l[1;34r[1;1H[21L[1;35r[1;1H[35m#include [m[30m[47m[31m<fstream>[m[30m[47m
+[35m#include [m[30m[47m[31m<iostream>[m[30m[47m
+[35m#include [m[30m[47m[31m<string>[m[30m[47m
+[35m#include [m[30m[47m[31m<vector>[m[30m[47m
+
+[35m#include [m[30m[47m[31m<cstdlib>[m[30m[47m
+[35m#include [m[30m[47m[31m<cstring>[m[30m[47m
+
+[35m#include [m[30m[47m[31m"newops.hh"[m[30m[47m
+[35m#include [m[30m[47m[31m"ops.hh"[m[30m[47m
+[35m#include [m[30m[47m[31m"sorts.hh"[m[30m[47m
+
+[34m/** Return vector of n int's read from filePath into a[].  If filePath
+ *  is [m[30m[47m[31m"-"[m[30m[47m[34m read from stdin.  If n < [m[30m[47m[31m0[m[30m[47m[34m, read entire contents of file.
+ */[m[30m[47m[19;1H[32mstatic[m[30m[47m std::vector<[32mint[m[30m[47m>
+readIntsFromFile([32mconst[m[30m[47m std::string filePath, [32mint[m[30m[47m n)
+{[35;83H[K[35;83H23,3[10CTop[23;3H[?25h[?25l[?25h[?25l[?25h[?25l[35;84H2[22;3H[?25h[?25l[35;84H1,2[21;2H[?25h[?25l[35;84H0,3[20;3H[?25h[?25l[35;83H19[19;3H[?25h[?25l[35;84H8,1[18;1H[?25h[?25l[35;84H7[17;1H[?25h[?25l[35;84H6[16;1H[?25h[?25l[35;84H5,3[15;3H[?25h[?25l[35;84H4[14;3H[?25h[?25l[35;84H3[13;3H[?25h[?25l[35;84H2,1[12;1H[?25h[?25l[35;84H3,3[13;3H[?25h[?25l[35;84H4[14;3H[?25h[?25l[35;84H5[15;3H[?25h[?25l[35;84H6,1[16;1H[?25h[?25l[35;84H7[17;1H[?25h[?25l[35;84H8[18;1H[?25h[?25l[35;84H9,3[19;3H[?25h[?25l[35;83H20[20;3H[?25h[?25l[35;84H1,2[21;2H[?25h[?25l[35;84H2,3[22;3H[?25h[?25l[35;84H3[23;3H[?25h[?25l[35;84H4[24;3H[?25h[?25l[35;84H5[25;3H[?25h[?25l[35;84H6[26;3H[?25h[?25l[35;84H7[27;3H[?25h[?25l[35;84H8,1[28;1H[?25h[?25l[26;12H[46m{[29;3H}[m[30m[47m[35;84H9,3[29;3H[?25h[?25l[1;34r[34;1H
+[1;35r[34;7H[33mif[m[30m[47m (n > [31m0[m[30m[47m) {[35;83H[K[35;83H30,3[11C1%[25;12H{[28;3H}
+  [?25h[?25l[1;34r[34;1H
+[1;35r[34;9Hstd::cerr << [31m"got eof on while reading "[m[30m[47m << filePath[35;83H[K[35;83H31,3[11C2%[29;3H[?25h[?25l[1;34r[34;1H
+[1;35r[34;19H<< [31m" after reading "[m[30m[47m << i << [31m" ints; expected "[m[30m[47m << n[35;83H[K[35;83H32,3[11C3%[29;3H[?25h[?25l[1;34r[1;1H[2M[1;35r[33;19H<< std::endl;[34;9Hstd::exit([31m1[m[30m[47m);[35;83H[K[35;83H34,3[11C5%[29;3H[?25h[?25l[1;34r[34;1H
+[1;35r[34;7H}[35;83H[K[35;83H35,3[11C6%[29;3H[?25h[?25l[1;34r[34;1H
+[1;35r[34;7H[33mbreak[m[30m[47m;[35;83H[K[35;83H36,1[11C7%[29;1H[?25h[?25l[1;34r[34;1H
+[1;35r[34;5H}[35;83H[K[35;83H37,1[11C8%[29;1H[?25h[?25l[1;34r[34;1H
+[1;35r[34;5Hints.push_back(v);[35;83H[K[35;83H38,1[11C9%[29;1H[?25h[?25l[1;34r[34;1H
+[1;35r[34;3H}[35;83H[K[35;83H39,1[10C10%[29;1H[?25h[?25l[1;34r[34;1H
+[1;35r[34;3H[33mreturn[m[30m[47m ints;[35;83H[K[35;83H40,3[10C11%[29;3H[?25h[?25l[1;34r[34;1H
+[1;35r[34;1H}[35;83H[K[35;83H41,3[10C12%[29;3H[?25h[?25l[1;34r[34;1H
+[1;35r[35;83H[K[35;83H42,3[10C13%[29;3H[?25h[?25l[1;34r[34;1H
+[1;35r[34;1H[34m//type for pointer to a sorting function [m[30m[47m[35;83H[K[35;83H43,3[10C14%[29;3H[?25h[?25l[1;34r[34;1H
+[1;35r[34;1H[33musing[m[30m[47m SortP = [32mvoid[m[30m[47m (*)([32mint[m[30m[47m a[], [32mint[m[30m[47m n, Ops* ops);[35;83H[K[35;83H44,3[10C15%[16;40H[46m{[29;3H}[?25h[?25l[1;34r[m[30m[47m[34;1H
+[1;35r[35;83H[K[35;83H45,3[10C17%[15;40H{[28;3H}
+  [?25h[?25l[1;34r[34;1H
+[1;35r[34;1H[34m//map algorithm name to corresponding function[m[30m[47m[35;83H[K[35;83H46,2[10C18%[4;1H[46m{[29;1H}[?25h[?25l[1;34r[m[30m[47m[34;1H
+[1;35r[34;1H[32mstruct[m[30m[47m Algorithm {[35;83H[K[35;83H47,1[10C19%[3;1H{[28;1H}
+[?25h[?25l[1;34r[34;1H
+[1;35r[34;3Hstd::string name;[35;83H[K[35;83H48,3[10C20%[29;3H[?25h[?25l[1;34r[34;1H
+[1;35r[34;3HSortP sort;[35;83H[K[35;83H49,3[10C21%[29;3H[?25h[?25l[1;34r[34;1H
+[1;35r[34;1H};[35;83H[K[35;83H50,1[10C22%[29;1H[?25h[?25l[1;34r[1;1H[2M[1;35r[34;1H[32mstatic[m[30m[47m Algorithm algorithms[] = {[35;83H[K[35;83H52,3[10C24%[29;3H[?25h[?25l[1;34r[34;1H
+[1;35r[34;3H{ [31m"insertionSort"[m[30m[47m, insertionSort },[35;83H[K[35;83H53,3[10C25%[29;3H[?25h[?25l[1;34r[34;1H
+[1;35r[34;3H{ [31m"bubbleSort"[m[30m[47m, bubbleSort },[35;83H[K[35;83H54,3[10C26%[29;3H[?25h[?25l[1;34r[34;1H
+[1;35r[34;3H{ [31m"selectionSort"[m[30m[47m, selectionSort },[35;83H[K[35;83H55,3[10C27%[29;3H[?25h[?25l[1;34r[34;1H
+[1;35r[34;3H{ [31m"mergeSort"[m[30m[47m, mergeSort },[35;83H[K[35;83H56,1[10C28%[29;1H[?25h[?25l[1;34r[34;1H
+[1;35r[34;3H{ [31m"quickSort"[m[30m[47m, quickSort },[35;83H[K[35;83H57,3[10C29%[29;3H[?25h[?25l[1;34r[34;1H
+[1;35r[34;1H};[35;83H[K[35;83H58,3[10C30%[29;3H[46m{[32C}[m[30m[47m  [?25h[?25l[1;34r[1;1H[2M[1;35r[34;1H[34m/** Return sorting function specified by name; terminate program[m[30m[47m[35;83H[K[35;83H60,3[10C32%[27;3H{[32C}
+
+  [46m{[32C}[m[30m[47m  [?25h[?25l[1;34r[34;1H
+[1;35r[34;1H[34m *  if not valid.[m[30m[47m[35;83H[K[35;83H61,3[10C34%[28;3H{[32C}
+  [46m{[24C}[m[30m[47m  [?25h[?25l[1;34r[34;1H
+[1;35r[34;1H[34m */[m[30m[47m[35;83H[K[35;83H62,3[10C35%[28;3H{[24C}
+  [46m{[24C}[m[30m[47m  [?25h[?25l[1;34r[34;1H
+[1;35r[34;1H[32mstatic[m[30m[47m SortP[35;83H[K[35;83H63,3[10C36%[28;3H{[24C}
+};[?25h[?25l[1;34r[1;1H[2M[1;35r[33;1HgetSort(std::string name)
+{[35;83H[K[35;83H65,3[10C38%[29;3H[?25h[?25l[1;34r[34;1H
+[1;35r[34;3Hstd::string names;[35;83H[K[35;83H66,3[10C39%[29;3H[?25h[?25l[1;34r[34;1H
+[1;35r[34;3H[33mfor[m[30m[47m ([32mauto[m[30m[47m i = [31m0u[m[30m[47m; i < [33msizeof[m[30m[47m(algorithms)/[33msizeof[m[30m[47m(algorithms[[31m0[m[30m[47m]); ++i) {[35;83H[K[35;83H67,3[10C40%[29;3H[?25h[?25l[1;34r[34;1H
+[1;35r[34;5H[32mconst[m[30m[47m std::string algName = algorithms[i].name;[35;83H[K[35;83H68,3[10C41%[29;3H[?25h[?25l[1;34r[34;1H
+[1;35r[34;5H[33mif[m[30m[47m (algName == name) [33mreturn[m[30m[47m algorithms[i].sort;[35;83H[K[35;83H69,3[10C42%[29;3H[?25h[?25l[1;34r[34;1H
+[1;35r[34;5H[33mif[m[30m[47m (names.size() > [31m0[m[30m[47m) names += [31m"|"[m[30m[47m;[35;83H[K[35;83H70,2[10C43%[29;2H[?25h[?25l[1;34r[34;1H
+[1;35r[34;5Hnames += algName;[35;83H[K[35;83H71,3[10C44%[29;3H[?25h[?25l[1;34r[34;1H
+[1;35r[34;3H}[35;83H[K[35;83H72,3[10C45%[29;3H[?25h[?25l[1;34r[34;1H
+[1;35r[34;3Hstd::cerr << [31m"unknown algorithm "[m[30m[47m << name[35;83H[K[35;83H73,3[10C46%[29;3H[?25h[?25l[1;34r[34;1H
+[1;35r[34;13H<< [31m" must be one of "[m[30m[47m << names << std::endl;[35;83H[K[35;83H74,3[10C47%[29;3H[?25h[?25l[1;34r[34;1H
+[1;35r[34;3Hstd::exit([31m1[m[30m[47m);[35;83H[K[35;83H75,3[10C48%[29;3H[?25h[?25l[1;34r[34;1H
+[1;35r[34;1H}[35;83H[K[35;83H76,3[10C50%[29;3H[?25h[?25l[1;34r[34;1H
+[1;35r[35;83H[K[35;83H77,3[10C51%[24;72H[46m{[29;3H}[?25h[?25l[1;34r[m[30m[47m[34;1H
+[1;35r[34;1H[34m/** Output a line containing whitespace separated contents of a [[m[30m[47m[31m0[m[30m[47m[34m, n) */[m[30m[47m[35;83H[K[35;83H78,3[10C52%[23;72H{[28;3H}
+  [?25h[?25l[1;34r[34;1H
+[1;35r[34;1H[32mstatic[m[30m[47m [32mvoid[m[30m[47m[35;83H[K[35;83H79,1[10C53%[29;1H[?25h[?25l[1;34r[1;1H[2M[1;35r[33;1HoutArray([32mint[m[30m[47m a[], [32mint[m[30m[47m n)
+{[35;83H[K[35;83H81,2[10C55%[18;1H[46m{[29;1H}[?25h[?25l[1;34r[m[30m[47m[34;1H
+[1;35r[34;3H[33mfor[m[30m[47m ([32mint[m[30m[47m i = [31m0[m[30m[47m; i < n; i++) {[35;83H[K[35;83H82,1[10C56%[17;1H{[28;1H}
+[?25h[?25l[1;34r[34;1H
+[1;35r[34;11Hstd::cout << a[i] << std::endl;[35;83H[K[35;83H83,3[10C57%[29;3H[?25h[?25l[1;34r[34;1H
+[1;35r[34;3Hstd::cout << std::endl;[35;83H[K[35;83H84,3[10C58%[29;3H[?25h[?25l[1;34r[1;1H[2M[1;35r[33;9H}
+}[35;83H[K[35;83H86,2[10C60%[29;1H[46m{[34;1H}[29;2H[?25h[?25l[1;34r[m[30m[47m[34;1H
+[1;35r[35;83H[K[35;83H87,3[10C61%[28;1H{[33;1H}[29;3H[?25h[?25l[1;34r[34;1H
+[1;35r[34;1H[32mstatic[m[30m[47m [32mvoid[m[30m[47m[35;83H[K[35;83H88,1[10C62%[29;1H[?25h[?25l[1;34r[34;1H
+[1;35r[34;1Hgo(SortP sort, std::string filePath, [32mbool[m[30m[47m isVerbose, [32mint[m[30m[47m nRead)[35;83H[K[35;83H89,3[10C63%[29;3H[?25h[?25l[1;34r[34;1H
+[1;35r[34;1H{[35;83H[K[35;83H90,1[10C64%[29;1H[?25h[?25l[1;34r[34;1H
+[1;35r[34;3Hstd::vector<[32mint[m[30m[47m> ints = readIntsFromFile(filePath, nRead);[35;83H[K[35;83H91,2[10C65%[24;1H[46m{[29;1H}[?25h[?25l[1;34r[m[30m[47m[1;1H[2M[1;35r[33;3H[32mint[m[30m[47m* a = ints.data();
+  [32mint[m[30m[47m n = ints.size();[35;83H[K[35;83H93,3[10C68%[22;1H{[27;1H}[29;3H[?25h[?25l[1;34r[34;1H
+[1;35r[34;3HnewOps ops;[35;83H[K[35;83H94,3[10C69%[29;3H[46m([59C)[m[30m[47mgo[?25h[?25l[1;34r[34;1H
+[1;35r[34;3Hsort(a, n, &ops);[35;83H[K[35;83H95,2[10C70%[28;3H([59C)
+{[?25h[?25l[1;34r[34;1H
+[1;35r[34;3H[33mif[m[30m[47m (isVerbose) outArray(a, n);[35;83H[K[35;83H96,3[10C71%[29;3H[?25h[?25l[1;34r[34;1H
+[1;35r[34;4Hstd::cout << nRead << [31m"[m[30m[47m[35m\t[m[30m[47m[31m"[m[30m[47m << ops.compare_count << [31m"[m[30m[47m[35m\t[m[30m[47m[31m"[m[30m[47m << ops.swap_count << std::endl;[35;83H[K[35;83H97,3[10C72%[29;3H[?25h[?25l[1;34r[34;1H
+[1;35r[34;1H}[35;83H[K[35;83H98,3[10C73%[29;3H[?25h[?25l[1;34r[34;1H
+[1;35r[35;83H[K[35;83H99,3[10C74%[29;3H[?25h[?25l[1;34r[34;1H
+[1;35r[34;1H[32mint[m[30m[47m[35;83H[K[35;83H100,3[9C75%[29;3H[?25h[?25l[1;34r[1;1H[2M[1;35r[33;1Hmain([32mint[m[30m[47m argc, [32mchar[m[30m[47m* argv[]) {
+  [33mif[m[30m[47m (argc < [31m3[m[30m[47m) {[35;83H[K[35;83H102,3[9C77%[29;3H[?25h[?25l[1;34r[34;1H
+[1;35r[34;5Hstd::cerr << [31m"usage: "[m[30m[47m << argv[[31m0[m[30m[47m][35;83H[K[35;83H103,2[9C78%[21;1H[46m{[29;1H}[?25h[?25l[m[30m[47m[21;1H{[29;1H}[35;85H2,3[28;3H[?25h[?25l[35;85H1[27;3H[?25h[?25l[35;85H0[26;3H[?25h[?25l[35;85H1[27;3H[?25h[?25l[35;85H2[28;3H[?25h[?25l[21;1H[46m{[29;1H}[m[30m[47m[35;85H3,2[29;2H[?25h[?25l[1;34r[34;1H
+[1;35r[34;15H<< [31m" [-v] ALGORITHM INTS_DATA_FILE|- [N...]"[m[30m[47m << std::endl;[35;83H[K[35;83H104,1[9C79%[20;1H{[28;1H}
+[?25h[?25l[1;34r[34;1H
+[1;35r[34;5Hstd::exit([31m1[m[30m[47m);[35;83H[K[35;83H105,3[9C80%[29;3H[?25h[?25l[1;34r[34;1H
+[1;35r[34;3H}[35;83H[K[35;83H106,3[9C81%[29;3H[?25h[?25l[1;34r[34;1H
+[1;35r[34;3H[32mbool[m[30m[47m isVerbose = std::strcmp(argv[[31m1[m[30m[47m], [31m"-v"[m[30m[47m) == [31m0[m[30m[47m;[35;83H[K[35;83H107,3[9C82%[29;3H[?25h[?25l[1;34r[1;1H[2M[1;35r[33;3H[32mbool[m[30m[47m nVerbose = (isVerbose) ? [31m1[m[30m[47m : [31m0[m[30m[47m;
+  [32mconst[m[30m[47m [32mchar[m[30m[47m* algorithm = argv[[31m1[m[30m[47m + nVerbose];[35;83H[K[35;83H109,1[9C85%[29;1H[?25h[?25l[1;34r[1;1H[2M[1;35r[33;3H[32mconst[m[30m[47m std::string filePath(argv[[31m2[m[30m[47m + nVerbose]);
+  SortP sort = getSort(algorithm);[35;83H[K[35;83H111,3[9C87%[25;17H[46m{[29;3H}[?25h[?25l[m[30m[47m[25;17H{[29;3H}[35;85H0[28;3H[?25h[?25l[35;84H09,1[27;1H[?25h[?25l[35;85H8,3[26;3H[?25h[?25l[35;85H7[25;3H[?25h[?25l[35;85H6[24;3H[?25h[?25l[35;85H5[23;3H[?25h[?25l[35;85H4,1[22;1H[?25h[?25l[13;1H[46m{[21;1H}[m[30m[47m[35;85H3,2[21;2H[?25h[?25l[13;1H{[21;1H}[35;85H2,3[20;3H[?25h[?25l[35;85H1[19;3H[?25h[?25l[35;85H0[18;3H[?25h[?25l[35;87H4[18;4H[?25h[?25l[35;87H5[18;5H[?25h[?25l[35;87H6[18;6H[?25h[?25lt[46m([10C)[m[30m[47m[35;87H7[18;7H[?25h[?25l[35;87H8[18;8H[?25h[?25l([10C)[35;87H9[18;9H[?25h[?25l[35;87H10[18;10H[?25h[?25l[35;88H1[18;11H[?25h[?25l[35;88H2[18;12H[?25h[?25l[35;88H3[18;13H[?25h[?25l[35;88H4[18;14H[?25h[?25l[35;88H5[18;15H[?25h[?25l[35;88H6[18;16H[?25h[?25l[35;88H7[18;17H[?25h[?25l[35;83H99,14 [17;14H[?25h[?25l[35;87H3[17;13H[?25h[?25l[35;87H2[17;12H[?25h[?25l[35;87H1[17;11H[?25h[?25l[35;87H0[17;10H[?25h[?25l&ops;[35;87H1[17;11H[?25h[35;1H[K[17;10H[?25l[35;73H^[[17;10H[35;73H  [17;11H[35;83H99,10[9C87%[17;10H[?25h[?25l[35;73H:[17;10H[35;73H[K[35;1H:[?2004h[?25hx[?25l[?25h[?25l[?1000l[?2004l"main.cc" 128L, 3221C written[23;2t[23;1t[22;2t[22;1t[23;2t[23;1t
+[39;49m[?2004l[?1l>[?25h[?1049l[23;0;0tamchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ vim main.ccnewops.hh[3Pops.hhnewops.hhmake -f ../Makefile[6Pvim newops.hhmake -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+[01m[Kmain.cc:[m[K In function ‘[01m[Kvoid go(SortP, std::__cxx11::string, bool, int)[m[K’:
+[01m[Kmain.cc:99:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kops[m[K’ declared as reference but not initialized
+   newOps &[01;31m[Kops[m[K;
+           [01;31m[K^~~[m[K
+make: *** [../Makefile:48: main.o] Error 1
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ make -f ../Makefile[8Pvim main.cc
+[?1000h[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;35r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[35;1H"main.cc" 128L, 3221C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[34m/** Output a line containing whitespace separated contents of a [[m[31m0[m[34m, n) */[m
+[32mstatic[m [32mvoid[m
+outArray([32mint[m a[], [32mint[m n)
+{
+  [33mfor[m ([32mint[m i = [31m0[m; i < n; i++) {[6;11Hstd::cout << a[i] << std::endl;
+  std::cout << std::endl;[8;9H}
+}
+
+[32mstatic[m [32mvoid[m
+go(SortP sort, std::string filePath, [32mbool[m isVerbose, [32mint[m nRead)
+{
+  std::vector<[32mint[m> ints = readIntsFromFile(filePath, nRead);
+  [32mint[m* a = ints.data();
+  [32mint[m n = ints.size();
+  newOps &ops;
+  sort(a, n, &ops);
+  [33mif[m (isVerbose) outArray(a, n);
+   std::cout << nRead << [31m"[m[35m\t[m[31m"[m << ops.compare_count << [31m"[m[35m\t[m[31m"[m << ops.swap_count << std::endl;
+}
+
+[32mint[m
+main([32mint[m argc, [32mchar[m* argv[]) {
+  [33mif[m (argc < [31m3[m) {
+    std::cerr << [31m"usage: "[m << argv[[31m0[m][27;15H<< [31m" [-v] ALGORITHM INTS_DATA_FILE|- [N...]"[m << std::endl;
+    std::exit([31m1[m);
+  }
+  [32mbool[m isVerbose = std::strcmp(argv[[31m1[m], [31m"-v"[m) == [31m0[m;
+  [32mbool[m nVerbose = (isVerbose) ? [31m1[m : [31m0[m;
+  [32mconst[m [32mchar[m* algorithm = argv[[31m1[m + nVerbose];
+  [32mconst[m std::string filePath(argv[[31m2[m + nVerbose]);
+  SortP sort = getSort(algorithm);[35;83H99,10[9C87%[17;10H[?25h[?25l[35;73H~@k[17;10H[35;73H   [17;10H[35;1H[1m-- INSERT --[m[35;13H[K[35;83H99,10[9C87%[17;10H[?25h[?25lops;[17;14H[K[17;10H[?25h[35;1H[K[17;9H[?25l[35;73H^[[17;9H[35;73H  [17;10H[35;83H99,9[10C87%[17;9H[?25h[?25l[35;73H:[17;9H[35;73H[K[35;1H:[?2004h[?25hx[?25l[?25h[?25l[?1000l[?2004l"main.cc" 128L, 3220C written[23;2t[23;1t[22;2t[22;1t[23;2t[23;1t
+[?2004l[?1l>[?25h[?1049l[23;0;0tamchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ touch newopss[K.cc
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ vim newops.cc
+[?1000h[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;35r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[35;1H"newops.cc" 0L, 0C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[2;1H[1m[34m~                                                                                                   [3;1H~                                                                                                   [4;1H~                                                                                                   [5;1H~                                                                                                   [6;1H~                                                                                                   [7;1H~                                                                                                   [8;1H~                                                                                                   [9;1H~                                                                                                   [10;1H~                                                                                                   [11;1H~                                                                                                   [12;1H~                                                                                                   [13;1H~                                                                                                   [14;1H~                                                                                                   [15;1H~                                                                                                   [16;1H~                                                                                                   [17;1H~                                                                                                   [18;1H~                                                                                                   [19;1H~                                                                                                   [20;1H~                                                                                                   [21;1H~                                                                                                   [22;1H~                                                                                                   [23;1H~                                                                                                   [24;1H~                                                                                                   [25;1H~                                                                                                   [26;1H~                                                                                                   [27;1H~                                                                                                   [28;1H~                                                                                                   [29;1H~                                                                                                   [30;1H~                                                                                                   [31;1H~                                                                                                   [32;1H~                                                                                                   [33;1H~                                                                                                   [34;1H~                                                                                                   [m[35;83H0,0-1[9CAll[1;1H[?25h[?25l[35;73H~@k[1;1H[35;73H   [1;1H[35;1H[1m-- INSERT --[m[35;13H[K[35;83H0,1[11CAll[1;1H[?25h[?25l#[35;83H1,2[1;2H[?25h[?25li[35;85H3[1;3H[?25h[?25ln[35;85H4[1;4H[?25h[?25lc[35;85H5[1;5H[?25h[?25ll[35;85H6[1;6H[?25h[?25lu[35;85H7[1;7H[?25h[?25ld[35;85H8[1;8H[?25h[?25le[35;85H9[1;9H[?25h[?25l[35;85H10[1;10H[?25h[?25l[35m#include [m[31m"[m[35;86H1[1;11H[?25h[?25l[31mo[m[35;86H2[1;12H[?25h[?25l[31mp[m[35;86H3[1;13H[?25h[?25l[31mh[m[35;86H4[1;14H[?25h[?25l[1;13H[K[35;86H3[1;13H[?25h[?25l[1;12H[K[35;86H2[1;12H[?25h[?25l[1;11H[K[35;86H1[1;11H[?25h[?25l[31mn[m[35;86H2[1;12H[?25h[?25l[31me[m[35;86H3[1;13H[?25h[?25l[31mw[m[35;86H4[1;14H[?25h[?25l[31mo[m[35;86H5[1;15H[?25h[?25l[31mp[m[35;86H6[1;16H[?25h[?25l[31ms[m[35;86H7[1;17H[?25h[?25l[31m.[m[35;86H8[1;18H[?25h[?25l[31mh[m[35;86H9[1;19H[?25h[?25l[31mh[m[35;85H20[1;20H[?25h[?25l[31m"[m[35;86H1[1;21H[?25h[?25l[2;1H[K[35;83H2,1 [2;1H[?25h[?25l[3;1H[K[35;83H3[3;1H[?25h[?25lv[35;85H2[3;2H[?25h[?25li[35;85H3[3;3H[?25h[?25l[3;2H[K[35;85H2[3;2H[?25h[?25l[3;1H[K[35;85H1[3;1H[?25h[?25li[35;85H2[3;2H[?25h[?25ln[35;85H3[3;3H[?25h[?25l[32mint[m[35;85H4[3;4H[?25h[?25l[35;85H5[3;5H[?25h[?25ln[35;85H6[3;6H[?25h[?25le[35;85H7[3;7H[?25h[?25l[33mnew[m[35;85H8[3;8H[?25h[?25lnewO[35;85H9[3;9H[?25h[?25lp[35;85H10[3;10H[?25h[?25ls[35;86H1[3;11H[?25h[?25l:[35;86H2[3;12H[?25h[?25l:[35;86H3[3;13H[?25h[?25lc[35;86H4[3;14H[?25h[?25lo[35;86H5[3;15H[?25h[?25lm[35;86H6[3;16H[?25h[?25lp[35;86H7[3;17H[?25h[?25la[35;86H8[3;18H[?25h[?25lr[35;86H9[3;19H[?25h[?25le[35;85H20[3;20H[?25h[?25l([35;86H1[3;21H[?25h[?25li[35;86H2[3;22H[?25h[?25ln[35;86H3[3;23H[?25h[?25l[32mint[m[35;86H4[3;24H[?25h[?25l[35;86H5[3;25H[?25h[?25la[35;86H6[3;26H[?25h[?25l,[35;86H7[3;27H[?25h[?25l[35;86H8[3;28H[?25h[?25li[35;86H9[3;29H[?25h[?25ln[35;85H30[3;30H[?25h[?25l[32mint[m[35;86H1[3;31H[?25h[?25l[35;86H2[3;32H[?25h[?25lb[35;86H3[3;33H[?25h[?25l)[3;20H[46m([12C)[m[35;86H4[3;34H[?25h[?25l{[3;20H([12C)[35;86H5[3;35H[?25h[?25l[3;34H[K[3;20H[46m([12C)[m[35;86H4[3;34H[?25h[?25l[3;20H([12C)[35;86H5[3;35H[?25h[?25lo[35;86H6[3;36H[?25h[?25lv[35;86H7[3;37H[?25h[?25le[35;86H8[3;38H[?25h[?25lr[35;86H9[3;39H[?25h[?25lr[35;85H40[3;40H[?25h[?25li[35;86H1[3;41H[?25h[?25ld[35;86H2[3;42H[?25h[?25l[3;35H[32moverride[m[35;86H3[3;43H[?25h[?25l[35;86H4[3;44H[?25h[?25l{[35;86H5[3;45H[?25h[?25l
+        [4;9H[K[35;83H4,2-9[4;9H[?25h[?25lc[35;85H3-10[4;10H[?25h[?25lo[35;85H4-11[4;11H[?25h[?25lm[35;85H5-12[4;12H[?25h[?25lp[35;85H6-13[4;13H[?25h[?25la[35;85H7-14[4;14H[?25h[?25lr[35;85H8-15[4;15H[?25h[?25le[35;85H9-16[4;16H[?25h[?25l_[35;85H10-17[4;17H[?25h[?25lc[35;86H1-18[4;18H[?25h[?25lo[35;86H2-19[4;19H[?25h[?25lu[35;86H3-20[4;20H[?25h[?25ln[35;86H4-21[4;21H[?25h[?25lt[35;86H5-22[4;22H[?25h[?25l+[35;86H6-23[4;23H[?25h[?25l+[35;86H7-24[4;24H[?25h[?25l;[35;86H8-25[4;25H[?25h[?25l
+        [5;9H[K[35;83H5,2-9  [5;9H[?25h[?25lr[35;85H3-10[5;10H[?25h[?25le[35;85H4-11[5;11H[?25h[?25lt[35;85H5-12[5;12H[?25h[?25lu[35;85H6-13[5;13H[?25h[?25lr[35;85H7-14[5;14H[?25h[?25l[33mreturn[m[35;85H8-15[5;15H[?25h[?25l[35;85H9-16[5;16H[?25h[?25lt[35;85H10-17[5;17H[?25h[?25lh[35;86H1-18[5;18H[?25h[?25li[35;86H2-19[5;19H[?25h[?25l[33mthis[m[35;86H3-20[5;20H[?25h[?25l-[35;86H4-21[5;21H[?25h[?25l[5;20H[K[35;86H3-20[5;20H[?25h[?25lthi[5;19H[K[35;86H2-19[5;19H[?25h[?25l[5;17H[K[35;86H0-17[5;17H[?25h[?25l[5;16H[K[35;85H9-16 [5;16H[?25h[?25l[35;85H8-15[5;15H[?25h[?25lretur[5;14H[K[35;85H7-14[5;14H[?25h[?25l[5;13H[K[35;85H6-13[5;13H[?25h[?25l[5;12H[K[35;85H5-12[5;12H[?25h[?25l[5;10H[K[35;85H3-10[5;10H[?25h[?25l[5;9H[K[35;85H2-9 [5;9H[?25h[?25l[35;85H1  [5;1H[?25h[?25l[1m[34m~                                                                                                   [m[35;83H4,18-25[4;25H[?25h[?25l[4;24H[K[35;86H7-24[4;24H[?25h[?25l[4;23H[K[35;86H6-23[4;23H[?25h[?25l[4;22H[K[35;86H5-22[4;22H[?25h[?25l[4;21H[K[35;86H4-21[4;21H[?25h[?25l[4;20H[K[35;86H3-20[4;20H[?25h[?25l[4;18H[K[35;86H1-18[4;18H[?25h[?25l[4;17H[K[35;86H0-17[4;17H[?25h[?25l[4;15H[K[35;85H8-15 [4;15H[?25h[?25l[4;14H[K[35;85H7-14[4;14H[?25h[?25l[4;13H[K[35;85H6-13[4;13H[?25h[?25l[4;12H[K[35;85H5-12[4;12H[?25h[?25l[4;11H[K[35;85H4-11[4;11H[?25h[?25l[4;10H[K[35;85H3-10[4;10H[?25h[?25l[4;9H[K[35;85H2-9 [4;9H[?25h[?25l[35;85H1  [4;1H[?25h[?25l[1m[34m~                                                                                                   [m[35;83H3,45[3;45H[?25h[?25l[3;44H[K[35;86H4[3;44H[?25h[?25l[35;86H3[3;43H[?25h[?25l[3;35Hoverrid[3;42H[K[35;86H2[3;42H[?25h[?25l[3;41H[K[35;86H1[3;41H[?25h[?25l[3;40H[K[35;86H0[3;40H[?25h[?25l[3;39H[K[35;85H39[3;39H[?25h[?25l[3;38H[K[35;86H8[3;38H[?25h[?25l[3;37H[K[35;86H7[3;37H[?25h[?25l[3;35H[K[35;86H5[3;35H[?25h[?25l[3;20H[46m([12C)[m[35;86H4[3;34H[?25h[?25l[3;33H[K[3;20H([35;86H3[3;33H[?25h[?25l[3;32H[K[35;86H1[3;31H[?25h[?25lin[3;30H[K[35;86H0[3;30H[?25h[?25l[3;29H[K[35;85H29[3;29H[?25h[?25l[3;28H[K[35;86H8[3;28H[?25h[?25l[35;86H7[3;27H[?25h[?25l[3;26H[K[35;86H6[3;26H[?25h[?25l[3;25H[K[35;86H5[3;25H[?25h[?25l[35;86H4[3;24H[?25h[?25lin[3;23H[K[35;86H3[3;23H[?25h[?25l[3;22H[K[35;86H2[3;22H[?25h[?25l[3;20H[K[35;86H0[3;20H[?25h[?25l[3;19H[K[35;85H19[3;19H[?25h[?25l[3;18H[K[35;86H8[3;18H[?25h[?25l[3;17H[K[35;86H7[3;17H[?25h[?25l[3;16H[K[35;86H6[3;16H[?25h[?25l[3;15H[K[35;86H5[3;15H[?25h[?25l[3;14H[K[35;86H4[3;14H[?25h[?25l[3;13H[K[35;86H3[3;13H[?25h[?25l[3;12H[K[35;86H2[3;12H[?25h[?25l[3;11H[K[35;86H1[3;11H[?25h[?25l[3;10H[K[35;86H0[3;10H[?25h[?25l[3;9H[K[35;85H9 [3;9H[?25h[?25l[33mnew[m[3;8H[K[35;85H8[3;8H[?25h[?25lne[3;7H[K[35;85H7[3;7H[?25h[?25l[3;5H[K[35;85H5[3;5H[?25h[?25l[35;85H4[3;4H[?25h[?25lin[3;3H[K[35;85H3[3;3H[?25h[?25l[3;2H[K[35;85H2[3;2H[?25h[?25l[3;1H[K[35;85H1[3;1H[?25h[?25l[1m[34m~                                                                                                   [m[35;83H2[2;1H[?25h[?25l[1m[34m~                                                                                                   [m[35;83H1,21[1;21H[?25h[?25l[1;20H[K[35;86H0[1;20H[?25h[?25l[1;19H[K[35;85H19[1;19H[?25h[?25l[1;18H[K[35;86H8[1;18H[?25h[?25l[1;17H[K[35;86H7[1;17H[?25h[?25l[1;16H[K[35;86H6[1;16H[?25h[?25l[1;15H[K[35;86H5[1;15H[?25h[?25l[1;14H[K[35;86H4[1;14H[?25h[?25l[1;12H[K[35;86H2[1;12H[?25h[?25l[1;11H[K[35;86H1[1;11H[?25h[?25l#include[1;9H[K[35;85H9 [1;9H[?25h[?25l[1;8H[K[35;85H8[1;8H[?25h[?25l[1;7H[K[35;85H7[1;7H[?25h[?25l[1;6H[K[35;85H6[1;6H[?25h[?25l[1;5H[K[35;85H5[1;5H[?25h[?25l[1;4H[K[35;85H4[1;4H[?25h[?25l[1;3H[K[35;85H3[1;3H[?25h[?25l[1;2H[K[35;85H2[1;2H[?25h[?25l[1;1H[K[35;85H1[1;1H[?25h[35;1H[K[1;1H[?25l[35;73H^[[1;1H[35;73H  [1;1H[35;83H1,0-1[9CAll[1;1H[?25h[?25l[35;73H:[1;1H[35;73H[K[35;1H:[?2004h[?25hx[?25l[?25h[?25l[?1000l[?2004l"newops.cc" 1L, 1C written[23;2t[23;1t[22;2t[22;1t[23;2t[23;1t
+[?2004l[?1l>[?25h[?1049l[23;0;0tamchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ rm newops.cc
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ ls
+bubbleSort.dat	   main		  mergeSort.png  ops.o		    selectionSort.png
+bubbleSort.png	   main.cc	  newops.hh	 quickSort.dat	    sorts.cc
+insertionSort.dat  main.o	  ops.cc	 quickSort.png	    sorts.hh
+insertionSort.png  mergeSort.dat  ops.hh	 selectionSort.dat  sorts.o
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ vim main.cc
+[?1000h[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;35r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[35;1H"main.cc" 128L, 3220C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[34m/** Output a line containing whitespace separated contents of a [[m[31m0[m[34m, n) */[m
+[32mstatic[m [32mvoid[m
+outArray([32mint[m a[], [32mint[m n)
+{
+  [33mfor[m ([32mint[m i = [31m0[m; i < n; i++) {[6;11Hstd::cout << a[i] << std::endl;
+  std::cout << std::endl;[8;9H}
+}
+
+[32mstatic[m [32mvoid[m
+go(SortP sort, std::string filePath, [32mbool[m isVerbose, [32mint[m nRead)
+{
+  std::vector<[32mint[m> ints = readIntsFromFile(filePath, nRead);
+  [32mint[m* a = ints.data();
+  [32mint[m n = ints.size();
+  newOps ops;
+  sort(a, n, &ops);
+  [33mif[m (isVerbose) outArray(a, n);
+   std::cout << nRead << [31m"[m[35m\t[m[31m"[m << ops.compare_count << [31m"[m[35m\t[m[31m"[m << ops.swap_count << std::endl;
+}
+
+[32mint[m
+main([32mint[m argc, [32mchar[m* argv[]) {
+  [33mif[m (argc < [31m3[m) {
+    std::cerr << [31m"usage: "[m << argv[[31m0[m][27;15H<< [31m" [-v] ALGORITHM INTS_DATA_FILE|- [N...]"[m << std::endl;
+    std::exit([31m1[m);
+  }
+  [32mbool[m isVerbose = std::strcmp(argv[[31m1[m], [31m"-v"[m) == [31m0[m;
+  [32mbool[m nVerbose = (isVerbose) ? [31m1[m : [31m0[m;
+  [32mconst[m [32mchar[m* algorithm = argv[[31m1[m + nVerbose];
+  [32mconst[m std::string filePath(argv[[31m2[m + nVerbose]);
+  SortP sort = getSort(algorithm);[35;83H99,9[10C87%[17;9H[?25h[?25l[35;73H~@k[17;9H[35;73H   [17;9H[35;1H[1m-- INSERT --[m[35;13H[K[35;83H99,9[10C87%[17;9H[?25h[?25l[35;83H100,9[18;9H[?25h[?25l[35;85H1[19;9H[?25h[?25l[35;85H0[18;9H[?25h[?25l[35;83H99,9 [17;9H[?25h[?25l[35;83H100,9[18;9H[?25h[?25l[35;85H1[19;9H[?25h[?25l[35;85H2[20;9H[?25h[?25l[13;1H[46m{[21;1H}[m[35;85H3,2[21;2H[?25h[35;1H[K[21;1H[?25l[35;73H^[[21;1H[35;73H  [21;2H[35;83H103,1[9C87%[21;1H[?25h[?25l[35;73H:[21;1H[35;73H[K[35;1H:[?2004h[?25hx[?25l[?25h[?25l[?1000l[?2004l[23;2t[23;1t[22;2t[22;1t[23;2t[23;1t[35;1H[K[35;1H[?2004l[?1l>[?25h[?1049l[23;0;0tamchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ vim main.ccls[Krm newops.cc[1@vi[C[C[C[C[C[C[C[C[C[C[C[2@touch[C[C[C[C[C[C[C[C[C[C[4Pvim main.ccmake -f ../Makefile[8Pvim main.ccmake -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+g++ sorts.o ops.o main.o -o main
+cat </dev/null >.gitignore
+echo .deps >.gitignore
+for t in main sorts.o ops.o main.o; do echo $t >>.gitignore; done
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ ./main quickSort ../random.dat `seq 10000 10000 100000`
+n	compares	swaps	
+10000	-1229870956	60498
+20000	-1229614871	102955
+30000	-1229373243	148595
+40000	-1229077625	194142
+50000	-1228788815	240804
+60000	-1228518478	290732
+70000	-1228284208	342045
+80000	-1227940509	388184
+90000	-1227623411	440162
+100000	-1227322440	488504
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ vim newophs.[K[K[Ks.hh
+[?1000h[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;35r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[35;1H"newops.hh" 23L, 335C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[35m#ifndef NEWOPS_HH_
+#define NEWOPS_HH_
+
+#include [m[31m"ops.hh"[m
+
+[32mclass[m newOps : [33mpublic[m Ops {
+[33mpublic[m:[8;9H[32mint[m compare_count;[9;9H[32mint[m swap_count;[11;9H[32mvirtual[m [32mint[m compare([32mint[m a, [32mint[m b) [32moverride[m {[12;17Hcompare_count++;[13;17H[33mreturn[m Ops::compare(a,b);[14;9H}[15;9H[32mvirtual[m [32mvoid[m swap([32mint[m a[], [32mint[m i, [32mint[m j) [32moverride[m {[16;17Hswap_count++;[17;17HOps::swap(a, i, j);[18;9H}
+};
+
+[35m#endif[m
+
+
+[1m[34m~                                                                                                   [25;1H~                                                                                                   [26;1H~                                                                                                   [27;1H~                                                                                                   [28;1H~                                                                                                   [29;1H~                                                                                                   [30;1H~                                                                                                   [31;1H~                                                                                                   [32;1H~                                                                                                   [33;1H~                                                                                                   [34;1H~                                                                                                   [m[35;83H7,7[11CAll[7;7H[?25h[?25l[35;73H~@k[7;7H[35;73H   [7;7H[35;1H[1m-- INSERT --[m[35;13H[K[35;83H7,7[11CAll[7;7H[?25h[?25l[35;83H8,1[8;1H[?25h[?25l[35;83H9[9;1H[?25h[?25l[35;83H10,1[10;1H[?25h[?25l[35;84H1[11;1H[?25h[?25l[35;84H2[12;1H[?25h[?25l[35;86H2-9[12;9H[?25h[?25l[35;86H3-17[12;17H[?25h[?25l[35;86H4-18[12;18H[?25h[?25l[35;86H5-19[12;19H[?25h[?25l[35;86H6-20[12;20H[?25h[?25l[35;86H7-21[12;21H[?25h[?25l[35;86H8-22[12;22H[?25h[?25l[35;86H9-23[12;23H[?25h[?25l[35;86H10-24[12;24H[?25h[?25l[35;87H1-25[12;25H[?25h[?25l[35;87H2-26[12;26H[?25h[?25l[35;87H3-27[12;27H[?25h[?25l[35;87H4-28[12;28H[?25h[?25l[35;87H5-29[12;29H[?25h[?25l[35;87H6-30[12;30H[?25h[?25l[35;87H7-31[12;31H[?25h[?25l[35;87H8-32[12;32H[?25h[?25l;[12;32H[K[35;87H7-31[12;31H[?25h[?25l=;[35;87H8-32[12;32H[?25h[?25l[31m1[m;[35;87H9-33[12;33H[?25h[?25l[35;84H3[13;33H[?25h[?25l[11;52H[46m{[14;9H}[m[35;84H4,3-10 [14;10H[?25h[?25l[11;52H{[14;9H}[15;32H[46m[][m[35;84H5,26-33[15;33H[?25h[?25l[][35;84H6,16-30[16;30H[?25h[?25l[35;87H5-29[16;29H[?25h[?25l;[16;29H[K[35;87H4-28[16;28H[?25h[?25l=;[35;87H5-29[16;29H[?25h[?25l[31m1[m;[35;87H6-30[16;30H[?25h[35;1H[K[16;29H[?25l[35;73H^[[16;29H[35;73H  [16;30H[35;83H16,15-29      All[16;29H[?25h[?25l[35;73H:[16;29H[35;73H[K[35;1H:[?2004h[?25hx[?25l[?25h[?25l[?1000l[?2004l"newops.hh" 23L, 337C written[23;2t[23;1t[22;2t[22;1t[23;2t[23;1t
+[?2004l[?1l>[?25h[?1049l[23;0;0tamchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ 
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ vim newops.hh./main quickSort ../random.dat `seq 10000 10000 100000`[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[24Pmake -f ../Makefile
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+g++ sorts.o ops.o main.o -o main
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ make -f ../Makefile[6Pvim newops.hh./main quickSort ../random.dat `seq 10000 10000 100000`
+n	compares	swaps	
+10000	297765012	60512
+20000	298021097	102969
+30000	298262725	148609
+40000	298558343	194156
+50000	298847153	240818
+60000	299117490	290746
+70000	299351760	342059
+80000	299695459	388198
+90000	300012557	440176
+100000	300313528	488518
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ for f in `seq 100000`; do echo $f; done > ../ascending.dat
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ rm ascending.dat
+rm: cannot remove 'ascending.dat': No such file or directory
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ ls
+bubbleSort.dat	   main		  mergeSort.png  ops.o		    selectionSort.png
+bubbleSort.png	   main.cc	  newops.hh	 quickSort.dat	    sorts.cc
+insertionSort.dat  main.o	  ops.cc	 quickSort.png	    sorts.hh
+insertionSort.png  mergeSort.dat  ops.hh	 selectionSort.dat  sorts.o
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ rm asce[K[K[K[K[K[K[K./main insertionSort ../ascending.dat `seq 2000 2000 10000`
+n	compares	swaps	
+2000	805056506	21893
+4000	805058506	21893
+6000	805060506	21893
+8000	805062506	21893
+10000	805064506	21893
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ ./main insertionSort ../descending.dat `seq 2000 2000 10000`
+n	compares	swaps	
+2000	2110580931	2020918
+4000	2116579931	8019918
+6000	2126578931	18018918
+8000	2140577931	32017918
+10000	-2136390365	50016918
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ ./main insertionSort ../descending.dat `seq 2000 2000 10000`
+n	compares	swaps	
+2000	250611907	2020928
+4000	256610907	8019928
+6000	266609907	18018928
+8000	280608907	32017928
+10000	298607907	50016928
+amchugh2@remote00:~/i240b/submit/lab9/exercises/3-stats$ c[Kexit
+
+Script done on 2020-04-05 11:08:29-04:00 [COMMAND_EXIT_CODE="0"]

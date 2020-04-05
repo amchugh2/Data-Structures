@@ -14,6 +14,8 @@
  *  is "-" read from stdin.  If n < 0, read entire contents of file.
  */
 
+
+
 static std::vector<int>
 readIntsFromFile(const std::string filePath, int n)
 {
@@ -94,10 +96,10 @@ go(SortP sort, std::string filePath, bool isVerbose, int nRead)
   std::vector<int> ints = readIntsFromFile(filePath, nRead);
   int* a = ints.data();
   int n = ints.size();
-  Ops ops;
+  newOps ops;
   sort(a, n, &ops);
   if (isVerbose) outArray(a, n);
-  std::cout << nRead << "\t" << Ops->compare_count  << "\t" << Ops->swap_count << std::endl;
+   std::cout << nRead << "\t" << ops.compare_count << "\t" << ops.swap_count << std::endl;
 }
 
 int
