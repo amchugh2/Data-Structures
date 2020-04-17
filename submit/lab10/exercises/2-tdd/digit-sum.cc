@@ -10,11 +10,12 @@ digitSum(const char* str)
 {
 	int acc = 0;
 	bool wantDigit = true;
+	const char plus = '+';
 
 	//const char* p = &str[0];
 
-	for (const char* p = &str[0]; p; ++p){
-		int c = *str;
+	for (const char *p = &str[0]; p; ++p){
+		int c = *p;
 		if(isdigit(c)){
 			if(wantDigit){
 		       	acc += c - '0';
@@ -24,7 +25,7 @@ digitSum(const char* str)
 			break;
 			}
 		}
-		else if (c == "+"){
+		else if (c == plus){
 			if (wantDigit) break;
 			wantDigit = true;
 		}

@@ -12,4 +12,3 @@ TEST_CASE( "digit sums computed", "[digitSum]" ) {
 	REQUIRE(digitSum(" 7 + 2 + 4") == 13);
 	REQUIRE(digitSum(" 8 + x + 4") == 8);
 }
-
