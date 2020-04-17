@@ -1822,3 +1822,22 @@ digit-sum.hh  main	   main.o   test-main.cc
 amchugh2@remote06:~/i240b/submit/lab10/exercises/2-tdd$ git com[K[K[K[K[K[K[Kexit
 
 Script done on 2020-04-16 22:30:02-04:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2020-04-16 22:36:09-04:00 [TERM="xterm" TTY="/dev/pts/4" COLUMNS="100" LINES="35"]
+amchugh2@remote06:~/i240b/submit/lab10$ ls[K[Kcd exercises
+amchugh2@remote06:~/i240b/submit/lab10/exercises$ ls
+1-fact	2-tdd  Makefile
+amchugh2@remote06:~/i240b/submit/lab10/exercises$ cd 2-tdd
+amchugh2@remote06:~/i240b/submit/lab10/exercises/2-tdd$ ls
+digit-sum.cc  digit-sum.o  main     main.o     test-main.cc
+digit-sum.hh  lab10.LOG    main.cc  test-main  test-main.o
+amchugh2@remote06:~/i240b/submit/lab10/exercises/2-tdd$ rm a[Klab10.LOG
+amchugh2@remote06:~/i240b/submit/lab10/exercises/2-tdd$ ls
+digit-sum.cc  digit-sum.o  main.cc  test-main	  test-main.o
+digit-sum.hh  main	   main.o   test-main.cc
+amchugh2@remote06:~/i240b/submit/lab10/exercises/2-tdd$ vim[K[K[Klsrm lab10.LOGls[Kcd 2-tddls[Kcd exercisesls[K./test-mainvim test-mainls[Kvim test-main[2P./test-main
+[1;31m[0m[1;33m[0m[1;32m===============================================================================[0m
+[1;32mAll tests passed[0m (6 assertions in 1 test case)
+
+amchugh2@remote06:~/i240b/submit/lab10/exercises/2-tdd$ exit
+
+Script done on 2020-04-16 22:36:27-04:00 [COMMAND_EXIT_CODE="0"]
