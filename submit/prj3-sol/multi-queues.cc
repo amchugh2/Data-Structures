@@ -5,17 +5,19 @@
 #include <cstdlib>
 #include <cstring>
 
+#include "job.hh"
+
 class MaxHeap {
 public:
-  MaxHeap(int heapArray[], int nElements, int size) :
+  MaxHeap(Job heapArray[], int nElements, int size) :
     heap(heapArray), nAlloc(size), nElements(nElements)
   {
     buildHeap();
   }
 
-  void enqueue(int value) {
+  void enqueue(Job job) {
     assert(nElements < nAlloc && "heap is full");
-    heap[nElements++] = value; //add value at end
+    heap[nElements++] = job; //add value at end
     for (int pos = nElements - 1; //pos of added value
 	 pos != 0 && heap[pos] > heap[parent(pos)];
 	 pos = parent(pos)) {
@@ -35,7 +37,7 @@ public:
   int size() { return nElements; }
 
 private:
-  int* heap; 
+  Job* heap; 
   int nAlloc;    //max # of elements in heap
   int nElements; //# of currently allocated element in heap
 
