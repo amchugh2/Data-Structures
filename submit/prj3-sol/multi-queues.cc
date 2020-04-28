@@ -4,12 +4,13 @@
 #include <cstdlib>
 #include <cstring>
 #include <vector>
+#include <memory>
 
 #include "job.hh"
-#include "command-test.cc"
-#include "command.cc"
+#include "command.hh"
 #include "command-stream.hh"
-#include "command-stream.cc"
+
+using namespace Command::Cmd;
 
 template <typename T> 
 class heap {
@@ -121,12 +122,27 @@ class heap {
 
 };
 
-// Functions to be made
-// Comparator to make max heap
-// Comparator to make min heap
-// enter -> enter job specified by id, priority0 and priority 1 into queue0
-// move -> move highest priority job (highest number in max heap) from queue 0 to queue 1. no effect if queue 0 is empty.
-// leave -> move the "highest" (lowest) priority job in queue 1 out of the system. no effect if queue 1 is empty.
+// forward declarations
+static Command::Cmd stringToCmd(std::string str);
+static std::string cmdToString(Command::Cmd cmd);
+
+/*
+std::string cmdToString(Command cmd){
+	switch(cmd) {
+		case Command::Cmd::ENTER:
+			return "enter";
+		case Command::Cmd::LEAVE:
+			return "leave";
+		case Command::Cmd::MOVE:
+			return "move";
+		default:
+			assert(false);
+	}
+}
+*/
+
+
+//std::unique_ptr<Command> Command::read(std::istream& in);
 
 int main(int argc, char* argv[]){
 	if(argc != 2){
@@ -134,16 +150,13 @@ int main(int argc, char* argv[]){
 		std::exit(1);
 	}
 
-	
-	
-
 	CommandStream commandIn(argv[1]); // create command string
 	for(std::unique_ptr<Command> commandP = commandIn.next(); commandP != nullptr; commandP = commandIn.next()){
-		stringToCmd(*commandP) = command;
-		if(cmdToString(command) == "enter"){
-			std::cout << cmdToString(command) << std::endl;
-		}	
-	}
+		Command::Cmd cmd = *commandP;
+		if(cmdToString(*cmd) == "enter"){
+			std::cout << *commandP << std::endl;
+		}
+	}	
 	return 0;
 }
 

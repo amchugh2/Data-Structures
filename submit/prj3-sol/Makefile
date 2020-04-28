@@ -1,6 +1,6 @@
 TARGET = multi-queues
 
-OFILES = job.o command.o command-stream.o command-test.o multi-queues.o
+OFILES = job.o command.o command-stream.o  multi-queues.o
 
 CXX = g++
 
@@ -20,8 +20,6 @@ command.o:		command.cc
 
 command-stream.o:	command-stream.cc
 
-command-test.o:		command-test.cc
-
 multi-queues.o:		multi-queues.cc
 
-TARGET:		job.o command.o command-stream.o command-test.o multi-queues.o job.cc command.cc command-stream.cc command-test.cc multi-queues.cc
+TARGET:		job.o command.o command-stream.o multi-queues.o job.cc command.cc command-stream.cc multi-queues.cc
