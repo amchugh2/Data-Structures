@@ -9,6 +9,8 @@
 #include "command-stream.hh"
 
 /** Test program for command stream */
+
+/*	
 int
 main(int argc, char* argv[])
 {
@@ -24,3 +26,4 @@ main(int argc, char* argv[])
     std::cout << *commandP << std::endl;
   }
 }
+*/
