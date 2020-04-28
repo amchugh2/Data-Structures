@@ -10,7 +10,7 @@
 #include "command.hh"
 #include "command-stream.hh"
 
-using namespace Command::Cmd;
+//using namespace Command::Cmd;
 
 template <typename T> 
 class heap {
@@ -122,39 +122,35 @@ class heap {
 
 };
 
-// forward declarations
-static Command::Cmd stringToCmd(std::string str);
-static std::string cmdToString(Command::Cmd cmd);
-
-/*
-std::string cmdToString(Command cmd){
-	switch(cmd) {
-		case Command::Cmd::ENTER:
-			return "enter";
-		case Command::Cmd::LEAVE:
-			return "leave";
-		case Command::Cmd::MOVE:
-			return "move";
-		default:
-			assert(false);
+	bool cmp_gtr(const Job& a, const Job& b){
+		return a.priority0 > b.priority0;
 	}
-}
-*/
 
+	bool cmp_less(const Job& a, const Job& b){
+		return a.priority0 < b.priority0;
+	}
 
 //std::unique_ptr<Command> Command::read(std::istream& in);
 
 int main(int argc, char* argv[]){
+
 	if(argc != 2){
 		std::cerr << "usage: " << argv[0] << " FILE_PATH" << std::endl;
 		std::exit(1);
 	}
 
-	CommandStream commandIn(argv[1]); // create command string
+	// read input
+	CommandStream commandIn(argv[1]); // create command stream
+	std::istream(argv
+	heap<Job> heap0(cmp_gtr);
+	heap<Job> heap1(cmp_less);
+	
 	for(std::unique_ptr<Command> commandP = commandIn.next(); commandP != nullptr; commandP = commandIn.next()){
-		Command::Cmd cmd = *commandP;
-		if(cmdToString(*cmd) == "enter"){
-			std::cout << *commandP << std::endl;
+		
+		Command cmd = *commandP;
+
+		if(cmd.cmd == Command::Cmd::MOVE){
+			std::cout << cmd.priority0 << std::endl;
 		}
 	}	
 	return 0;
