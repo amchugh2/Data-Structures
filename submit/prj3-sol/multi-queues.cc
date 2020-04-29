@@ -141,16 +141,28 @@ int main(int argc, char* argv[]){
 
 	// read input
 	CommandStream commandIn(argv[1]); // create command stream
-	std::istream(argv
+
 	heap<Job> heap0(cmp_gtr);
 	heap<Job> heap1(cmp_less);
-	
-	for(std::unique_ptr<Command> commandP = commandIn.next(); commandP != nullptr; commandP = commandIn.next()){
-		
-		Command cmd = *commandP;
 
-		if(cmd.cmd == Command::Cmd::MOVE){
-			std::cout << cmd.priority0 << std::endl;
+	for(std::unique_ptr<Command> commandP = commandIn.next(); commandP != nullptr; commandP = commandIn.next()){		
+		Command cmd = *commandP;
+		EnterCommand* jobP = dynamic_cast<EnterCommand*>(commandP.get());
+		
+		if(cmd.cmd == Command::Cmd::ENTER){
+			// create job object
+			Job* job = dynamic_cast<Job>(jobP->job); 
+			// enter it into system using push command (or enter? OH)
+			// stdout
+			std::cout << cmd << jobP->job << std::endl;
+		}
+		else if(cmd.cmd == Command::Cmd::MOVE){
+			// do something
+		}
+		else if(cmd.cmd == Command::Cmd::MOVE){
+		}
+		else{
+			std::cout << "Invalid command. Usage: 'COMMAND ID PRIORITY0 PRIORITY1'" << std::endl;
 		}
 	}	
 	return 0;
