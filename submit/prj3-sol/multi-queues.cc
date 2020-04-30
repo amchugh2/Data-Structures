@@ -12,18 +12,18 @@
 
 //using namespace Command::Cmd;
 
-template <typename T> 
+template <typename Job> 
 class heap {
 	private:
-		typedef bool (*comparator)(const T&, const T&);
+		typedef bool (*comparator)(const Job&, const Job&);
 		comparator cmp;
-		void swp(std::vector<T>& heap, int a, int b){
-			const T temp = heap[a];
+		void swp(std::vector<Job>& heap, int a, int b){
+			const Job temp = heap[a];
 			heap[a] = heap[b];
 			heap[b] = temp;
 		}
 
-		void sift_down(std::vector<T>& heap, int i){
+		void sift_down(std::vector<Job>& heap, int i){
 			if(i*2+1 > heap.size()){
 					return;
 			}
@@ -50,19 +50,19 @@ class heap {
 		}
 	public:
 		heap(comparator cmp) : cmp(cmp) {}
-		void heapify(std::vector<T>& heap) {
+		void heapify(std::vector<Job>& heap) {
 			for(int i = heap.size()/2; i > -1; i++){
 				sift_down(heap, i);
 			}
 		}
-		const T pop(std::vector<T>& heap){
-			const T ret = heap[0];
+		const Job pop(heap<Job>& heap){
+			const Job ret = heap[0];
 			heap[0] = heap.back();
 			heap.pop_back();
 			sift_down(heap,0);
 			return ret;
 		}
-		void push(std::vector<T>& heap, T el){
+		void push(heap<Job>& heap, Job el){
 			heap.push_back(el);
 			int ind = heap.size() - 1;
 			while(cmp(heap[ind], heap[(ind-1)/2])){
@@ -70,6 +70,7 @@ class heap {
 				ind = (ind-1)/2;
 			}
 		}
+		/*
 		bool cmp_gtr(const Job& a, const Job& b){
 			return a.priority0 > b.priority0;
 		}
@@ -77,25 +78,14 @@ class heap {
 		bool cmp_less(const Job& a, const Job& b){
 			return a.priority1 < b.priority1;
 		}
+			
+		void enter(heap<Job>& heap0, const Job& job){
+			push(heap0, job);
+		}
 
-		// do i even need enter and leave if i have push and pop? maybe not
-		// prof -> yes, they call push/pop on correct heaps
-		
+		*/
 };
-
-	bool cmp_gtr(const Job& a, const Job& b){
-		return a.priority0 > b.priority0;
-	}
-
-	bool cmp_less(const Job& a, const Job& b){
-		return a.priority0 < b.priority0;
-	}
-
-	void enter(std::vector<T>& heap, const Job& job){
-		heap.push(heap, job);
-	}
-
-	void leave(std::vector<T>& heap1){
+	void leave(heap<Job>& heap1){
 		// check if empty
 		if(heap1.size() == 0){
 			return;
@@ -105,21 +95,30 @@ class heap {
 		pop(heap1);
 		}
 	}
-
-	const T move(std::vector<T>& heap0, std::vector<T>& heap1){
+	
+	void move(heap<Job>& heap0, heap<Job>& heap1){
 		// check if empty
 		if(heap0.size() == 0){
 			return;
 		}
 		else {
 		// arrange q0 so we know we're getting rid of the right job
-		Job& highest_priority = heap0.pop(heap0);
-
+		Job& highest_priority = pop(heap0);
 		// push highest priority job onto q1 and then rearrange
 		push(heap1, highest_priority);
 		}
 	}
+	void enter(heap<Job>& heap0, const Job& job){
+		push(heap0, job);
+	}
 
+	bool cmp_gtr(const Job& a, const Job& b){
+		return a.priority0 > b.priority0;
+	}
+
+	bool cmp_less(const Job& a, const Job& b){
+		return a.priority1 < b.priority1;
+	}
 
 
 //std::unique_ptr<Command> Command::read(std::istream& in);
@@ -138,30 +137,18 @@ int main(int argc, char* argv[]){
 	// create the two heaps (should be inside class, not in main)
 	heap<Job> heap0(cmp_gtr);
 	heap<Job> heap1(cmp_less);
-
-	// make the class
-	// that makes the heaps
-	// read each commad
-	// call enter, move, or leave
-	// 	those functions call enqueue or dequeue
-
-	// put two heaps in a class, then call enter, move, leave functions (implement)
-	// enter -> enqueue on queue0
-	// move -> dequeue on queue0, enqueue on queue1
-	// leave -> dequeue on queue1
-
-	// EnterCommand has cmd field as well as job field
-	// Move and leave do NOT have job field
-	for(std::unique_ptr<Command> commandP = commandIn.next(); commandP != nullptr; commandP = commandIn.next()){		
+	
+	// read input
+	for(std::unique_ptr<Command> commandP = commandIn.next(); commandP != nullptr; commandP = commandIn.next()){
 		Command cmd = *commandP;
-
-
-		// special class for EnterCommand because only command that contains job
+		
 		if(cmd.cmd == Command::Cmd::ENTER){
 			EnterCommand* enterP = dynamic_cast<EnterCommand*>(commandP.get());
+			
 			Job job = enterP->job;
+
 			// now just need to enter the job into the system (enqueue)
-			heap<Job>::enter(heap0,&job);	
+			heap<Job>::enter(heap0,enterP->job);	
 			
 		}
 		else if(cmd.cmd == Command::Cmd::MOVE){
@@ -175,6 +162,18 @@ int main(int argc, char* argv[]){
 	}	
 	return 0;
 }
+
+	// make the class
+	// that makes the heaps
+	// read each commad
+	// call enter, move, or leave
+	// 	those functions call enqueue or dequeue
+
+	// put two heaps in a class, then call enter, move, leave functions (implement)
+	// enter -> enqueue on queue0
+	// move -> dequeue on queue0, enqueue on queue1
+	// leave -> dequeue on queue1
+
 
 
 
