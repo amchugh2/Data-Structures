@@ -75,51 +75,12 @@ class heap {
 		}
 
 		bool cmp_less(const Job& a, const Job& b){
-			return a.priority0 < b.priority0;
+			return a.priority1 < b.priority1;
 		}
 
 		// do i even need enter and leave if i have push and pop? maybe not
-		/*
-		void enter(std::vector<T>& heap, const Job& job){
-			heap<Job> heap.template queue0(cmp_gtr);
-			queue0.heapify(heap);
-			queue0.push(heap, job);
-		}
-
-		void leave(std::vector<T>& heap1){
-			// check if empty
-			if(heap1.size() == 0){
-				break;
-			}
-			else {
-			// pop from vector
-			pop(heap1, job);
-			// select comparator
-			heap<Job> queue1(cmp_gtr);
-			// heapify
-			queue1.heapify(heap);
-			}
-		}
-
-		*/
-
-		const T move(std::vector<T>& heap0, std::vector<T>& heap1){
-			// check if empty
-			if(heap0.size() == 0){
-				return;
-			}
-			else {
-			// arrange q0 so we know we're getting rid of the right job
-			heap<Job> queue0(cmp_gtr);
-			queue0.heapify(heap0);
-			Job& highest_priority = queue0.pop(heap0);
-			// push highest priority job onto q1 and then rearrange
-			push(heap1, highest_priority);
-			heap<Job> queue1(cmp_less);
-			queue1.heapify(heap1);
-			}
-		}
-
+		// prof -> yes, they call push/pop on correct heaps
+		
 };
 
 	bool cmp_gtr(const Job& a, const Job& b){
@@ -130,6 +91,37 @@ class heap {
 		return a.priority0 < b.priority0;
 	}
 
+	void enter(std::vector<T>& heap, const Job& job){
+		heap.push(heap, job);
+	}
+
+	void leave(std::vector<T>& heap1){
+		// check if empty
+		if(heap1.size() == 0){
+			return;
+		}
+		else {
+		// pop from vector
+		pop(heap1);
+		}
+	}
+
+	const T move(std::vector<T>& heap0, std::vector<T>& heap1){
+		// check if empty
+		if(heap0.size() == 0){
+			return;
+		}
+		else {
+		// arrange q0 so we know we're getting rid of the right job
+		Job& highest_priority = heap0.pop(heap0);
+
+		// push highest priority job onto q1 and then rearrange
+		push(heap1, highest_priority);
+		}
+	}
+
+
+
 //std::unique_ptr<Command> Command::read(std::istream& in);
 
 int main(int argc, char* argv[]){
@@ -138,23 +130,39 @@ int main(int argc, char* argv[]){
 		std::cerr << "usage: " << argv[0] << " FILE_PATH" << std::endl;
 		std::exit(1);
 	}
+	// TODO: compare by lexographic if same priority
 
 	// read input
 	CommandStream commandIn(argv[1]); // create command stream
-
+	
+	// create the two heaps (should be inside class, not in main)
 	heap<Job> heap0(cmp_gtr);
 	heap<Job> heap1(cmp_less);
 
+	// make the class
+	// that makes the heaps
+	// read each commad
+	// call enter, move, or leave
+	// 	those functions call enqueue or dequeue
+
+	// put two heaps in a class, then call enter, move, leave functions (implement)
+	// enter -> enqueue on queue0
+	// move -> dequeue on queue0, enqueue on queue1
+	// leave -> dequeue on queue1
+
+	// EnterCommand has cmd field as well as job field
+	// Move and leave do NOT have job field
 	for(std::unique_ptr<Command> commandP = commandIn.next(); commandP != nullptr; commandP = commandIn.next()){		
 		Command cmd = *commandP;
-		EnterCommand* jobP = dynamic_cast<EnterCommand*>(commandP.get());
-		
+
+
+		// special class for EnterCommand because only command that contains job
 		if(cmd.cmd == Command::Cmd::ENTER){
-			// create job object
-			Job* job = dynamic_cast<Job>(jobP->job); 
-			// enter it into system using push command (or enter? OH)
-			// stdout
-			std::cout << cmd << jobP->job << std::endl;
+			EnterCommand* enterP = dynamic_cast<EnterCommand*>(commandP.get());
+			Job job = enterP->job;
+			// now just need to enter the job into the system (enqueue)
+			heap<Job>::enter(heap0,&job);	
+			
 		}
 		else if(cmd.cmd == Command::Cmd::MOVE){
 			// do something
