@@ -104,10 +104,16 @@ class heap {
 	}
 
 	bool cmp_gtr(const Job& a, const Job& b){
+		if(a.priority0 == b.priority0){
+			return a.id > b.id;
+		}
 		return a.priority0 > b.priority0;
 	}
 
 	bool cmp_less(const Job& a, const Job& b){
+		if(a.priority1 == b.priority0){
+			return a.id < b.id;
+		}
 		return a.priority1 < b.priority1;
 	}
 
